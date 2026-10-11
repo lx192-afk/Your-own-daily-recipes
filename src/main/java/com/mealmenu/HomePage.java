@@ -4,14 +4,14 @@ import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
+import javafx.scene.Cursor;
 import javafx.scene.control.Button;
-import javafx.scene.control.ContextMenu;
 import javafx.scene.control.Label;
-import javafx.scene.control.MenuItem;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
+import javafx.scene.layout.Region;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.util.Duration;
@@ -20,6 +20,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
+import java.util.ArrayList;
 import java.util.Locale;
 import java.util.function.Consumer;
 
@@ -40,7 +41,12 @@ public final class HomePage extends ScrollPane {
     private final VBox menuList = new VBox(9);
     private final Label menuStatus = new Label();
     private final Timeline liveClock;
+    private final List<TimedLabel> todayTimers = new ArrayList<>();
+    private final List<MenuTimer> menuTimers = new ArrayList<>();
     private LocalDate cachedDate;
+    private final VBox eatNowList = new VBox(8);
+    private Consumer<String> onOpenHall = slug -> { };
+    private long eatNowRefreshedAt;
 
     public HomePage(
             Stage owner,
@@ -56,6 +62,7 @@ public final class HomePage extends ScrollPane {
         this.accountService = accountService;
         this.onSchedulePlan = onSchedulePlan;
         this.onQuickStart = onQuickStart;
+        eatNowList.getChildren().add(new Label("Checking the dining halls…"));
 
         getStyleClass().add("page-scroll");
         setFitToWidth(true);
@@ -100,7 +107,8 @@ public final class HomePage extends ScrollPane {
         menuStatus.getStyleClass().add("status-text");
         menuStatus.setWrapText(true);
         VBox menuCard = card("Upcoming Confirmed Menu", menuList, menuStatus);
-        content.getChildren().addAll(greetingCard, reminderCard, actionSection, menuCard);
+        VBox eatNowCard = card("Eat Now · Dining Halls", eatNowList);
+        content.getChildren().addAll(greetingCard, eatNowCard, reminderCard, actionSection, menuCard);
         setContent(content);
 
         liveClock = new Timeline(new KeyFrame(Duration.seconds(1), event -> updateGreeting()));
@@ -109,11 +117,54 @@ public final class HomePage extends ScrollPane {
         refresh();
     }
 
+    /** Where a tap on a dining hall in "Eat Now" goes (the Eat tab). */
+    public void setOnOpenHall(Consumer<String> handler) {
+        onOpenHall = handler;
+        refreshEatNow();
+    }
+
     public void refresh() {
+        if (System.currentTimeMillis() - eatNowRefreshedAt > 5 * 60_000) {
+            refreshEatNow();
+        }
         cachedDate = LocalDate.now();
         updateGreeting();
         refreshTodayPlans();
         refreshMenu();
+        updatePlanTiming(LocalDateTime.now());
+    }
+
+    /** Which halls are open right now and a few dishes from the current meal. */
+    private void refreshEatNow() {
+        eatNowRefreshedAt = System.currentTimeMillis();
+        java.time.ZonedDateTime now = java.time.ZonedDateTime.now(Campus.ZONE);
+        DiningService dining = DiningService.get();
+        List<DiningService.Hall> halls = new java.util.ArrayList<>(dining.halls());
+        halls.sort(java.util.Comparator.comparing(hall -> !hall.openHours().status(now).open()));
+        eatNowList.getChildren().clear();
+        for (DiningService.Hall hall : halls) {
+            OpenHours.Status status = hall.openHours().status(now);
+            Label name = new Label(hall.shortName() + "  ·  " + status.text());
+            name.getStyleClass().addAll("recipe-title", "open-" + status.state().name().toLowerCase(Locale.ROOT));
+            Label dishes = new Label(status.open() ? "Loading menu…" : hall.campus());
+            dishes.getStyleClass().add("dish-tags");
+            dishes.setWrapText(true);
+            VBox row = new VBox(2, name, dishes);
+            row.getStyleClass().add("dish-row");
+            row.setOnMouseClicked(event -> onOpenHall.accept(hall.slug()));
+            eatNowList.getChildren().add(row);
+            String meal = DiningService.currentMealSlug(hall, now);
+            if (status.open() && meal != null) {
+                dining.menu(hall.slug(), meal, now.toLocalDate()).thenAccept(result ->
+                        javafx.application.Platform.runLater(() -> {
+                            List<String> top = DiningService.highlights(result.stations(), 3);
+                            String mealName = hall.meals().stream().filter(m -> m.slug().equals(meal))
+                                    .map(DiningService.Meal::name).findFirst().orElse("");
+                            dishes.setText(top.isEmpty() ? mealName + ": no menu posted"
+                                    : mealName + ": " + String.join(", ", top));
+                        }));
+            }
+        }
     }
 
     public void stopClock() {
@@ -144,6 +195,7 @@ public final class HomePage extends ScrollPane {
                 "EEEE, MMMM d, yyyy", Locale.ENGLISH)));
         clock.setText(now.format(DateTimeFormatter.ofPattern("h:mm:ss a", Locale.ENGLISH)));
         daysUsing.setText("Day " + usageTracker.daysUsing() + " with dailyrecipes");
+        updatePlanTiming(now);
     }
 
     private String currentUsername() {
@@ -152,6 +204,7 @@ public final class HomePage extends ScrollPane {
 
     private void refreshTodayPlans() {
         todayPlanList.getChildren().clear();
+        todayTimers.clear();
         List<DailyPlan> plans = planStore.getPlans(LocalDate.now());
         if (plans.isEmpty()) {
             reminder.setText("Nothing is scheduled today yet. Add a meal when you are ready.");
@@ -168,19 +221,24 @@ public final class HomePage extends ScrollPane {
             if (recipe == null) {
                 continue;
             }
-            Label item = new Label(plan.mealPeriod() + "  ·  " + recipe.name());
+            Label item = EatDialogs.cjk(new Label(plan.mealPeriod() + " · " + plan.timeText()
+                    + "  ·  " + recipe.name()));
             item.getStyleClass().add("reminder-item");
             item.setWrapText(true);
-            todayPlanList.getChildren().add(item);
+            Label timing = new Label();
+            timing.setWrapText(true);
+            todayPlanList.getChildren().add(new VBox(3, item, timing));
+            todayTimers.add(new TimedLabel(plan, timing));
         }
     }
 
     private void refreshMenu() {
         menuList.getChildren().clear();
+        menuTimers.clear();
         menuStatus.setText("");
         List<DailyPlan> plans = planStore.getUpcomingPlans(LocalDate.now());
         if (plans.isEmpty()) {
-            Label empty = new Label("Recipes you add from Kitchen will appear here.");
+            Label empty = new Label("Dishes you add from Eat or Kitchen will appear here.");
             empty.getStyleClass().add("muted-text");
             empty.setWrapText(true);
             menuList.getChildren().add(empty);
@@ -198,17 +256,33 @@ public final class HomePage extends ScrollPane {
                 : plan.date().format(DateTimeFormatter.ofPattern("MMM d", Locale.ENGLISH))
                 + " · " + plan.mealPeriod();
         Label period = new Label(dateLabel);
+        period.setText(dateLabel + "\n" + plan.timeText());
         period.getStyleClass().add("time-badge");
-        Label name = new Label(recipe.name());
+        period.setWrapText(true);
+        period.setMinWidth(62);
+        period.setMaxWidth(88);
+        Label name = EatDialogs.cjk(new Label(recipe.name()));
         name.getStyleClass().add("recipe-title");
         name.setWrapText(true);
+        name.setMinWidth(0);
+        name.setMaxWidth(Double.MAX_VALUE);
+        Label timing = new Label();
+        timing.setId("plan-countdown-" + plan.id());
+        timing.setWrapText(true);
+        VBox details = new VBox(4, name, timing);
+        details.setMinWidth(0);
+        details.setMaxWidth(Double.MAX_VALUE);
         Button more = new Button("⋯");
         more.getStyleClass().add("more-button");
         more.setAccessibleText("Meal options");
-        HBox row = new HBox(8, period, name, more);
+        more.setId("plan-options-" + plan.id());
+        more.setMinWidth(Region.USE_PREF_SIZE);
+        HBox row = new HBox(8, period, details, more);
+        row.setId("menu-plan-" + plan.id());
         row.getStyleClass().add("menu-row");
         row.setAlignment(Pos.CENTER_LEFT);
-        HBox.setHgrow(name, Priority.ALWAYS);
+        HBox.setHgrow(details, Priority.ALWAYS);
+        menuTimers.add(new MenuTimer(plan, timing, name, row));
         boolean[] longPressTriggered = {false};
         row.setOnMouseClicked(event -> {
             if (longPressTriggered[0]) {
@@ -216,16 +290,29 @@ public final class HomePage extends ScrollPane {
                 event.consume();
                 return;
             }
-            if (event.getButton() == MouseButton.PRIMARY && event.isStillSincePress()) {
-                AppDialogs.showRecipeDetails(owner, recipe);
+            if (event.getButton() == MouseButton.PRIMARY && event.isStillSincePress()
+                    && plan.isToday(LocalDateTime.now())) {
+                if (AppDialogs.showPlannedRecipeDetails(owner, plan, planStore)) {
+                    refresh();
+                    menuStatus.setText("Meal completed and removed from your schedule.");
+                }
             }
         });
         long[] pressedAt = {0};
+        double[] pressPoint = {0, 0};
         row.setOnMousePressed(event -> {
+            pressedAt[0] = System.nanoTime();
+            pressPoint[0] = event.getScreenX();
+            pressPoint[1] = event.getScreenY();
             longPressTriggered[0] = false;
-            pressedAt[0] = event.getButton() == MouseButton.PRIMARY ? System.nanoTime() : 0;
         });
-        row.setOnMouseDragged(event -> pressedAt[0] = 0);
+        // Dragging to scroll is not a long press.
+        row.setOnMouseDragged(event -> {
+            if (Math.abs(event.getScreenX() - pressPoint[0]) > 8
+                    || Math.abs(event.getScreenY() - pressPoint[1]) > 8) {
+                pressedAt[0] = 0;
+            }
+        });
         row.setOnMouseReleased(event -> {
             if (pressedAt[0] != 0 && System.nanoTime() - pressedAt[0] > 550_000_000L) {
                 longPressTriggered[0] = true;
@@ -242,33 +329,26 @@ public final class HomePage extends ScrollPane {
     }
 
     private void showMenuActions(javafx.scene.Node anchor, DailyPlan plan) {
-        ContextMenu menu = new ContextMenu();
-        MenuItem edit = new MenuItem("Edit");
-        MenuItem delete = new MenuItem("Delete");
-        MenuItem copy = new MenuItem("Copy to a future date");
-        edit.setOnAction(event -> AppDialogs.showEditPlan(owner, plan).ifPresent(change -> {
-            boolean saved = planStore.update(plan, change.mealPeriod(), change.recipe().id());
+        AppDialogs.showPlanActions(owner, anchor, plan, planStore, message -> {
             refresh();
-            menuStatus.setText(saved ? "Menu item updated." : "Could not save this change.");
-        }));
-        delete.setOnAction(event -> {
-            boolean saved = planStore.remove(plan);
-            refresh();
-            menuStatus.setText(saved ? "Menu item deleted." : "Could not save this change.");
+            menuStatus.setText(message);
         });
-        copy.setOnAction(event -> AppDialogs.chooseFutureDate(owner).ifPresent(date -> {
-            boolean saved = planStore.copyTo(plan, date);
-            refresh();
-            menuStatus.setText(saved
-                    ? "Copied to " + date.format(DateTimeFormatter.ofPattern("MMM d", Locale.ENGLISH)) + "."
-                    : "Could not save the copied meal.");
-        }));
-        menu.getItems().setAll(edit, delete, copy);
-        menu.show(anchor, javafx.geometry.Side.BOTTOM, 0, 0);
     }
 
     private void openSchedule() {
-        AppDialogs.showSchedule(owner, planStore).ifPresent(onSchedulePlan);
+        AppDialogs.showSchedule(owner, planStore, this::refresh).ifPresent(onSchedulePlan);
+    }
+
+    private void updatePlanTiming(LocalDateTime now) {
+        for (TimedLabel item : todayTimers) {
+            AppDialogs.updateTimingLabel(item.label(), item.plan(), now);
+        }
+        for (MenuTimer item : menuTimers) {
+            AppDialogs.updateTimingLabel(item.label(), item.plan(), now);
+            boolean today = item.plan().isToday(now);
+            item.name().setOpacity(today ? 1 : 0.58);
+            item.row().setCursor(today ? Cursor.HAND : Cursor.DEFAULT);
+        }
     }
 
     private VBox card(String title, javafx.scene.Node... children) {
@@ -279,4 +359,9 @@ public final class HomePage extends ScrollPane {
         card.getChildren().addAll(children);
         return card;
     }
+
+    private record TimedLabel(DailyPlan plan, Label label) { }
+
+    private record MenuTimer(DailyPlan plan, Label label, Label name, HBox row) { }
 }
+

@@ -2,24 +2,35 @@ package com.mealmenu;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.time.Clock;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Base64;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Properties;
+import java.util.Optional;
 import java.util.UUID;
 
 public final class MealPlanStore {
 
     private final Path storageFile;
+    private final Clock clock;
     private final Properties plans = new Properties();
+    /** False when the existing file couldn't be read; saving would then wipe the user's plans. */
+    private boolean writable = true;
 
     public MealPlanStore(String accountId) {
+        this(accountId, Clock.systemDefaultZone());
+    }
+
+    MealPlanStore(String accountId, Clock clock) {
+        this.clock = clock;
         storageFile = UserDataPaths.accountDirectory(accountId)
                 .resolve("meal-plans.properties");
         if (!Files.exists(storageFile)) {
@@ -27,8 +38,9 @@ public final class MealPlanStore {
         }
         try (InputStream input = Files.newInputStream(storageFile)) {
             plans.load(input);
-        } catch (IOException exception) {
-            System.err.println("Could not load meal plans: " + exception.getMessage());
+        } catch (IOException | IllegalArgumentException exception) {
+            writable = false;
+            System.err.println("Could not load meal plans; not saving over them: " + exception.getMessage());
         }
     }
 
@@ -61,6 +73,7 @@ public final class MealPlanStore {
                 });
         result.sort(Comparator
                 .comparing(DailyPlan::date)
+                .thenComparing(DailyPlan::scheduledTime)
                 .thenComparingInt(plan -> mealOrder(plan.mealPeriod()))
                 .thenComparing(plan -> recipeName(plan.recipeId()), String.CASE_INSENSITIVE_ORDER));
         return List.copyOf(result);
@@ -80,15 +93,20 @@ public final class MealPlanStore {
                     }
                 });
         result.sort(Comparator
-                .comparingInt((DailyPlan plan) -> mealOrder(plan.mealPeriod()))
+                .comparing(DailyPlan::scheduledTime)
+                .thenComparingInt(plan -> mealOrder(plan.mealPeriod()))
                 .thenComparing(plan -> recipeName(plan.recipeId()), String.CASE_INSENSITIVE_ORDER));
         return List.copyOf(result);
     }
 
     public boolean add(LocalDate date, String mealPeriod, String recipeId) {
+        return add(date, mealPeriod, recipeId, DailyPlan.defaultTime(mealPeriod));
+    }
+
+    public boolean add(LocalDate date, String mealPeriod, String recipeId, LocalTime time) {
         String id = UUID.randomUUID().toString();
         String key = date + "." + id;
-        plans.setProperty(key, encode(mealPeriod) + "." + encode(recipeId));
+        plans.setProperty(key, encodePlan(mealPeriod, recipeId, time));
         if (save()) {
             return true;
         }
@@ -97,12 +115,16 @@ public final class MealPlanStore {
     }
 
     public boolean update(DailyPlan plan, String mealPeriod, String recipeId) {
+        return update(plan, mealPeriod, recipeId, plan.scheduledTime());
+    }
+
+    public boolean update(DailyPlan plan, String mealPeriod, String recipeId, LocalTime time) {
         String key = plan.date() + "." + plan.id();
         if (!plans.containsKey(key)) {
             return false;
         }
         String previous = plans.getProperty(key);
-        plans.setProperty(key, encode(mealPeriod) + "." + encode(recipeId));
+        plans.setProperty(key, encodePlan(mealPeriod, recipeId, time));
         if (save()) {
             return true;
         }
@@ -124,32 +146,55 @@ public final class MealPlanStore {
     }
 
     public boolean copyTo(DailyPlan plan, LocalDate targetDate) {
-        return add(targetDate, plan.mealPeriod(), plan.recipeId());
+        return add(targetDate, plan.mealPeriod(), plan.recipeId(), plan.scheduledTime());
+    }
+
+    public Optional<DailyPlan> find(DailyPlan plan) {
+        String value = plans.getProperty(plan.date() + "." + plan.id());
+        return value == null ? Optional.empty()
+                : Optional.ofNullable(decodePlan(plan.id(), plan.date(), value));
+    }
+
+    public boolean complete(DailyPlan plan) {
+        // Recheck the current record and clock, even if a caller has a stale plan.
+        DailyPlan current = find(plan).orElse(null);
+        return current != null && current.canComplete(now()) && remove(current);
+    }
+
+    LocalDateTime now() {
+        return LocalDateTime.now(clock);
+    }
+
+    private String encodePlan(String mealPeriod, String recipeId, LocalTime time) {
+        return encode(mealPeriod) + "." + encode(recipeId) + "." + encode(time.toString());
     }
 
     private DailyPlan decodePlan(String id, LocalDate date, String value) {
         try {
-            int separator = value.indexOf('.');
-            if (separator < 0) {
+            String[] parts = value.split("\\.", -1);
+            if (parts.length != 2 && parts.length != 3) {
                 return null;
             }
+            String mealPeriod = decode(parts[0]);
             return new DailyPlan(
                     id,
                     date,
-                    decode(value.substring(0, separator)),
-                    decode(value.substring(separator + 1))
+                    mealPeriod,
+                    decode(parts[1]),
+                    parts.length == 3 ? LocalTime.parse(decode(parts[2]))
+                            : DailyPlan.defaultTime(mealPeriod)
             );
-        } catch (IllegalArgumentException exception) {
+        } catch (IllegalArgumentException | java.time.DateTimeException exception) {
             return null;
         }
     }
 
     private boolean save() {
+        if (!writable) {
+            return false;
+        }
         try {
-            Files.createDirectories(storageFile.getParent());
-            try (OutputStream output = Files.newOutputStream(storageFile)) {
-                plans.store(output, "Daily Menu meal plans");
-            }
+            SafeFiles.storeProperties(storageFile, plans, "Daily Menu meal plans");
             return true;
         } catch (IOException exception) {
             System.err.println("Could not save meal plans: " + exception.getMessage());
@@ -181,3 +226,4 @@ public final class MealPlanStore {
         return RecipeCatalog.byId(recipeId).map(Recipe::name).orElse(recipeId);
     }
 }
+

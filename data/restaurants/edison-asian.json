@@ -1,0 +1,2169 @@
+[
+ {
+  "id": "newda-noodles-edison",
+  "name": "NewDa Noodles 牛大（兰州牛肉面）",
+  "cuisine": "Chinese (Lanzhou Hand-Pulled Noodles)",
+  "area": "Edison",
+  "address": "1876 NJ-27 #103, Edison, NJ 08817",
+  "lat": 40.5156698,
+  "lng": -74.4020283,
+  "phone": "(732) 317-1677",
+  "website": "https://www.newdanoodles.com/",
+  "orderUrl": null,
+  "priceLevel": null,
+  "hours": "Official site: Mon-Tue, Thu-Sun 11:00 AM-9:00 PM, Wed closed (Yelp lists daily 11-9)",
+  "tags": [
+   "hand-pulled noodles",
+   "Lanzhou beef noodle",
+   "halal"
+  ],
+  "menuSource": "https://www.yelp.com/menu/newda-noodles-edison",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Hand-Pulled Noodles with Soup 纯手工汤面",
+    "items": [
+     {
+      "name": "Lanzhou Beef Noodle Soup 纯汤牛肉面",
+      "price": 16.0,
+      "description": "Beef, cilantro, Chinese leek, radish"
+     },
+     {
+      "name": "Traditional Beef Noodle Soup 传统牛肉面",
+      "price": 16.0,
+      "description": "Beef, cilantro, Chinese leek, radish, chili oil"
+     },
+     {
+      "name": "Sichuan Pepper Beef Noodle Soup 椒麻牛肉面",
+      "price": 17.25,
+      "description": "Beef, bok choy, chili oil, Sichuan pepper"
+     },
+     {
+      "name": "Lanzhou Braised Noodle 兰州传统卤面",
+      "price": 17.25,
+      "description": "Beef, mixed vegetables, tofu, chili oil"
+     },
+     {
+      "name": "Lanzhou Intestine Noodle Soup 兰州肥肠面",
+      "price": 17.25,
+      "description": "Pork intestine, chili oil"
+     },
+     {
+      "name": "Tomato Roast Beef Noodle Soup 番茄红烧牛肉面",
+      "price": 17.25,
+      "description": "Beef brisket, tomato, carrot"
+     },
+     {
+      "name": "Lamb Hand-Pulled Noodle Soup 羊肉面",
+      "price": 18.35,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Hand-Pulled Noodles Without Soup 纯手工干面",
+    "items": [
+     {
+      "name": "Oil Spill Noodles 油泼面",
+      "price": 16.0,
+      "description": "Extra-wide noodles, garlic, chili powder, bok choy"
+     },
+     {
+      "name": "Jajang Noodles 炸酱面",
+      "price": 17.25,
+      "description": "Ground pork, cucumber, onion"
+     },
+     {
+      "name": "Spicy Cold Noodles 酸辣素凉面",
+      "price": 16.0,
+      "description": "Vegetarian"
+     },
+     {
+      "name": "Scallion Oil Noodles 葱油拌面",
+      "price": 12.6,
+      "description": "Vegetarian"
+     },
+     {
+      "name": "Lanzhou Stir-Fry Hand-Pulled Noodles 兰州炒面",
+      "price": 18.35,
+      "description": "Choice of chicken, beef, intestine or vegetables"
+     },
+     {
+      "name": "Stir-Fry Knife Sliced Noodles 刀削炒面",
+      "price": 18.35,
+      "description": null
+     },
+     {
+      "name": "Triple Mix Oil Spill Noodles 三合一油泼面",
+      "price": 18.35,
+      "description": "Tomato, egg, ground pork"
+     },
+     {
+      "name": "Dapanji Chicken with Belt Noodles 大盘鸡拌面",
+      "price": 18.35,
+      "description": null
+     },
+     {
+      "name": "Stir Fried Cumin Lamb Noodles 孜然羊肉拌面",
+      "price": 16.0,
+      "description": null
+     },
+     {
+      "name": "Spicy Chili Noodles 剁椒面",
+      "price": 11.5,
+      "description": "House chopped chili, bok choy, marinated egg"
+     }
+    ]
+   },
+   {
+    "section": "Appetizer 前菜",
+    "items": [
+     {
+      "name": "Cucumber Salad 蒜泥黄瓜",
+      "price": 6.85,
+      "description": null
+     },
+     {
+      "name": "Chili Oil Kimchi 红油泡菜",
+      "price": 6.85,
+      "description": null
+     },
+     {
+      "name": "Spicy Beef Salad 麻辣牛肉",
+      "price": 13.75,
+      "description": null
+     },
+     {
+      "name": "Lanzhou Liangpi 兰州酿皮",
+      "price": 11.45,
+      "description": "Sesame paste, garlic, chili oil, gluten, cucumber"
+     },
+     {
+      "name": "Tofu with Century Egg Salad 皮蛋豆腐",
+      "price": 7.99,
+      "description": null
+     },
+     {
+      "name": "Popcorn Chicken 风味盐酥鸡",
+      "price": 11.45,
+      "description": null
+     },
+     {
+      "name": "Shredded Potato Salad 酸辣土豆丝",
+      "price": 6.85,
+      "description": null
+     },
+     {
+      "name": "Kelp Salad 凉拌海带丝",
+      "price": 7.99,
+      "description": null
+     },
+     {
+      "name": "Xi'an Pork Burger 腊汁肉夹馍",
+      "price": 7.99,
+      "description": null
+     },
+     {
+      "name": "Xi'an Lamb Burger 孜然羊肉夹馍",
+      "price": 7.99,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Chef's Special",
+    "items": [
+     {
+      "name": "Mutton Chops 手撕羊肉",
+      "price": 27.5,
+      "description": null
+     },
+     {
+      "name": "Big Plate Chicken with Noodles 秘制大盘鸡",
+      "price": 29.99,
+      "description": null
+     },
+     {
+      "name": "Fried Pork with Peppers w. 2 Mo 辣椒炒肉(2个馍)",
+      "price": 21.85,
+      "description": null
+     },
+     {
+      "name": "Sizzling Cumin Lamb Platter w. 2 Bread 孜然炒羊肉",
+      "price": 23.99,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dunhuang-edison",
+  "name": "Dunhuang (DH Noodles)",
+  "cuisine": "Chinese (Lanzhou Hand-Pulled Noodles)",
+  "area": "Edison",
+  "address": "1717 NJ-27, Edison, NJ 08817",
+  "lat": 40.5121395,
+  "lng": -74.4076489,
+  "phone": "(732) 572-8800",
+  "website": "https://dhnoodles.com/",
+  "orderUrl": null,
+  "priceLevel": "$$",
+  "hours": "Daily 11:00 AM-9:30 PM",
+  "tags": [
+   "hand-pulled noodles",
+   "Northwest Chinese",
+   "lamb"
+  ],
+  "menuSource": "https://www.yelp.com/menu/dunhuang-edison",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Fresh Hand-Pulled Noodle 手工拉面",
+    "items": [
+     {
+      "name": "Lan Zhou Beef Noodles (Clear Broth) 兰州牛肉面（清汤）",
+      "price": 11.95,
+      "description": null
+     },
+     {
+      "name": "Signature Lanzhou Beef Noodles (Spicy) 兰州牛肉面（辣）",
+      "price": 11.95,
+      "description": null
+     },
+     {
+      "name": "Braised Beef Noodles 红烧牛肉面",
+      "price": 15.95,
+      "description": null
+     },
+     {
+      "name": "Dunhuang Cold Noodles 秘制凉面",
+      "price": 10.95,
+      "description": null
+     },
+     {
+      "name": "Tomato Egg Noodles 番茄鸡蛋面",
+      "price": 11.95,
+      "description": null
+     },
+     {
+      "name": "Zha Jiang Noodles 炸酱面",
+      "price": 11.95,
+      "description": null
+     },
+     {
+      "name": "Spicy Oil Spill Noodle 油泼面",
+      "price": 12.95,
+      "description": null
+     },
+     {
+      "name": "Pan Fried Noodles Beef 敦煌炒面（牛肉）",
+      "price": 17.95,
+      "description": null
+     },
+     {
+      "name": "Pan Fried Noodles Lamb 敦煌炒面（羊肉）",
+      "price": 17.95,
+      "description": null
+     },
+     {
+      "name": "Spicy Crayfish Tossed Noodles 麻辣小龙虾拌面",
+      "price": 16.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Cold Appetizer 凉菜",
+    "items": [
+     {
+      "name": "Wood Ear Mushroom Salad 剁椒云耳",
+      "price": 7.95,
+      "description": null
+     },
+     {
+      "name": "Cucumber Salad 凉拌黄瓜",
+      "price": 7.95,
+      "description": null
+     },
+     {
+      "name": "Multi-Spiced Beef w. Cilantro 椒麻牛肉",
+      "price": 12.95,
+      "description": null
+     },
+     {
+      "name": "Mung Bean Noodles 川北凉粉",
+      "price": 6.95,
+      "description": null
+     },
+     {
+      "name": "Mouth Watering Chicken 口水鸡",
+      "price": 10.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Hot Appetizers 特色小吃",
+    "items": [
+     {
+      "name": "Chinese Hamburger Beef 牛肉肉夹馍",
+      "price": 7.95,
+      "description": null
+     },
+     {
+      "name": "Chinese Hamburger Lamb 羊肉肉夹馍",
+      "price": 7.95,
+      "description": null
+     },
+     {
+      "name": "Chinese Hamburger Pork 猪肉肉夹馍",
+      "price": 7.95,
+      "description": null
+     },
+     {
+      "name": "Mo Crispy Flatbread 火吧烤饼",
+      "price": 8.95,
+      "description": null
+     },
+     {
+      "name": "Silky Wide Glass Noodles 流汁宽粉",
+      "price": 9.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Entree 主菜",
+    "items": [
+     {
+      "name": "Dunhuang Special Roast Lamb Leg 敦煌特色烤羊腿",
+      "price": 20.95,
+      "description": null
+     },
+     {
+      "name": "Mutton On The Bone 手抓羊肉",
+      "price": 27.99,
+      "description": null
+     },
+     {
+      "name": "Crispy Lamb Chop 香酥羊排",
+      "price": 28.99,
+      "description": null
+     },
+     {
+      "name": "Monstrous Plate Chicken 大盘鸡",
+      "price": 22.95,
+      "description": null
+     },
+     {
+      "name": "Flat Bread Soaked In Lamb Soup 羊肉泡馍",
+      "price": 19.95,
+      "description": "Seasonal"
+     },
+     {
+      "name": "Dunhuang Lamb Pilaf 手抓饭",
+      "price": 15.95,
+      "description": null
+     },
+     {
+      "name": "Braised Lamb Shoulder 黄焖羊肉",
+      "price": 26.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Vegetarian / Dessert",
+    "items": [
+     {
+      "name": "Chopped Cabbage 手撕包菜",
+      "price": 16.95,
+      "description": null
+     },
+     {
+      "name": "Sauteed Bok Choy 蒜蓉上海青",
+      "price": 14.95,
+      "description": null
+     },
+     {
+      "name": "Milk Egg w. Fermented Rice Soup 鸡蛋牛奶醪糟",
+      "price": 9.95,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "wus-shanghai-dumpling-edison",
+  "name": "Wu's Shanghai Dumpling",
+  "cuisine": "Shanghai",
+  "area": "Edison",
+  "address": "1581 NJ-27, Edison, NJ 08817",
+  "lat": 40.5075529,
+  "lng": -74.4138631,
+  "phone": "(732) 543-1771",
+  "website": null,
+  "orderUrl": "https://order.toasttab.com/online/wus-shanghai-dumpling-edison",
+  "priceLevel": null,
+  "hours": null,
+  "tags": [
+   "xiao long bao",
+   "Shanghai dim sum",
+   "pickup only online"
+  ],
+  "menuSource": "https://order.toasttab.com/online/wus-shanghai-dumpling-edison",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "XLB & Dumplings 小笼包和饺子",
+    "items": [
+     {
+      "name": "Pork Steam Juicy Buns 上海小笼包 (6)",
+      "price": 7.5,
+      "description": null
+     },
+     {
+      "name": "Crab Meat and Pork Steam Juicy Buns 蟹粉小笼包 (6)",
+      "price": 8.5,
+      "description": null
+     },
+     {
+      "name": "Vegetable Dumplings 翡翠素饺 (6)",
+      "price": 7.0,
+      "description": "Steamed or fried"
+     },
+     {
+      "name": "Beef Juicy Dumplings 马蹄牛肉饺 (6)",
+      "price": 8.5,
+      "description": null
+     },
+     {
+      "name": "Shanghai Spicy Pork Steam Juicy Dumpling 泡菜猪肉饺 (6)",
+      "price": 7.0,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Shanghai Dim Sum 上海点心",
+    "items": [
+     {
+      "name": "Shanghai Pan-Fried Pork Buns 上海生煎包 (4)",
+      "price": 8.0,
+      "description": null
+     },
+     {
+      "name": "Pork & Vegetable Wonton Soup 荠菜大馄饨",
+      "price": 9.5,
+      "description": null
+     },
+     {
+      "name": "Shrimp Wonton Soup 一口鲜虾小馄饨",
+      "price": 9.0,
+      "description": null
+     },
+     {
+      "name": "Pan Fried Pork Wonton 上海油煎馄饨 (6)",
+      "price": 7.5,
+      "description": null
+     },
+     {
+      "name": "Scallion Pancake 葱油饼",
+      "price": 4.5,
+      "description": null
+     },
+     {
+      "name": "Beef Scallion Pancake Wrap 牛肉夹葱油饼",
+      "price": 8.5,
+      "description": null
+     },
+     {
+      "name": "Pork Moon Cake 鲜肉月饼",
+      "price": 7.0,
+      "description": null
+     },
+     {
+      "name": "Deep-Fried Dough 油条",
+      "price": 2.5,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Steam Dim Sum 蒸蒸日上",
+    "items": [
+     {
+      "name": "Shrimp Dumplings 水晶虾饺 (5)",
+      "price": 5.5,
+      "description": null
+     },
+     {
+      "name": "Custard Bun 黄金流沙包 (3)",
+      "price": 5.5,
+      "description": null
+     },
+     {
+      "name": "Shanghai Sticky Rice Shumai 上海糯米烧卖 (3)",
+      "price": 5.5,
+      "description": null
+     },
+     {
+      "name": "Egg Yolk Shumai 咸蛋黄肉松烧卖 (3)",
+      "price": 8.5,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Tofu Bowl 豆花",
+    "items": [
+     {
+      "name": "Salty & Spicy Topping Tofu Bowl 经典咸豆花",
+      "price": 6.0,
+      "description": null
+     },
+     {
+      "name": "Wu's Favorite Spicy Pork Topping Tofu Bowl 招牌辣肉豆花",
+      "price": 8.5,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Cold Appetizer 上海滩冷碟",
+    "items": [
+     {
+      "name": "Cucumber w. Scallion 葱油黄瓜",
+      "price": 6.5,
+      "description": null
+     },
+     {
+      "name": "Shanghai Chicken in Scallion Sauce 本帮葱油鸡",
+      "price": 7.5,
+      "description": null
+     },
+     {
+      "name": "Spicy Beef 红油牛肉",
+      "price": 9.5,
+      "description": null
+     },
+     {
+      "name": "Chicken in Spicy Sauce 口水鸡",
+      "price": 7.5,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Noodles 拌面/汤面",
+    "items": [
+     {
+      "name": "Shanghai Spicy Pork Noodle 招牌辣肉拌面",
+      "price": 10.5,
+      "description": null
+     },
+     {
+      "name": "Noodle in Scallion Sauce 上海葱油拌面",
+      "price": 6.5,
+      "description": null
+     },
+     {
+      "name": "Cold Noodle w. Peanut Butter Sauce 麻酱凉拌面",
+      "price": 6.5,
+      "description": null
+     },
+     {
+      "name": "Shanghai Spicy Minced Pork Noodle Soup 招牌辣肉面",
+      "price": 10.0,
+      "description": null
+     },
+     {
+      "name": "Lion's Head Noodle Soup 本帮狮子头面",
+      "price": 10.5,
+      "description": null
+     },
+     {
+      "name": "Aromatic Beef Noodle Soup 原汤牛肉面",
+      "price": 11.0,
+      "description": null
+     },
+     {
+      "name": "Spicy Chicken Noodle 口水鸡拌面",
+      "price": 12.0,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Fried Udon / Rice Cake 炒面/年糕",
+    "items": [
+     {
+      "name": "Shanghai Pan-Fried U-Don 上海粗炒面",
+      "price": 12.0,
+      "description": null
+     },
+     {
+      "name": "Rice Cake w. Preserved Cabbage and Shredded Chicken 雪菜肉丝炒年糕",
+      "price": 12.0,
+      "description": null
+     },
+     {
+      "name": "Wu's Favorite Topping Over Crispy Noodle 上海三丝两面黄",
+      "price": 14.0,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Sweets 海派甜点",
+    "items": [
+     {
+      "name": "Shanghai Rice Balls in Sweet Rice Wine 桂花酒酿圆子",
+      "price": 8.0,
+      "description": null
+     },
+     {
+      "name": "Red Bean Stuffed Sesame Ball 豆沙小麻球",
+      "price": 5.0,
+      "description": null
+     },
+     {
+      "name": "Brown Sugar Milk Tea 黑糖珍奶",
+      "price": 6.0,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "spice-24-edison",
+  "name": "Spice 24 味",
+  "cuisine": "Sichuan / Chinese",
+  "area": "Edison",
+  "address": "1735 NJ-27, Edison, NJ 08817",
+  "lat": 40.5119854,
+  "lng": -74.4071634,
+  "phone": "(732) 640-0999",
+  "website": "https://spice24.website/",
+  "orderUrl": null,
+  "priceLevel": "$$",
+  "hours": "Mon-Thu 11:00 AM-10:30 PM, Fri-Sat 11:00 AM-11:30 PM, Sun 11:00 AM-9:00 PM",
+  "tags": [
+   "mala xiang guo",
+   "Sichuan",
+   "Cantonese"
+  ],
+  "menuSource": "https://www.yelp.com/menu/spice-24-edison",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Create Your Own Stir-Fry 自选香锅",
+    "items": [
+     {
+      "name": "麻辣香锅 Signature Mala (Numbing Spicy)",
+      "price": 2.6,
+      "description": "Base price as listed"
+     }
+    ]
+   },
+   {
+    "section": "Appetizer 开胃小菜",
+    "items": [
+     {
+      "name": "卤味拼盘 Cold Cut Platter",
+      "price": 16.46,
+      "description": null
+     },
+     {
+      "name": "椒盐鲜鱿鱼 Salt & Pepper Squid",
+      "price": 22.36,
+      "description": null
+     },
+     {
+      "name": "夫妻肺片 Beef & Tendon in Chili Oil",
+      "price": 18.82,
+      "description": null
+     },
+     {
+      "name": "大良脆奶 Fried Milk",
+      "price": 8.2,
+      "description": null
+     },
+     {
+      "name": "秘制盐焗鸡1/4 Salt Baked Chicken",
+      "price": 17.64,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Entrees 精选私房菜",
+    "items": [
+     {
+      "name": "鲜椒牛肋排 Fresh Chili Short Ribs",
+      "price": 34.16,
+      "description": null
+     },
+     {
+      "name": "农家小炒肉 Spicy Pork w. Pepper Stir Fry",
+      "price": 25.9,
+      "description": null
+     },
+     {
+      "name": "砂锅腊肉花菜 Cauliflower w. Chinese Bacon",
+      "price": 23.54,
+      "description": null
+     },
+     {
+      "name": "金钻孜然排骨 Crispy Spicy Cumin Ribs",
+      "price": 25.9,
+      "description": null
+     },
+     {
+      "name": "湘西土匪猪肝 Hunan Pig Liver",
+      "price": 23.54,
+      "description": null
+     },
+     {
+      "name": "麻婆豆腐烧牛腩 Mapo Tofu w. Beef Tendon",
+      "price": 27.8,
+      "description": null
+     },
+     {
+      "name": "金牌毛血旺 Intestine & Ham in Chili Oil",
+      "price": 42.42,
+      "description": null
+     },
+     {
+      "name": "金沙南瓜虾球 Shrimp & Pumpkin w. Salted Egg",
+      "price": 31.8,
+      "description": null
+     },
+     {
+      "name": "XO酱年糕炒海蚌 Clams & Rice Cake",
+      "price": 28.26,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Vegetables 素菜",
+    "items": [
+     {
+      "name": "石锅凉粉 Sizzling Jelly in Stone Pot",
+      "price": 16.46,
+      "description": null
+     },
+     {
+      "name": "酸辣土豆丝 Spicy & Sour Shredded Potatoes",
+      "price": 18.82,
+      "description": null
+     },
+     {
+      "name": "豆角烧茄子 String Beans & Eggplant",
+      "price": 21.18,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Rice & Noodle 碳水的快乐",
+    "items": [
+     {
+      "name": "卤肉饭 Braised Pork over Rice",
+      "price": 14.1,
+      "description": null
+     },
+     {
+      "name": "干炒牛河 Beef Chow Fun",
+      "price": 23.54,
+      "description": null
+     },
+     {
+      "name": "肥牛虾仁粗炒面 Beef & Shrimp Udon",
+      "price": 22.36,
+      "description": null
+     },
+     {
+      "name": "酸辣粉 Spicy & Sour Noodle",
+      "price": 12.92,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mala-town-edison",
+  "name": "Mala Town",
+  "cuisine": "Malatang",
+  "area": "Edison",
+  "address": "1639 NJ-27, Edison, NJ 08817",
+  "lat": 40.50966,
+  "lng": -74.4108904,
+  "phone": "(732) 354-3152",
+  "website": null,
+  "orderUrl": null,
+  "priceLevel": "$$",
+  "hours": "Daily 11:30 AM-11:30 PM",
+  "tags": [
+   "malatang",
+   "build your own bowl"
+  ],
+  "menuSource": "https://www.yelp.com/menu/mala-town-edison-2",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Make Your Own Choice (1.5 lb set)",
+    "items": [
+     {
+      "name": "Set with Beef Bone Broth Base 招牌牛骨汤套餐",
+      "price": 24.95,
+      "description": null
+     },
+     {
+      "name": "Set with Spicy Mix 醇香麻辣拌套餐 (with peanut sauce)",
+      "price": 24.95,
+      "description": "Dry mala mix"
+     },
+     {
+      "name": "Set with Tomato Flavored Broth 酸甜番茄汤套餐",
+      "price": 24.95,
+      "description": null
+     },
+     {
+      "name": "Set with Sichuan Style Soup Base 川式冒菜汤底套餐",
+      "price": 24.95,
+      "description": null
+     },
+     {
+      "name": "Set with Tom Yum Soup Base 冬阴功汤底套餐 (Mild Spicy)",
+      "price": 24.95,
+      "description": null
+     },
+     {
+      "name": "Set with Fish Maw Chicken Broth 金汤花胶鸡套餐",
+      "price": 24.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Extras",
+    "items": [
+     {
+      "name": "Cilantro 香菜",
+      "price": 0.99,
+      "description": null
+     },
+     {
+      "name": "Chopped Green Onion 葱花",
+      "price": 0.99,
+      "description": null
+     },
+     {
+      "name": "Rice 泰国香米",
+      "price": 1.49,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Drink",
+    "items": [
+     {
+      "name": "Wong Lo Kat 王老吉",
+      "price": 2.99,
+      "description": null
+     },
+     {
+      "name": "Apple Green Tea 小茗同学溜溜哒茶",
+      "price": 3.49,
+      "description": null
+     },
+     {
+      "name": "Coconut Milk Drink 椰奶",
+      "price": 2.5,
+      "description": null
+     },
+     {
+      "name": "Chi Grape Sparkling Water 元气森林葡萄味气泡水",
+      "price": 2.99,
+      "description": null
+     },
+     {
+      "name": "Assam Original Milk Tea 阿萨姆奶茶",
+      "price": 2.99,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "happy-lamb-hot-pot-edison",
+  "name": "Happy Lamb Hot Pot",
+  "cuisine": "Hot Pot (Mongolian)",
+  "area": "Edison",
+  "address": "1737 NJ-27, Edison, NJ 08817",
+  "lat": 40.5119928,
+  "lng": -74.407153,
+  "phone": "(732) 626-5991",
+  "website": null,
+  "orderUrl": null,
+  "priceLevel": "$$",
+  "hours": "Daily 12:00 PM-9:30 PM",
+  "tags": [
+   "hot pot",
+   "group friendly",
+   "takes reservations"
+  ],
+  "menuSource": "https://www.yelp.com/menu/happy-lamb-hot-pot-edison",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Soup Base",
+    "items": [
+     {
+      "name": "House Original",
+      "price": 3.95,
+      "description": null
+     },
+     {
+      "name": "House Spicy",
+      "price": 3.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Meat",
+    "items": [
+     {
+      "name": "New Zealand Prime-Aged Lamb",
+      "price": 11.95,
+      "description": null
+     },
+     {
+      "name": "New Zealand Spring Lamb",
+      "price": 9.95,
+      "description": null
+     },
+     {
+      "name": "House Made Lamb Meat Ball",
+      "price": 7.95,
+      "description": null
+     },
+     {
+      "name": "House Made Beef Meat Ball",
+      "price": 7.95,
+      "description": null
+     },
+     {
+      "name": "Beef Tendon",
+      "price": 4.95,
+      "description": null
+     },
+     {
+      "name": "Beef Tripe",
+      "price": 4.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Seafood",
+    "items": [
+     {
+      "name": "Tiger Prawn",
+      "price": 7.95,
+      "description": null
+     },
+     {
+      "name": "Shrimp Head-On",
+      "price": 6.95,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "s-and-y-mini-hot-pot-edison",
+  "name": "S & Y Mini Hot Pot",
+  "cuisine": "Sichuan / Hot Pot",
+  "area": "Edison",
+  "address": "1644 NJ-27, Edison, NJ 08817",
+  "lat": 40.509404,
+  "lng": -74.4104502,
+  "phone": "(732) 777-7914",
+  "website": "https://syminihotpot.com/",
+  "orderUrl": "https://order.syminihotpot.com/",
+  "priceLevel": null,
+  "hours": "Mon-Thu & Sun 11:30 AM-10:00 PM, Fri-Sat 11:30 AM-10:30 PM",
+  "tags": [
+   "mini hot pot",
+   "mao cai",
+   "Sichuan"
+  ],
+  "menuSource": "https://order.syminihotpot.com/",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Fried Rice & Noodle",
+    "items": [
+     {
+      "name": "Chongqing Noodle 重庆小面",
+      "price": 10.95,
+      "description": null
+     },
+     {
+      "name": "Dan Dan Noodle 担担面",
+      "price": 10.95,
+      "description": null
+     },
+     {
+      "name": "Egg Fried Rice 蛋炒饭",
+      "price": 9.95,
+      "description": null
+     },
+     {
+      "name": "Beef Egg Fried Rice 牛肉蛋炒饭",
+      "price": 12.95,
+      "description": null
+     },
+     {
+      "name": "Beef Stir-Fried Udon Noodle 牛肉炒乌冬面",
+      "price": 12.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Appetizer",
+    "items": [
+     {
+      "name": "Taiwanese Sausage (1pc) 台湾香肠",
+      "price": 3.5,
+      "description": null
+     },
+     {
+      "name": "Brown Sugar Lava Rice Cake 红糖糍粑",
+      "price": 7.95,
+      "description": null
+     },
+     {
+      "name": "Fried Stinky Tofu 长沙臭豆腐 (8pcs)",
+      "price": 9.95,
+      "description": null
+     },
+     {
+      "name": "Popcorn Chicken 盐酥鸡",
+      "price": 9.95,
+      "description": null
+     },
+     {
+      "name": "Sweet Potato Fries 甘梅地瓜薯条",
+      "price": 8.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Cold Appetizers",
+    "items": [
+     {
+      "name": "Cucumber in Hot and Sour Sauce 拍黄瓜",
+      "price": 8.95,
+      "description": null
+     },
+     {
+      "name": "Pickled Chicken Feet 泡椒凤爪",
+      "price": 9.95,
+      "description": null
+     },
+     {
+      "name": "Sliced Beef and Ox Tongue in Chili Sauce 夫妻肺片",
+      "price": 11.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Chef's Special",
+    "items": [
+     {
+      "name": "Hot & Sour Shredded Potato 酸辣土豆丝",
+      "price": 13.95,
+      "description": null
+     },
+     {
+      "name": "Stir Fry Tomato with Egg 番茄炒蛋",
+      "price": 14.95,
+      "description": null
+     },
+     {
+      "name": "Mapo Tofu 麻婆豆腐",
+      "price": 15.95,
+      "description": null
+     },
+     {
+      "name": "Chong Qing Spicy Chicken 重庆辣子鸡",
+      "price": 16.95,
+      "description": null
+     },
+     {
+      "name": "Twice Cooked Pork Belly 回锅肉",
+      "price": 17.95,
+      "description": null
+     },
+     {
+      "name": "Sweet and Sour Pork Ribs 糖醋排骨",
+      "price": 17.95,
+      "description": null
+     },
+     {
+      "name": "Cumin Beef 孜然牛肉",
+      "price": 18.95,
+      "description": null
+     },
+     {
+      "name": "Pork Intestine w. Chili Pot 干锅肥肠",
+      "price": 22.95,
+      "description": null
+     },
+     {
+      "name": "Spicy Beef in Szechuan Style 水煮牛肉",
+      "price": 33.95,
+      "description": null
+     },
+     {
+      "name": "Mala Stir-Fried 麻辣香锅",
+      "price": 33.95,
+      "description": "Gluten, bean curd stick, cauliflower, squid, shrimp, fish tofu, beef, chicken gizzard"
+     },
+     {
+      "name": "Boiled Fish Filets in Hot Chili Oil (M) 水煮鱼片(中)",
+      "price": 24.95,
+      "description": null
+     },
+     {
+      "name": "Pickled Cabbage & Chili w. Fish Filets (M) 酸菜鱼片(中)",
+      "price": 24.95,
+      "description": null
+     },
+     {
+      "name": "Fresh Frog w. Chili Pot (M) 干锅牛蛙(中)",
+      "price": 25.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Drinks",
+    "items": [
+     {
+      "name": "Mango Lemon Fruit Tea w/ Lychee Jelly 芒果香柠",
+      "price": 6.75,
+      "description": null
+     },
+     {
+      "name": "Mango Smoothie 芒果冰沙",
+      "price": 6.75,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tasty-moment-edison",
+  "name": "Tasty Moment",
+  "cuisine": "Shanghai / Dim Sum",
+  "area": "Edison",
+  "address": "1711 NJ-27, Edison, NJ 08817",
+  "lat": 40.5123188,
+  "lng": -74.4074382,
+  "phone": "(732) 650-0888",
+  "website": null,
+  "orderUrl": null,
+  "priceLevel": "$$",
+  "hours": "Wed-Mon 11:30 AM-4:00 PM, 5:00-9:30 PM; Tue closed",
+  "tags": [
+   "soup dumplings",
+   "Shanghainese",
+   "dim sum"
+  ],
+  "menuSource": "https://www.yelp.com/menu/tasty-moment-edison-4",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Dim Sum",
+    "items": [
+     {
+      "name": "Pork Juicy Buns",
+      "price": 5.95,
+      "description": null
+     },
+     {
+      "name": "Pan Fried Pork Juicy Buns",
+      "price": 7.25,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Noodle Soup",
+    "items": [
+     {
+      "name": "Pork Feet Noodle Soup",
+      "price": 8.25,
+      "description": null
+     },
+     {
+      "name": "Pork Chop Noodle Soup",
+      "price": 7.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Snack and Cold Dishes",
+    "items": [
+     {
+      "name": "Chicken Gizzards Rice Noodle Soup",
+      "price": 9.95,
+      "description": null
+     },
+     {
+      "name": "Flammulina in Garlic Sauce",
+      "price": 3.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Rice",
+    "items": [
+     {
+      "name": "Aged Pork with Veg Rice",
+      "price": 7.95,
+      "description": null
+     },
+     {
+      "name": "Yangzhou Fried Rice",
+      "price": 9.25,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Beverages",
+    "items": [
+     {
+      "name": "Special Drink",
+      "price": 4.25,
+      "description": null
+     },
+     {
+      "name": "Ice Cream Float",
+      "price": 3.5,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "golden-seafood-restaurant-edison",
+  "name": "Golden Seafood Restaurant",
+  "cuisine": "Cantonese / Dim Sum",
+  "area": "Edison",
+  "address": "518 Old Post Rd Ste 3, Edison, NJ 08817",
+  "lat": 40.5161544,
+  "lng": -74.376862,
+  "phone": "(732) 515-9797",
+  "website": null,
+  "orderUrl": null,
+  "priceLevel": "$$",
+  "hours": "Mon-Fri 11:00 AM-10:00 PM, Sat-Sun 10:00 AM-10:00 PM",
+  "tags": [
+   "dim sum",
+   "seafood"
+  ],
+  "menuSource": "https://www.yelp.com/biz/golden-seafood-restaurant-edison-2",
+  "verifiedOn": "2026-10-11",
+  "menu": []
+ },
+ {
+  "id": "keum-ho-garden-edison",
+  "name": "Keum Ho Garden",
+  "cuisine": "Korean BBQ",
+  "area": "Edison",
+  "address": "518 Old Post Rd Unit 12, Edison, NJ 08817",
+  "lat": 40.5161544,
+  "lng": -74.376862,
+  "phone": "(732) 287-5757",
+  "website": null,
+  "orderUrl": null,
+  "priceLevel": "$$",
+  "hours": "Daily 11:30 AM-10:00 PM",
+  "tags": [
+   "Korean BBQ",
+   "sushi",
+   "takes reservations"
+  ],
+  "menuSource": "https://www.yelp.com/menu/keum-ho-garden-edison",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Chef's Special",
+    "items": [
+     {
+      "name": "Ojunguh-Bokkeum 오징어 볶음",
+      "price": 43.69,
+      "description": "Stir-fried squid"
+     },
+     {
+      "name": "Jaeyook-Bokkeum 제육 볶음",
+      "price": 41.19,
+      "description": "Stir-fried pork"
+     },
+     {
+      "name": "Tofu Kimchi-Bokkeum 두부김치 볶음",
+      "price": 37.44,
+      "description": null
+     },
+     {
+      "name": "LA Galbi LA 갈비",
+      "price": 39.54,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Entrées",
+    "items": [
+     {
+      "name": "Galbi Tang 갈비탕",
+      "price": 28.69,
+      "description": "Short ribs and radish in beef broth"
+     },
+     {
+      "name": "Kimchi Jjigae 김치찌개",
+      "price": 19.94,
+      "description": null
+     },
+     {
+      "name": "Soondubu 순두부",
+      "price": 19.94,
+      "description": "Spicy tofu casserole"
+     },
+     {
+      "name": "Boodae Jjigae 부대 찌개",
+      "price": 23.69,
+      "description": null
+     },
+     {
+      "name": "Yookgaejang 육개장",
+      "price": 23.69,
+      "description": null
+     },
+     {
+      "name": "Sullungtang 설렁탕",
+      "price": 22.14,
+      "description": "Ox bone soup"
+     },
+     {
+      "name": "Dyenjang Jjigae 된장찌개",
+      "price": 19.94,
+      "description": null
+     },
+     {
+      "name": "Ddookbaegi Bulgogi 뚝배기 불고기",
+      "price": 24.94,
+      "description": null
+     },
+     {
+      "name": "Wang Donkatsu 왕 돈까스",
+      "price": 23.69,
+      "description": null
+     },
+     {
+      "name": "Tangsooyuk 탕수육",
+      "price": 37.44,
+      "description": null
+     },
+     {
+      "name": "Ddeok Mandooguk 떡만두국",
+      "price": 21.19,
+      "description": null
+     },
+     {
+      "name": "Jaban Godeunguh Gui 자반 고등어 구이",
+      "price": 24.94,
+      "description": "Grilled mackerel"
+     }
+    ]
+   },
+   {
+    "section": "Noodles",
+    "items": [
+     {
+      "name": "Mulnaengmyun 물냉면",
+      "price": 22.44,
+      "description": null
+     },
+     {
+      "name": "Bibimnaengmyun 비빔냉면",
+      "price": 22.44,
+      "description": null
+     },
+     {
+      "name": "Haemul Kalguksoo 해물 칼국수",
+      "price": 23.69,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Bibimbap",
+    "items": [
+     {
+      "name": "Yache Bibimbap 야채 비빔밥",
+      "price": 21.19,
+      "description": null
+     },
+     {
+      "name": "Vegetable Dolsot with Topping 야채 돌솥",
+      "price": 17.44,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Hotpot",
+    "items": [
+     {
+      "name": "Gobchang Jungol 곱창 전골",
+      "price": 61.19,
+      "description": null
+     },
+     {
+      "name": "Boodae Jungol 부대 전골",
+      "price": 57.44,
+      "description": null
+     },
+     {
+      "name": "Bulgogi Busut Jungol 불고기 버섯 전골",
+      "price": 67.44,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "so-kong-dong-tofu-house-edison",
+  "name": "So Kong Dong Tofu House",
+  "cuisine": "Korean (Tofu Soup)",
+  "area": "Edison",
+  "address": "1755 NJ-27, Edison, NJ 08817",
+  "lat": 40.5131891,
+  "lng": -74.4081104,
+  "phone": "(732) 777-2110",
+  "website": null,
+  "orderUrl": null,
+  "priceLevel": "$$",
+  "hours": "Daily 11:00 AM-10:00 PM",
+  "tags": [
+   "soondubu",
+   "Korean BBQ"
+  ],
+  "menuSource": "https://www.yelp.com/menu/so-kong-dong-tofu-house-edison",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Tofu Soups",
+    "items": [
+     {
+      "name": "Seafood Tofu Soup",
+      "price": 19.99,
+      "description": "Clam, shrimp & oyster"
+     },
+     {
+      "name": "Mixed Tofu Soup",
+      "price": 19.99,
+      "description": "Beef, clam, shrimp & oyster"
+     }
+    ]
+   },
+   {
+    "section": "Main Dishes",
+    "items": [
+     {
+      "name": "LA Galbi",
+      "price": 36.99,
+      "description": "Korean BBQ beef sliced ribs"
+     },
+     {
+      "name": "Original Bibimbap",
+      "price": 20.99,
+      "description": null
+     },
+     {
+      "name": "Kal Guksu - Seafood Knife Cut Noodle Soup",
+      "price": 22.99,
+      "description": null
+     },
+     {
+      "name": "Japchae",
+      "price": 23.99,
+      "description": null
+     },
+     {
+      "name": "Gamja-tang",
+      "price": 24.99,
+      "description": "Pork bone, potato & vegetable stew"
+     },
+     {
+      "name": "Bulgogi with Tofu",
+      "price": 32.99,
+      "description": null
+     },
+     {
+      "name": "Kimchi Jaeyook",
+      "price": 29.99,
+      "description": null
+     },
+     {
+      "name": "Yookgaejang",
+      "price": 21.99,
+      "description": "Spicy beef soup"
+     },
+     {
+      "name": "Ohjinguh Bokkeum",
+      "price": 26.99,
+      "description": "Stir-fried spicy squid"
+     },
+     {
+      "name": "Rice Cake Dumpling Soup",
+      "price": 22.99,
+      "description": null
+     },
+     {
+      "name": "Rice Cake Soup",
+      "price": 20.99,
+      "description": null
+     },
+     {
+      "name": "Ginseng Chicken Soup",
+      "price": 26.99,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Appetizers",
+    "items": [
+     {
+      "name": "Mandu - Dumplings",
+      "price": 16.99,
+      "description": "Steamed or fried"
+     },
+     {
+      "name": "Haemul Pajeon - Seafood Pancake",
+      "price": 21.99,
+      "description": null
+     },
+     {
+      "name": "Tteokbokki",
+      "price": 16.99,
+      "description": null
+     },
+     {
+      "name": "물냉면 Cold Noodle",
+      "price": 20.99,
+      "description": null
+     },
+     {
+      "name": "비빔냉면 Spicy Cold Noodle",
+      "price": 22.99,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "menya-ramen-house-metuchen",
+  "name": "Menya Ramen House",
+  "cuisine": "Japanese (Ramen)",
+  "area": "Metuchen",
+  "address": "399 Main St, Metuchen, NJ 08840",
+  "lat": 40.5411381,
+  "lng": -74.36138,
+  "phone": "(551) 235-4714",
+  "website": "https://menyaramenhouse.com/metuchen/",
+  "orderUrl": null,
+  "priceLevel": "$$",
+  "hours": "Tue-Sun 12:00 PM-8:30 PM; Mon closed",
+  "tags": [
+   "ramen",
+   "vegan options"
+  ],
+  "menuSource": "https://menyaramenhouse.com/menu/",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Appetizers",
+    "items": [
+     {
+      "name": "Beef Gyoza",
+      "price": 8.5,
+      "description": null
+     },
+     {
+      "name": "Veggie Gyoza",
+      "price": 8.5,
+      "description": null
+     },
+     {
+      "name": "Kimchi Gyoza",
+      "price": 8.5,
+      "description": null
+     },
+     {
+      "name": "Chicken Karaage",
+      "price": 8.95,
+      "description": null
+     },
+     {
+      "name": "Takoyaki",
+      "price": 8.95,
+      "description": null
+     },
+     {
+      "name": "Edamame",
+      "price": 6.0,
+      "description": null
+     },
+     {
+      "name": "Blistered Shishito Peppers",
+      "price": 6.0,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Ramen",
+    "items": [
+     {
+      "name": "Shio",
+      "price": 16.95,
+      "description": "Chicken broth, salt tare, roasted pork"
+     },
+     {
+      "name": "Tonkotsu",
+      "price": 17.5,
+      "description": "Pork bone broth, black garlic oil"
+     },
+     {
+      "name": "Truffle Shio",
+      "price": 17.5,
+      "description": null
+     },
+     {
+      "name": "Kimchi Miso (Vegan)",
+      "price": 17.5,
+      "description": null
+     },
+     {
+      "name": "Shoyu",
+      "price": 16.95,
+      "description": null
+     },
+     {
+      "name": "Spicy Miso Tonkotsu",
+      "price": 17.5,
+      "description": null
+     },
+     {
+      "name": "Spicy Kaisen",
+      "price": 18.95,
+      "description": "Prawns, clams, squid, tofu"
+     },
+     {
+      "name": "Spirit Lifter (Vegan)",
+      "price": 17.5,
+      "description": "Curry vegetable broth"
+     }
+    ]
+   },
+   {
+    "section": "Fried Chicken",
+    "items": [
+     {
+      "name": "Crispy Wings (6 pcs)",
+      "price": 10.0,
+      "description": null
+     },
+     {
+      "name": "Honey Butter Wings (6 pcs)",
+      "price": 11.0,
+      "description": null
+     },
+     {
+      "name": "Spicy Gochujang Wings (6 pcs)",
+      "price": 11.0,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Donburi",
+    "items": [
+     {
+      "name": "Chashu Don",
+      "price": 13.0,
+      "description": null
+     },
+     {
+      "name": "Karaage Don",
+      "price": 13.0,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Dessert",
+    "items": [
+     {
+      "name": "Mochidoki - Menya Collection I",
+      "price": 12.95,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sunmerry-bakery-edison",
+  "name": "Sunmerry Bakery",
+  "cuisine": "Bakery (Taiwanese)",
+  "area": "Edison",
+  "address": "561 US-1, Edison, NJ 08817",
+  "lat": 40.5069954,
+  "lng": -74.3965942,
+  "phone": "(732) 354-4378",
+  "website": "https://www.sunmerryus.com",
+  "orderUrl": null,
+  "priceLevel": "$$",
+  "hours": "Mon-Thu & Sun 8:00 AM-9:00 PM, Fri-Sat 8:00 AM-10:00 PM",
+  "tags": [
+   "bakery",
+   "bubble tea",
+   "cakes"
+  ],
+  "menuSource": "https://www.yelp.com/menu/sunmerry-bakery-edison",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Bread & Pastry",
+    "items": [
+     {
+      "name": "Ham & Egg Sandwich (half)",
+      "price": 5.6,
+      "description": null
+     },
+     {
+      "name": "Strawberry Custard Sandwich (half)",
+      "price": 6.5,
+      "description": null
+     },
+     {
+      "name": "Garlic Parsley",
+      "price": 2.55,
+      "description": null
+     },
+     {
+      "name": "Chicken Cheese Roll",
+      "price": 4.4,
+      "description": null
+     },
+     {
+      "name": "Egg Tart x2",
+      "price": 5.9,
+      "description": null
+     },
+     {
+      "name": "Shokupan Butter Roll Pack (x3)",
+      "price": 5.65,
+      "description": null
+     },
+     {
+      "name": "Puff Pastry Cake x3",
+      "price": 8.2,
+      "description": null
+     },
+     {
+      "name": "Strawberry Hokkaido Pack (x4)",
+      "price": 15.35,
+      "description": null
+     },
+     {
+      "name": "Chocolate Hokkaido Cream Cake Pack (x4)",
+      "price": 14.2,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Whole Cake",
+    "items": [
+     {
+      "name": "6\" Basque Cheesecake",
+      "price": 42.5,
+      "description": null
+     },
+     {
+      "name": "6\" Strawberry Cream",
+      "price": 41.3,
+      "description": null
+     },
+     {
+      "name": "6\" Taro Pudding",
+      "price": 41.3,
+      "description": null
+     },
+     {
+      "name": "8\" Mango Mousse",
+      "price": 51.9,
+      "description": null
+     },
+     {
+      "name": "8\" Matcha Tiramisu",
+      "price": 51.9,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Taiwanese Merchandise",
+    "items": [
+     {
+      "name": "Regular Pineapple Tart - Box (6pc)",
+      "price": 24.6,
+      "description": null
+     },
+     {
+      "name": "Bite Size Pineapple Oolong Tart - Box (10pc)",
+      "price": 21.25,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Drinks",
+    "items": [
+     {
+      "name": "Black Tea with Salted Cheese",
+      "price": 7.1,
+      "description": null
+     },
+     {
+      "name": "Boba Milk Tea",
+      "price": 7.5,
+      "description": null
+     },
+     {
+      "name": "Classic Milk Tea",
+      "price": 6.5,
+      "description": null
+     },
+     {
+      "name": "Taro Milk Tea",
+      "price": 7.7,
+      "description": null
+     },
+     {
+      "name": "Jasmine Green Tea",
+      "price": 5.65,
+      "description": null
+     },
+     {
+      "name": "Passion Fruit Green Tea with Lychee Jelly",
+      "price": 7.1,
+      "description": null
+     },
+     {
+      "name": "Fresh Lemon Green Tea",
+      "price": 7.7,
+      "description": null
+     },
+     {
+      "name": "Matcha Latte",
+      "price": 7.1,
+      "description": null
+     },
+     {
+      "name": "Sunmerry House Coffee",
+      "price": 4.7,
+      "description": null
+     },
+     {
+      "name": "Salted Cheese Coffee",
+      "price": 5.85,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "red-onion-edison",
+  "name": "Red Onion",
+  "cuisine": "Taiwanese",
+  "area": "Edison",
+  "address": "260 Talmadge Rd, Edison, NJ 08817",
+  "lat": 40.5411378,
+  "lng": -74.3980019,
+  "phone": "(732) 287-0202",
+  "website": null,
+  "orderUrl": null,
+  "priceLevel": "$$",
+  "hours": "Tue-Fri 11:00 AM-9:00 PM, Sat-Sun 12:00 PM-9:00 PM; Mon closed",
+  "tags": [
+   "Taiwanese"
+  ],
+  "menuSource": "https://www.yelp.com/menu/red-onion-edison-2",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "台式主菜 (Rice Included)",
+    "items": [
+     {
+      "name": "Three Delight With Scallion 蔥爆三樣",
+      "price": 22.49,
+      "description": "Beef, shrimp, chicken"
+     }
+    ]
+   },
+   {
+    "section": "Appetizers",
+    "items": [
+     {
+      "name": "Cheese Wontons 蟹角 (4)",
+      "price": 8.49,
+      "description": null
+     },
+     {
+      "name": "Spring Roll 上海春卷 (2)",
+      "price": 4.99,
+      "description": null
+     },
+     {
+      "name": "Egg Roll 炸春卷 (1)",
+      "price": 2.4,
+      "description": null
+     },
+     {
+      "name": "Fried Chicken Wings 炸雞翅 (7)",
+      "price": 13.99,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nan-xiang-soup-dumplings-south-plainfield",
+  "name": "Nan Xiang Soup Dumplings",
+  "cuisine": "Shanghai / Dim Sum",
+  "area": "South Plainfield",
+  "address": "4901 Stelton Rd, South Plainfield, NJ 07080",
+  "lat": 40.550451,
+  "lng": -74.431507,
+  "phone": null,
+  "website": "https://nanxiangxiaolongbao.com",
+  "orderUrl": null,
+  "priceLevel": null,
+  "hours": "Daily 11:00 AM-11:00 PM",
+  "tags": [
+   "xiao long bao",
+   "Shanghai breakfast"
+  ],
+  "menuSource": "https://nanxiangxiaolongbao.com/menu/",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Soup Dumplings (chain menu, no prices listed)",
+    "items": [
+     {
+      "name": "Nan Xiang Soup Dumplings (6)",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Crab Meat & Pork Soup Dumplings (6)",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Lucky Six Soup Dumplings (6)",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Chicken Soup Dumplings (6)",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Truffle & Pork Soup Dumplings (6)",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Vegetable Soup Dumpling (6)",
+      "price": null,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Chef-Recommended",
+    "items": [
+     {
+      "name": "Pan-Fried Pork / Crabmeat Buns (6)",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Shrimp / Pork & Veg Wontons in Spicy Peanut Sauce (8)",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Shanghai Siu Mai (4)",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Boiled Shrimp, Pork & Chive Dumplings (8)",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Crispy Shredded Turnip Ham Puffs (4)",
+      "price": null,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "All-Day Breakfast",
+    "items": [
+     {
+      "name": "Soybean Milk",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Crispy Dough",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Savory Tofu Pudding",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Scallion Pancake",
+      "price": null,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Cold Dishes",
+    "items": [
+     {
+      "name": "Chicken in Wine Sauce",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Four Happiness Kaofu",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Shredded Pig Ear w. Spicy Sauce",
+      "price": null,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Rice Cake & Noodles",
+    "items": [
+     {
+      "name": "Stir-Fried Rice Cakes w. Shredded Pork & Potherb Mustard",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Nan Xiang Fried Rice",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Shanghai Stir-Fried Udon",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Scallion Oil Noodles (No Soup)",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Pork Chop Noodle Soup",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Braised Beef Noodle Soup",
+      "price": null,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Dessert",
+    "items": [
+     {
+      "name": "Eight-Treasure Rice",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Pumpkin Cake",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Red Bean Puff (4)",
+      "price": null,
+      "description": null
+     }
+    ]
+   }
+  ]
+ }
+]

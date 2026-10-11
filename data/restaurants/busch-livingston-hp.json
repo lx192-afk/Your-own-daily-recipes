@@ -1,0 +1,2376 @@
+[
+ {
+  "id": "henrys-diner-livingston",
+  "name": "Henry's Diner",
+  "cuisine": "American",
+  "area": "Livingston / Piscataway",
+  "address": "The Plaza, 55 Rockafeller Rd, Piscataway, NJ 08854",
+  "lat": 40.52716,
+  "lng": -74.436852,
+  "phone": null,
+  "website": "https://food.rutgers.edu/places-eat",
+  "orderUrl": null,
+  "priceLevel": null,
+  "hours": "Dine-in Mon-Fri 11:00 AM-6:00 PM; takeout weekdays 10 AM-6 PM",
+  "tags": [
+   "meal-swipe",
+   "on-campus",
+   "Rutgers Dining"
+  ],
+  "menuSource": "https://food.rutgers.edu/places-eat/retail-dining-menus",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Power Breakfast",
+    "items": [
+     {
+      "name": "Ranchero de Henry's",
+      "price": null,
+      "description": "Two fried eggs on top of sauteed chorizo, peppers, onion, & potatoes. Served with savory grits, chips, & sour cream"
+     },
+     {
+      "name": "Healthy Avocado with Toast",
+      "price": null,
+      "description": "Toasted multigrain with sliced tomato, fresh avocado, homemade citrus vinaigrette"
+     },
+     {
+      "name": "Eggs Benedict",
+      "price": null,
+      "description": "Two poached eggs with canadian bacon & hollandaise sauce on an english muffin, served with home fries"
+     },
+     {
+      "name": "Lite Knight",
+      "price": null,
+      "description": "Greek yogurt, fresh seasoned berries, & homemade granola with nuts"
+     }
+    ]
+   },
+   {
+    "section": "3 Egg Pan Omelets",
+    "items": [
+     {
+      "name": "Southwestern Omelet",
+      "price": null,
+      "description": "Homemade corn and black bean salsa, jalapenos, & pepper-jack cheese"
+     },
+     {
+      "name": "Denver Omelet",
+      "price": null,
+      "description": "Ham, peppers, onions, & american cheese topped with salsa"
+     },
+     {
+      "name": "Healthy Omelet",
+      "price": null,
+      "description": "Egg whites, turkey bacon, & broccoli"
+     },
+     {
+      "name": "Florentine Omelet",
+      "price": null,
+      "description": "Spinach, tomatoes, & feta"
+     }
+    ]
+   },
+   {
+    "section": "Great Starters",
+    "items": [
+     {
+      "name": "Mozzarella Sticks",
+      "price": null,
+      "description": "Six cheese sticks served with marinara sauce"
+     },
+     {
+      "name": "Nachos",
+      "price": null,
+      "description": "Tortilla chips with refried beans, lettuce, tomatoes, chipotle cheese sauce, & jalapenos"
+     },
+     {
+      "name": "Quesadillas",
+      "price": null,
+      "description": "Large flour tortilla filled with shredded cheese, sauteed peppers, & onions"
+     },
+     {
+      "name": "Chicken Tenders",
+      "price": null,
+      "description": "6oz. of chicken tenders with BBQ, housemade ranch, or honey mustard"
+     }
+    ]
+   },
+   {
+    "section": "Hot Off the Griddle",
+    "items": [
+     {
+      "name": "Short Stack",
+      "price": null,
+      "description": "Two large pancakes with butter & syrup"
+     },
+     {
+      "name": "Cinnamon French Toast",
+      "price": null,
+      "description": "Dusted with cinnamon sugar served with syrup & butter"
+     },
+     {
+      "name": "Chicken & Waffles",
+      "price": null,
+      "description": "Freshly made waffles, crispy chicken, with butter & syrup"
+     },
+     {
+      "name": "Nutella Crepe",
+      "price": null,
+      "description": "Hazelnut & cocoa cream crepe topped with whipped cream & chocolate sauce"
+     }
+    ]
+   },
+   {
+    "section": "Henry's Signature Sandwiches",
+    "items": [
+     {
+      "name": "BBQ Pulled Pork",
+      "price": null,
+      "description": "With pepper jack cheese & a fire roasted jalapeño on a toasted brioche roll, served with coleslaw"
+     },
+     {
+      "name": "Crispy Buffalo Chicken",
+      "price": null,
+      "description": "Buffalo sauce, melted provolone cheese, lettuce, & tomato on a brioche roll"
+     },
+     {
+      "name": "Philly Cheesesteak",
+      "price": null,
+      "description": "Thinly sliced steak with onions, peppers, & American cheese on a hoagie roll"
+     },
+     {
+      "name": "Falafel",
+      "price": null,
+      "description": "Crispy falafel, hummus, lettuce, & tomato on a warmed pita"
+     },
+     {
+      "name": "Triple Decker Club",
+      "price": null,
+      "description": "Roasted turkey, baked ham, or roast beef with bacon, lettuce, tomato"
+     }
+    ]
+   },
+   {
+    "section": "Diner Classics",
+    "items": [
+     {
+      "name": "Gyro",
+      "price": null,
+      "description": "Grilled pita with lettuce, tomatoes, red onions, cucumber sauce, roasted beef or grilled chicken"
+     },
+     {
+      "name": "Reuben",
+      "price": null,
+      "description": "Corned beef & swiss cheese with coleslaw on rye bread"
+     },
+     {
+      "name": "Meatloaf",
+      "price": null,
+      "description": "Served with homemade gravy, french fries, & seasonal vegetables"
+     }
+    ]
+   },
+   {
+    "section": "Burger Bar",
+    "items": [
+     {
+      "name": "American Cheeseburger",
+      "price": null,
+      "description": "6oz. grilled beef burger with American cheese"
+     },
+     {
+      "name": "R Burger",
+      "price": null,
+      "description": "Two 6oz. beef burgers, American cheese, pickles, onion rings, & chipotle aioli"
+     },
+     {
+      "name": "Smoke 'n' Cheddar",
+      "price": null,
+      "description": "6oz. beef burger with cheddar, BBQ, & bacon"
+     },
+     {
+      "name": "Black Bean Burger",
+      "price": null,
+      "description": "With avocado & chipotle aioli"
+     }
+    ]
+   },
+   {
+    "section": "Signature Fries",
+    "items": [
+     {
+      "name": "Disco Fries",
+      "price": null,
+      "description": "Signature fries with beef gravy & melted mozzarella cheese"
+     },
+     {
+      "name": "Boardwalk Fries",
+      "price": null,
+      "description": "Fries dusted with Old Bay, served with malt vinegar"
+     }
+    ]
+   },
+   {
+    "section": "Sweet Additions",
+    "items": [
+     {
+      "name": "Traditional Milkshake",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Henry's Fudge Cake",
+      "price": null,
+      "description": "Five layers of chocolate sponge cake & rich fudge icing"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "kilmers-market-livingston",
+  "name": "Kilmer's Market",
+  "cuisine": "Sandwiches",
+  "area": "Livingston / Piscataway",
+  "address": "The Plaza, 55 Rockafeller Rd, Piscataway, NJ 08854",
+  "lat": 40.52716,
+  "lng": -74.436852,
+  "phone": "(848) 445-0106",
+  "website": "https://food.rutgers.edu/places-eat",
+  "orderUrl": null,
+  "priceLevel": null,
+  "hours": "Mon-Thu 11:00 AM-11:00 PM; Fri 11:00 AM-9:00 PM",
+  "tags": [
+   "meal-swipe",
+   "on-campus",
+   "Rutgers Dining",
+   "grocery"
+  ],
+  "menuSource": "https://food.rutgers.edu/places-eat/retail-dining-menus",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Breakfast",
+    "items": [
+     {
+      "name": "Bacon Egg and Cheese on a Bagel",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Sausage Egg and Cheese on a Croissant",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Turkey Bacon, Egg Whites and Swiss on an English Muffin",
+      "price": null,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Deli Sandwiches",
+    "items": [
+     {
+      "name": "Buffalo Chicken Wrap",
+      "price": null,
+      "description": "Buffalo chicken, leaf lettuce, tomato, blue cheese in a plain wrap"
+     },
+     {
+      "name": "Chicken Caesar Wrap",
+      "price": null,
+      "description": "Grilled chicken, leaf lettuce, shredded parm, Caesar dressing in a plain wrap"
+     },
+     {
+      "name": "Super Tuscan",
+      "price": null,
+      "description": "Ham, salami, provolone, leaf lettuce, tomato, red onion, oil, vinegar on ciabatta"
+     },
+     {
+      "name": "Valley",
+      "price": null,
+      "description": "Grilled chicken, fresh mozzarella, roasted red peppers, balsamic vinaigrette on a semolina roll"
+     },
+     {
+      "name": "Veggie Dream",
+      "price": null,
+      "description": "Eggplant cutlet, fresh mozzarella, leaf lettuce, roasted red pepper on focaccia"
+     },
+     {
+      "name": "Livingston",
+      "price": null,
+      "description": "Santa Fe (spicy) turkey, pepper jack cheese, chipotle mayo on ciabatta"
+     },
+     {
+      "name": "Chicken Parm",
+      "price": null,
+      "description": "Breaded chicken patty, provolone and marinara on a round roll"
+     },
+     {
+      "name": "Kilmer's Classic",
+      "price": null,
+      "description": "Roast beef, bacon, pepper jack cheese, sautéed onions and classic sauce"
+     },
+     {
+      "name": "The Boss",
+      "price": null,
+      "description": "Turkey, mashed avocado, cheddar, tomatoes and Santa Fe seasoning on multigrain"
+     },
+     {
+      "name": "Paul's Reuben",
+      "price": null,
+      "description": "Pastrami, Swiss, Thousand Island dressing and coleslaw on rye"
+     },
+     {
+      "name": "Caprese",
+      "price": null,
+      "description": "Fresh mozzarella, roasted red peppers, tomatoes and pesto mayo on ciabatta"
+     }
+    ]
+   },
+   {
+    "section": "Hot Sandwiches",
+    "items": [
+     {
+      "name": "Meatball Parm",
+      "price": null,
+      "description": "Meatballs, provolone and marinara on semolina"
+     },
+     {
+      "name": "Hot Roast Pork",
+      "price": null,
+      "description": "Roasted pork, onions and gravy on semolina"
+     },
+     {
+      "name": "Pulled Chicken Sandwich",
+      "price": null,
+      "description": "Pulled chicken, BBQ sauce, cheddar cheese and coleslaw"
+     },
+     {
+      "name": "Cheesesteak",
+      "price": null,
+      "description": "Chopped roast beef, onions and provolone on semolina"
+     }
+    ]
+   },
+   {
+    "section": "Fried Food",
+    "items": [
+     {
+      "name": "Wings and Fries",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Nuggets and Fries",
+      "price": null,
+      "description": null
+     },
+     {
+      "name": "Samosas and Fries",
+      "price": null,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hoja-asian-fusion-livingston",
+  "name": "HOJA Asian Fusion",
+  "cuisine": "Chinese",
+  "area": "Livingston / Piscataway",
+  "address": "55 Rockafeller Rd, Piscataway, NJ 08854",
+  "lat": 40.52716,
+  "lng": -74.436852,
+  "phone": "(732) 463-1790",
+  "website": "https://hojafusion.com/",
+  "orderUrl": "https://hojafusion.com/menu",
+  "priceLevel": null,
+  "hours": "Daily 11:00 AM-9:00 PM",
+  "tags": [
+   "on-campus",
+   "delivery",
+   "bubble tea"
+  ],
+  "menuSource": "https://hojafusion.com/menu",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Small Dishes",
+    "items": [
+     {
+      "name": "A01 Fried Pork Gyoza 煎饺",
+      "price": 8.95,
+      "description": null
+     },
+     {
+      "name": "A02 Steamed Dumplings (Pork) 猪肉白菜水饺",
+      "price": 8.75,
+      "description": null
+     },
+     {
+      "name": "A03 Steamed Dumplings (Shrimp) 小笼虾饺",
+      "price": 8.75,
+      "description": null
+     },
+     {
+      "name": "A04 Spring Rolls (2) 春捲",
+      "price": 4.5,
+      "description": null
+     },
+     {
+      "name": "A05 Scallion Pancakes 葱油饼",
+      "price": 4.5,
+      "description": null
+     },
+     {
+      "name": "A06 Chicken Wings (5) 炸鸡翅",
+      "price": 8.95,
+      "description": null
+     },
+     {
+      "name": "A07 Crab Rangoon",
+      "price": 8.75,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Chef's Special",
+    "items": [
+     {
+      "name": "C01 Drunken Chicken 啤酒鸡",
+      "price": 16.95,
+      "description": null
+     },
+     {
+      "name": "C02 Shan-Chen Spicy Chicken 山城辣子鸡",
+      "price": 16.95,
+      "description": null
+     },
+     {
+      "name": "C03 Three Pepper Chicken 三椒鸡",
+      "price": 16.95,
+      "description": null
+     },
+     {
+      "name": "C04 Steamed Chicken in Chili Oil 口水鸡",
+      "price": 15.25,
+      "description": null
+     },
+     {
+      "name": "C06.1 Cumin Chicken 孜然鸡",
+      "price": 16.95,
+      "description": null
+     },
+     {
+      "name": "C06.2 Cumin Beef 孜然牛",
+      "price": 18.95,
+      "description": null
+     },
+     {
+      "name": "C11 Mala Dry Hot Pot (serves 2) 麻辣香锅",
+      "price": 33.0,
+      "description": null
+     },
+     {
+      "name": "C13.1 Fish in Hot Chili Sauce 水煮鱼",
+      "price": 20.95,
+      "description": null
+     },
+     {
+      "name": "C13.2 Pork in Hot Chili Sauce 水煮肉片",
+      "price": 19.95,
+      "description": null
+     },
+     {
+      "name": "C19 Sweet & Sour Ribs 糖醋排骨",
+      "price": 19.45,
+      "description": null
+     },
+     {
+      "name": "C23 Mapo Tofu 麻婆豆腐",
+      "price": 14.5,
+      "description": null
+     },
+     {
+      "name": "C29 Fish w/ Pickled Vegetables",
+      "price": 17.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Most Popular",
+    "items": [
+     {
+      "name": "P02 Sesame Chicken 芝麻鸡",
+      "price": 15.95,
+      "description": null
+     },
+     {
+      "name": "P04 Kung Pao Chicken 宫保鸡",
+      "price": 15.75,
+      "description": null
+     },
+     {
+      "name": "P12 Chicken w/ Broccoli 芥蘭鸡",
+      "price": 15.75,
+      "description": null
+     },
+     {
+      "name": "P13 Beef w/ Broccoli 芥蘭牛",
+      "price": 18.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Noodles",
+    "items": [
+     {
+      "name": "N02 Beef Noodle Soup",
+      "price": 14.95,
+      "description": null
+     },
+     {
+      "name": "N04 Wonton Noodle Soup 云吞面",
+      "price": 11.95,
+      "description": null
+     },
+     {
+      "name": "N05 Hot & Sour Noodles",
+      "price": 12.5,
+      "description": null
+     },
+     {
+      "name": "N06 Lo Mein 捞面",
+      "price": 12.5,
+      "description": "Price shown as starting price ($12.50+)"
+     },
+     {
+      "name": "N07 Braised Pork Noodles 肉燥干拌面",
+      "price": 12.5,
+      "description": null
+     },
+     {
+      "name": "N09 Udon Noodle Soup 乌冬汤面",
+      "price": 12.75,
+      "description": "Starting price ($12.75+)"
+     }
+    ]
+   },
+   {
+    "section": "Rice Plates",
+    "items": [
+     {
+      "name": "R01 Fried Rice 炒饭",
+      "price": 11.95,
+      "description": "Starting price ($11.95+)"
+     },
+     {
+      "name": "R03 Braised Pork Rice 肉燥饭",
+      "price": 11.95,
+      "description": null
+     },
+     {
+      "name": "R04.1 Curry Chicken",
+      "price": 15.75,
+      "description": null
+     },
+     {
+      "name": "R05 Chinese BBQ Pork Rice 叉燒",
+      "price": 12.5,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Vegetables",
+    "items": [
+     {
+      "name": "V05 Fried Shredded Potato 炒土豆絲",
+      "price": 13.5,
+      "description": null
+     },
+     {
+      "name": "V06 Stir-Fried Bok Choy 蒜炒青江菜",
+      "price": 13.5,
+      "description": null
+     },
+     {
+      "name": "V08 Stir-Fried Green Beans 乾扁四季豆",
+      "price": 13.5,
+      "description": null
+     },
+     {
+      "name": "V09 Eggplant in Garlic Sauce 魚香茄子",
+      "price": 13.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Soups",
+    "items": [
+     {
+      "name": "S01 Hot and Sour Soup 酸辣汤",
+      "price": 4.95,
+      "description": "Starting price ($4.95+)"
+     },
+     {
+      "name": "S03 Wonton Soup 云吞汤",
+      "price": 4.95,
+      "description": "Starting price ($4.95+)"
+     }
+    ]
+   },
+   {
+    "section": "Drinks",
+    "items": [
+     {
+      "name": "Bubble Tea 奶茶",
+      "price": 5.95,
+      "description": "Starting price ($5.95+)"
+     },
+     {
+      "name": "Brown Sugar Boba 黑糖珍奶",
+      "price": 6.95,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "gerlandas-pizza-busch",
+  "name": "Gerlanda's Pizza",
+  "cuisine": "Pizza",
+  "area": "Busch / Piscataway",
+  "address": "604 Bartholomew Rd, Piscataway, NJ 08854",
+  "lat": 40.52333,
+  "lng": -74.458862,
+  "phone": "(732) 463-1616",
+  "website": null,
+  "orderUrl": "https://slicelife.com/restaurants/nj/piscataway/08854/gerlanda-s-pizza-piscataway/menu",
+  "priceLevel": "$$",
+  "hours": "Mon-Thu 9:00 AM-9:30 PM; Fri 9:00 AM-7:30 PM",
+  "tags": [
+   "on-campus",
+   "Busch Student Center"
+  ],
+  "menuSource": "https://slicelife.com/restaurants/nj/piscataway/08854/gerlanda-s-pizza-piscataway/menu",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Pizza",
+    "items": [
+     {
+      "name": "Cheese Pizza",
+      "price": 18.25,
+      "description": "Classic cheese or create your own pizza. Our famous thin crust, Neapolitan style pizza has been a Rutgers tradition for over 30 years. Made with real Wisconsin mozzarella cheese, and imported Italian tomatoes, this pizza is still made the same way it was 30 years ago, and that's what keeps it tasting great today."
+     },
+     {
+      "name": "Pepperoni Pizza",
+      "price": 21.25,
+      "description": null
+     },
+     {
+      "name": "Sausage Pizza",
+      "price": 21.25,
+      "description": null
+     },
+     {
+      "name": "Mushroom Pizza",
+      "price": 21.25,
+      "description": null
+     },
+     {
+      "name": "Onion & Peppers Pizza",
+      "price": 21.25,
+      "description": null
+     },
+     {
+      "name": "Gluten Free Pizza 14\" Diameter",
+      "price": 17.5,
+      "description": "14\" Gluten Free shell with our Signature Sauce and Wisconsin Mozzarella Cheese"
+     }
+    ]
+   },
+   {
+    "section": "World Famous Pizza",
+    "items": [
+     {
+      "name": "Chicken Parmesan Pizza",
+      "price": 24.5,
+      "description": "Chopped breaded chicken with mozzarella and sauce topped with parmesan and spices."
+     },
+     {
+      "name": "Chicken Fajita Pizza",
+      "price": 24.5,
+      "description": "A spicy mix of diced chicken, onions and peppers, cheddar cheese."
+     },
+     {
+      "name": "Red Hot Chicken Pizza",
+      "price": 24.5,
+      "description": "Smoky chicken cutlet with a red hot sauce, topped with plum tomato, basil and bacon."
+     },
+     {
+      "name": "BBQ Chicken Pizza",
+      "price": 24.5,
+      "description": "Chicken cutlet marinated in BBQ sauce topped with mozzarella and cheddar cheese."
+     },
+     {
+      "name": "Buffalo Chicken Pizza",
+      "price": 24.5,
+      "description": "Spicy marinated chicken, mozzarella and bleu cheese."
+     },
+     {
+      "name": "Chicken Broccoli Pizza",
+      "price": 24.5,
+      "description": "Diced chicken cutlet, broccoli florets, cheddar, mozzarella on a ricotta cheese base."
+     },
+     {
+      "name": "Chicken Pesto Pizza",
+      "price": 24.5,
+      "description": "Grilled chicken, mozzarella, pesto and chopped sun-dried tomatoes."
+     },
+     {
+      "name": "Smoky Mountain Pizza",
+      "price": 24.5,
+      "description": "Pulled pork with BBQ sauce topped with smoked mozzarella."
+     }
+    ]
+   },
+   {
+    "section": "Signature Thin Crust Pizza",
+    "items": [
+     {
+      "name": "Margherita Pizza",
+      "price": 22.0,
+      "description": "Named for the queen of italy it's red (tomato), white (fresh mozzarella) and green (fresh basil)."
+     },
+     {
+      "name": "San Andrea Pizza",
+      "price": 22.0,
+      "description": "Sausage, fresh chopped tomato and mozzarella."
+     },
+     {
+      "name": "Classic White Pizza",
+      "price": 22.0,
+      "description": "Broccoli florets mushrooms and chopped garlic topped with fresh chopped tomato."
+     },
+     {
+      "name": "Spinach Ricotta Pizza",
+      "price": 22.0,
+      "description": "Chopped spinach with ricotta, provolone and mozzarella cheese."
+     },
+     {
+      "name": "Cheeseless Vegetable Pizza",
+      "price": 22.0,
+      "description": "Plum tomatoes, mushrooms and chopped spinach."
+     },
+     {
+      "name": "Pizza Bianco",
+      "price": 22.0,
+      "description": "A 3 cheese pie with mozzarella, ricotta and parmesan."
+     },
+     {
+      "name": "St. Peter's Pizza",
+      "price": 22.0,
+      "description": "Fresh mozzarella, diced tomatoes, fresh chopped garlic and fresh basil."
+     },
+     {
+      "name": "Pizza Tre Colore",
+      "price": 22.0,
+      "description": "Chopped spinach, plum tomato, sun-dried tomato, red onions and feta cheese."
+     },
+     {
+      "name": "Meatball Parm Pizza",
+      "price": 22.0,
+      "description": "Sliced meatballs, plum tomato and fresh mozzarella."
+     },
+     {
+      "name": "Four Seasons Pizza",
+      "price": 22.0,
+      "description": "Chopped spinach, cheddar cheese, pesto sauce, fresh chopped tomato and ricotta cheese."
+     },
+     {
+      "name": "Tomato Basil Pizza",
+      "price": 22.0,
+      "description": "Plum tomato, pesto sauce and mozzarella cheese."
+     },
+     {
+      "name": "Broccoli Three Cheese Pizza",
+      "price": 22.0,
+      "description": "Broccoli florets, cheddar cheese, ricotta and mozzarella."
+     }
+    ]
+   },
+   {
+    "section": "Thick Crust Pizza",
+    "items": [
+     {
+      "name": "Square Sicilian Pizza",
+      "price": 22.0,
+      "description": "Our traditional square shaped thick crust pie."
+     },
+     {
+      "name": "Special Sicilian Pizza",
+      "price": 26.0,
+      "description": "Our round crust Sicilian topped with sausage, pepperoni, peppers and onion and mushrooms."
+     },
+     {
+      "name": "Vegetarian Supreme Pizza",
+      "price": 26.0,
+      "description": "Roasted red pepper, portobello mushroom, roasted eggplant, roasted red potato and fresh garlic."
+     },
+     {
+      "name": "Pizza Milano",
+      "price": 26.0,
+      "description": "Chopped spinach, bacon, red onion over mozzarella and sauce."
+     },
+     {
+      "name": "San Gennaro Pizza",
+      "price": 26.0,
+      "description": "Peppers, onions, roasted potatoes and sausage over mozzarella and sauce."
+     },
+     {
+      "name": "Pepper Jack Pizza",
+      "price": 26.0,
+      "description": "Strips of smoky chicken, grilled onion and pepper jack cheese over mozzarella and sauce."
+     }
+    ]
+   },
+   {
+    "section": "Salads",
+    "items": [
+     {
+      "name": "Chicken Caesar Salad",
+      "price": 9.0,
+      "description": "Grilled chicken, romaine, parmesan cheese with caesar dressing and croutons on side."
+     },
+     {
+      "name": "Garden Salad",
+      "price": 6.5,
+      "description": "Field greens with tomato, carrots, cucumber with choice of dressing on side"
+     }
+    ]
+   },
+   {
+    "section": "Beverages",
+    "items": [
+     {
+      "name": "Soda or Bottled Water",
+      "price": 2.0,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "house-of-biryanis-kebabs-piscataway",
+  "name": "House of Biryani's & Kebabs",
+  "cuisine": "Indian",
+  "area": "Livingston / Piscataway",
+  "address": "1372 Centennial Ave, Piscataway, NJ 08854",
+  "lat": 40.552762,
+  "lng": -74.434197,
+  "phone": null,
+  "website": null,
+  "orderUrl": "https://order.online/store/-23217997/",
+  "priceLevel": null,
+  "hours": "Online ordering 11:30 AM-11:15 PM",
+  "tags": [
+   "biryani",
+   "pickup"
+  ],
+  "menuSource": "https://order.online/store/-23217997/",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Featured Items",
+    "items": [
+     {
+      "name": "HBK Spl Chicken Biryani",
+      "price": 18.99,
+      "description": null
+     },
+     {
+      "name": "Hyderabadi Chicken Dum Biryani",
+      "price": 17.99,
+      "description": null
+     },
+     {
+      "name": "Boneless Chicken Biryani",
+      "price": 18.99,
+      "description": null
+     },
+     {
+      "name": "Chicken Fry Biryani",
+      "price": 19.99,
+      "description": null
+     },
+     {
+      "name": "Natukodi Biryani",
+      "price": 19.99,
+      "description": null
+     },
+     {
+      "name": "Boneless Mutton Fry Biryani",
+      "price": 21.99,
+      "description": null
+     },
+     {
+      "name": "Vegetable Dum Biryani",
+      "price": 15.99,
+      "description": null
+     },
+     {
+      "name": "Paneer Dum Biryani",
+      "price": 17.99,
+      "description": null
+     },
+     {
+      "name": "Boneless Chicken Dum Biryani fpk",
+      "price": 49.99,
+      "description": "Family pack"
+     },
+     {
+      "name": "Chicken Mandi(Single)",
+      "price": 22.99,
+      "description": null
+     },
+     {
+      "name": "Mutton Mandi(Single)",
+      "price": 25.99,
+      "description": null
+     },
+     {
+      "name": "Shahi Gosht Korma (Boneless goat masala)",
+      "price": 20.99,
+      "description": null
+     },
+     {
+      "name": "Apollo Fish",
+      "price": 18.99,
+      "description": null
+     },
+     {
+      "name": "Natukodi Pepper Fry",
+      "price": 19.99,
+      "description": null
+     },
+     {
+      "name": "Chilli Chicken",
+      "price": 16.99,
+      "description": null
+     },
+     {
+      "name": "Chicken Majestic",
+      "price": 16.99,
+      "description": null
+     },
+     {
+      "name": "Garlic Naan",
+      "price": 4.99,
+      "description": null
+     },
+     {
+      "name": "Thums Up",
+      "price": 3.99,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "stelton-pizza-piscataway",
+  "name": "Stelton Pizza",
+  "cuisine": "Pizza",
+  "area": "Livingston / Piscataway",
+  "address": "1315 Stelton Rd, Piscataway, NJ 08854",
+  "lat": 40.540888,
+  "lng": -74.422902,
+  "phone": "(732) 985-2626",
+  "website": null,
+  "orderUrl": "https://slicelife.com/restaurants/nj/piscataway-township/08854/stelton-pizza-restaurant/menu",
+  "priceLevel": "$$",
+  "hours": "Mon-Thu & Sat 10:30 AM-8:00 PM; Fri 10:30 AM-9:00 PM; Sun 11:30 AM-8:00 PM",
+  "tags": [
+   "pizza by the slice"
+  ],
+  "menuSource": "https://slicelife.com/restaurants/nj/piscataway-township/08854/stelton-pizza-restaurant/menu",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Pizza",
+    "items": [
+     {
+      "name": "Cheese Pizza",
+      "price": 16.79,
+      "description": "Classic cheese or create your own pizza."
+     },
+     {
+      "name": "Sicilian Pizza",
+      "price": 22.58,
+      "description": null
+     },
+     {
+      "name": "White Pizza",
+      "price": 19.94,
+      "description": "A sauceless pie topped with ricotta, mozzarella, and parmesan cheese."
+     },
+     {
+      "name": "Half and Half Specialty Pizza",
+      "price": 16.79,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Gourmet Pizzas",
+    "items": [
+     {
+      "name": "Veggie Pizza",
+      "price": 24.14,
+      "description": "Green peppers, mushrooms, onions, broccoli , black olives."
+     },
+     {
+      "name": "Works Pizza",
+      "price": 24.14,
+      "description": "Sausage, peppers, pepperoni, mushrooms, onions, fresh garlic."
+     },
+     {
+      "name": "Meat Lovers Pizza",
+      "price": 24.14,
+      "description": "Sausage, pepperoni, meatballs, ham, salami & extra cheese."
+     },
+     {
+      "name": "Eggplant Parmigiana Pizza",
+      "price": 24.14,
+      "description": "Eggplant, ricotta, mozzarella & sauce."
+     },
+     {
+      "name": "Chicken Teriyaki Pizza",
+      "price": 24.14,
+      "description": null
+     },
+     {
+      "name": "Chicken Alfredo Pizza",
+      "price": 24.14,
+      "description": null
+     },
+     {
+      "name": "Chicken Marsala Pizza",
+      "price": 24.14,
+      "description": null
+     },
+     {
+      "name": "Chicken Tomato Basil Pizza",
+      "price": 24.14,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Pizza by the Slice",
+    "items": [
+     {
+      "name": "Cheese Pizza Slice",
+      "price": 3.41,
+      "description": "Classic cheese or create your own pizza."
+     },
+     {
+      "name": "Sicilian Pizza Slice",
+      "price": 4.19,
+      "description": null
+     },
+     {
+      "name": "Side of Sauce",
+      "price": 0.95,
+      "description": "Classic cheese or create your own pizza."
+     },
+     {
+      "name": "Works Pizza Slice",
+      "price": 5.24,
+      "description": "Sausage, peppers, pepperoni, mushrooms, onions, fresh garlic."
+     },
+     {
+      "name": "Eggplant Parmigiana Pizza Slice",
+      "price": 4.46,
+      "description": "Eggplant ricotta, mozzarella & sauce."
+     },
+     {
+      "name": "Veggie Pizza Slice",
+      "price": 4.46,
+      "description": "Green peppers, mushrooms, onions, bacon, black olives."
+     }
+    ]
+   },
+   {
+    "section": "Appetizers",
+    "items": [
+     {
+      "name": "Homemade Bread",
+      "price": 1.58,
+      "description": null
+     },
+     {
+      "name": "Garlic Knots",
+      "price": 1.94,
+      "description": "Bread, topped with garlic & olive oil or butter, herb seasoning, baked to perfection. Melts in your mouth and arouses the taste buds."
+     },
+     {
+      "name": "Garlic Bread",
+      "price": 4.4,
+      "description": "Bread, topped with garlic & butter, herb seasoning, baked to perfection. Melts in your mouth and arouses the taste buds."
+     },
+     {
+      "name": "Cheesy Garlic Bread",
+      "price": 6.56,
+      "description": null
+     },
+     {
+      "name": "Mozzarella Sticks",
+      "price": 6.35,
+      "description": "Deep-fried cheese sticks. Crispy on the outside, gooey on the inside. Served with a side of marinara sauce."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "persis-biryani-indian-grill-piscataway",
+  "name": "Persis Biryani & Indian Grill",
+  "cuisine": "Indian",
+  "area": "Livingston / Piscataway",
+  "address": "1665 Stelton Rd, Piscataway, NJ 08854",
+  "lat": 40.533786,
+  "lng": -74.418454,
+  "phone": "(732) 508-7472",
+  "website": null,
+  "orderUrl": "https://menupages.com/persis-biryani-indian-grill/1665-stelton-rd-piscataway",
+  "priceLevel": null,
+  "hours": null,
+  "tags": [
+   "biryani"
+  ],
+  "menuSource": "https://menupages.com/persis-biryani-indian-grill/1665-stelton-rd-piscataway",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Veg Appetizers",
+    "items": [
+     {
+      "name": "Baby Corn Manchuria",
+      "price": 13.99,
+      "description": "Baby corn marinated, fried and tossed in spices and light sweet soy sauce"
+     },
+     {
+      "name": "Baby Corn Pepper Fry",
+      "price": 12.99,
+      "description": "Baby Corn marinated, fried and mixed with ground pepper and spices."
+     },
+     {
+      "name": "Bhindi Fry",
+      "price": 15.99,
+      "description": "Finely cut okra fried and saut��ed with spices and nuts."
+     },
+     {
+      "name": "Chilli Baby Corn",
+      "price": 13.99,
+      "description": "Cheese cubes saut��ed with onions, peppers, hot chili and soy sauce."
+     }
+    ]
+   },
+   {
+    "section": "Non-Veg Appetizers",
+    "items": [
+     {
+      "name": "Andhra Kodi Vepudu",
+      "price": 15.99,
+      "description": "Chicken fry made with authentic Andhra special spices."
+     },
+     {
+      "name": "Apollo Fish",
+      "price": 17.99,
+      "description": "Cubes of fish marinated in herbs, spices and deep fried and tossed in special spice grind."
+     },
+     {
+      "name": "Chicken 65",
+      "price": 15.99,
+      "description": "Boneless cubes of chicken marinated in corn flour batter with spices, deep fried and tossed in spices."
+     },
+     {
+      "name": "Chicken Fry",
+      "price": 15.99,
+      "description": "Pieces of chicken battered with sesame seeds and deep fried."
+     },
+     {
+      "name": "Chicken Ghee Roast",
+      "price": 18.99,
+      "description": "Chicken cubes marinated in spices and roasted in ghee for a rich and aromatic flavor."
+     }
+    ]
+   },
+   {
+    "section": "Biryani",
+    "items": [
+     {
+      "name": "Chicken Dum Biryani",
+      "price": 16.99,
+      "description": "Basmati rice cooked with bone-in chicken, blended with herbs and spices then garnished egg, onion and lemon. (served with yogurt raitha and pepper gravy)"
+     },
+     {
+      "name": "Egg Biryani",
+      "price": 15.99,
+      "description": "Basmati rice cooked with Egg, blended with herbs and spices then garnished egg, onion and lemon. (served with yogurt raitha and pepper gravy)"
+     },
+     {
+      "name": "Goat Biryani",
+      "price": 18.99,
+      "description": "Basmati rice cooked with Goat, blended with herbs and spices then garnished egg, onion and lemon. (served with yogurt raitha and pepper gravy)"
+     },
+     {
+      "name": "Paneer Biryani",
+      "price": 16.99,
+      "description": "Basmati Rice cooked with Paneer and house spices."
+     },
+     {
+      "name": "SPECIAL Boneless Chicken Biryani",
+      "price": 17.99,
+      "description": "Boneless cubes of chicken cooked in spices and topped with basmati rice, garnished egg, onion and lemon. (served with yogurt raitha and pepper gravy)"
+     },
+     {
+      "name": "Vegetable Biryani",
+      "price": 14.99,
+      "description": "Basmati rice cooked with Veg., blended with herbs and spices then garnished with onion and lemon. (served with yogurt raitha and pepper gravy)"
+     },
+     {
+      "name": "Bucket Biryani",
+      "price": 27.98,
+      "description": "64oz Bucket full of biryani of your choice."
+     },
+     {
+      "name": "Chicken Kheema Biryani",
+      "price": 19.99,
+      "description": "Minced chicken cooked in spices and topped with basmati rice, garnished with onion and lemon. (served with yogurt raitha and pepper gravy)"
+     }
+    ]
+   },
+   {
+    "section": "Tandoor",
+    "items": [
+     {
+      "name": "Chicken Malai Kabab",
+      "price": 17.99,
+      "description": "Boneless chicken cubes marinated in cream cheese, red vinegar and fresh green chili, ginger, black pepper and cilantro."
+     },
+     {
+      "name": "Chicken Seekh Kabab",
+      "price": 17.99,
+      "description": "Minced chicken seasoned with chopped ginger, onions and spices rolled over skewer and cooked to perfection in a clay oven."
+     },
+     {
+      "name": "Chicken Tikka",
+      "price": 17.99,
+      "description": "Boneless chunks of chicken marinated in yogurt, blended with ginger, garlic, herbs, spices then grilled in a tandoor clay oven."
+     }
+    ]
+   },
+   {
+    "section": "Veg Entree",
+    "items": [
+     {
+      "name": "Aloo Gobi Masala",
+      "price": 14.99,
+      "description": "Potatoes and cauliflower sauteed together in onion sauce and spices."
+     },
+     {
+      "name": "Aloo Mutter",
+      "price": 14.99,
+      "description": "Potato and green peas cooked in rich coconut sauce and spices ."
+     },
+     {
+      "name": "Aloo Saag",
+      "price": 14.99,
+      "description": "Spicy greens and tender potatoes simmered in fragrant Indian spices."
+     },
+     {
+      "name": "Bhindi Masala",
+      "price": 14.99,
+      "description": "Fried okra cooked in onion & tomato sauce with spices."
+     }
+    ]
+   },
+   {
+    "section": "Non Veg Entree",
+    "items": [
+     {
+      "name": "Butter Chicken",
+      "price": 16.99,
+      "description": "Succulent pieces of chicken cooked in rich tomato sauce with herbs and spices and touch of butter then garnished with cream."
+     },
+     {
+      "name": "Chicken Chettinadu",
+      "price": 16.99,
+      "description": "Tender pieces of the chicken tossed in herbs, spices, onions and cooked in hand powdered chettinadu masala."
+     },
+     {
+      "name": "Chicken Curry",
+      "price": 16.99,
+      "description": "Chicken cooked in a traditional Indian curry sauce."
+     },
+     {
+      "name": "Chicken Hyderabadi",
+      "price": 16.99,
+      "description": "Cubes of chicken cooked in mildly spiced cream sauce with fresh cilantro (coriander)."
+     },
+     {
+      "name": "Chicken Kadai",
+      "price": 16.99,
+      "description": "Cubes of chicken cooked in whole Indian spices in onion and tomato gravy"
+     }
+    ]
+   },
+   {
+    "section": "Bread",
+    "items": [
+     {
+      "name": "Butter Naan",
+      "price": 2.99,
+      "description": "All purpose flour dough mixed with milk and butter, baked in a tandoor clay oven and topped with butter."
+     },
+     {
+      "name": "Cheese Naan",
+      "price": 3.99,
+      "description": "White flour dough, mixed with milk, butter and grated cheese, baked in tandoor clay oven"
+     },
+     {
+      "name": "Chilly Butter Naan",
+      "price": 3.99,
+      "description": "Soft dough infused with finely chopped garlic and spicy green chilies, baked in a tandoor clay oven"
+     },
+     {
+      "name": "Chilly Garlic Butter Naan",
+      "price": 4.99,
+      "description": "Soft flatbread topped with garlic, butter, green chilies offering a spicy flavour, baked in a tandoor clay oven"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tequila-n-tacos-piscataway",
+  "name": "Tequila N Tacos",
+  "cuisine": "Mexican",
+  "area": "Livingston / Piscataway",
+  "address": "560 Stelton Rd, Piscataway, NJ 08854",
+  "lat": 40.559904,
+  "lng": -74.442792,
+  "phone": "(732) 529-6724",
+  "website": null,
+  "orderUrl": "https://menupages.com/tequila-n-tacos/560-stelton-rd-piscataway",
+  "priceLevel": null,
+  "hours": null,
+  "tags": [
+   "tacos"
+  ],
+  "menuSource": "https://menupages.com/tequila-n-tacos/560-stelton-rd-piscataway",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Soups & Salads",
+    "items": [
+     {
+      "name": "Acapulco Salad",
+      "price": 11.99,
+      "description": "Romaine lettuce, cheese, tortilla strips, black beans, corn, pico de gallo, and chipotle mayo dressing. Your choice of protein."
+     },
+     {
+      "name": "Chicken Tortilla Soup Bowl",
+      "price": 5.99,
+      "description": "Chicken, zucchini, squash, carrots, peppers, and onions. Served with tortilla strips, cilantro, and red onion."
+     },
+     {
+      "name": "Salad De La Casa",
+      "price": 10.99,
+      "description": "Romaine lettuce, croutons, corn, tomatoes, queso fresco & choice of dressing. Your choice of protein."
+     }
+    ]
+   },
+   {
+    "section": "Appetizers",
+    "items": [
+     {
+      "name": "Southwest Avocado Rolls",
+      "price": 9.99,
+      "description": "Deep fried tortilla stuffed with avocado, jalapeno, cheese, corn, peppers, and black beans."
+     },
+     {
+      "name": "Crispy Cantina Shrimp",
+      "price": 9.99,
+      "description": "Six Shrimp breaded and fried to golden perfection served with chipotle mayo for dipping."
+     },
+     {
+      "name": "Elotes",
+      "price": 7.99,
+      "description": "Fresh boiled & grilled corn topped with chipotle mayo, Tajin seasoning, and queso fresco."
+     },
+     {
+      "name": "Empanadas",
+      "price": 8.99,
+      "description": "Your choice of beef or chicken. Served with a side of Tex Mex sauce."
+     },
+     {
+      "name": "Empanada Mix",
+      "price": 9.99,
+      "description": "A mix of three empanadas of your choice!"
+     }
+    ]
+   },
+   {
+    "section": "Tacos & Fajitas",
+    "items": [
+     {
+      "name": "Baja Blackened Chicken Tacos",
+      "price": 12.99,
+      "description": "Blackened Chicken, Pineapple Mango Salsa, Lettuce, Avocado, Queso Fresco"
+     },
+     {
+      "name": "Baja Blackened Salmon Tacos",
+      "price": 17.98,
+      "description": "Blackened Salmon, Pineapple Mango Salsa, Lettuce, Avocado, Queso Fresco"
+     },
+     {
+      "name": "Baja Blackened Shrimp Tacos",
+      "price": 17.98,
+      "description": "Blackened Shrimp, Pineapple Mango Salsa, Lettuce, Avocado, Queso Fresco"
+     },
+     {
+      "name": "Fajitas Costenas",
+      "price": 16.14,
+      "description": "Protein of your choice served on a sizzler over peppers and onions. Served with a side of rice and refried beans & tortillas of your choice. Sour cream, guacamole. pico de gallo, and Jack cheese served on the side."
+     },
+     {
+      "name": "Fajitas Costenas with 2 Proteins",
+      "price": 18.04,
+      "description": "Proteins of your choice served on a sizzler over peppers and onions. Topped with Oaxaca cheese. Served with a side of rice and beans as well as tortillas of your choice. Sour cream, guacamole. pico de gallo, and Jack cheese served on the side."
+     },
+     {
+      "name": "Tacos De Birria (3pcs)",
+      "price": 17.99,
+      "description": "Shredded beef and Oaxaca cheese in corn tortilla, dipped in consomme and fried until crispy. Served with a side of consomme."
+     },
+     {
+      "name": "Tacos De La Casa with Al Pastor (3pcs)",
+      "price": 10.99,
+      "description": "Marinated pork tacos topped with cilantro, red onion, and pineapple. Your choice of tortilla."
+     },
+     {
+      "name": "Tex Mex Tacos (3pcs)",
+      "price": 10.99,
+      "description": "Topped with lettuce, pico, queso fresco, and tex mex sauce. Served with a side of salsa ranchera. Your choice of tortilla & protein."
+     }
+    ]
+   },
+   {
+    "section": "Burritos",
+    "items": [
+     {
+      "name": "TnT Burrito",
+      "price": 16.14,
+      "description": "Our traditional oversized burrito filled with rice, beans, peppers, onions, lettuce, Jack cheese, pico de gallo, and your choice of protein."
+     },
+     {
+      "name": "TNT Burrito - VEGAN",
+      "price": 16.99,
+      "description": "Choice of roasted sweet potato, BBQ Cauliflower, or Mixed Veggies. Filled with rice, black beans, lettuce, pico & vegan cheese. Pico, guacamole & vegan sour cream served on the side."
+     },
+     {
+      "name": "Gordo Burrito",
+      "price": 22.79,
+      "description": "Our GIANT three pound burrito filled with protein of choice, rice, beans, lettuce, and pico. Topped with salsa verde, salsa roja, and queso fresco. Sour cream, guacamole, and pico de gallo on the side."
+     },
+     {
+      "name": "El Norteno Burrito",
+      "price": 18.04,
+      "description": "Crispy spicy chicken tenders, tortilla chips, shredded lettuce, queso Oaxaca, rst chipotle corn, salsa ranchera, and side of French fries"
+     }
+    ]
+   },
+   {
+    "section": "Platillos",
+    "items": [
+     {
+      "name": "Blackened Salmon",
+      "price": 23.74,
+      "description": "Salmon filet blackened with Cajun spices. Served on a sizzler with roasted potatoes, peppers and onions. Served with a side of Boom Boom sauce."
+     },
+     {
+      "name": "Carne Asada",
+      "price": 21.99,
+      "description": "Thin strip of grilled Angus beef served over onions and peppers and a side salad with ranch dressing. Includes 3 flour tortillas"
+     },
+     {
+      "name": "Chimichanga",
+      "price": 22.79,
+      "description": "Your choice of protein, rice, beans and cheese wrapped in a flour tortilla and deep fried to golden perfection. Drizzled with boom boom sauce & served on a sizzler."
+     },
+     {
+      "name": "Chuleta con Cherry Peppers",
+      "price": 17.09,
+      "description": "Juicy bone-in pork chops sauteed with peppers, onions, tomatoes & hot cherry peppers. Finished with a rich garlic white wine gravy"
+     },
+     {
+      "name": "Chicken Ranchero",
+      "price": 22.79,
+      "description": "Seasoned grilled chicken smothered in salsa Ranchero over roasted veggies. Topped with garlic shrimp, queso fresco & sliced avocado"
+     },
+     {
+      "name": "Combo Chilango",
+      "price": 27.99,
+      "description": "Skirt steak and shrimp drizzled in salsa roja. Served on a sizzler over peppers and onions with an elote & chorizo."
+     },
+     {
+      "name": "Enchiladas de la Casa",
+      "price": 17.99,
+      "description": "Your choice of protein. Enchiladas come topped with Jack cheese, lettuce, pico & queso fresco. Topped with your choice of salsa."
+     },
+     {
+      "name": "Flautas De Pollo",
+      "price": 17.99,
+      "description": "Crispy flautas de pollo serve with salsa roja & salsa ranchero, queso fresco, shredded lettuce, pico de gallo, crema Mexicana & Tex Mex sauce"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hunan-manor-highland-park",
+  "name": "Hunan Manor",
+  "cuisine": "Chinese",
+  "area": "Highland Park",
+  "address": "239 Raritan Ave, Highland Park, NJ 08904",
+  "lat": 40.499114,
+  "lng": -74.428572,
+  "phone": "(732) 247-8813",
+  "website": "https://www.hunanmanornj.com/",
+  "orderUrl": "https://order.mealkeyway.com/merchant/79545859364e536e5932696a42354e49674b373371513d3d/main",
+  "priceLevel": "$$",
+  "hours": "Mon-Thu 11:30 AM-9:15 PM; Fri-Sun 11:30 AM-9:30 PM; closed Wed",
+  "tags": [
+   "Hunan",
+   "spicy"
+  ],
+  "menuSource": "https://www.ubereats.com/store/hunan-manor/KEfMia5RQoykUdrw3zJPeg",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Cold Dishes 凉菜冷盘",
+    "items": [
+     {
+      "name": "Slice Pig Ear with Chili Oil 湘味卤猪耳",
+      "price": 13.95,
+      "description": null
+     },
+     {
+      "name": "Slice Beef and Tripe with Chili Oil 夫妻肺片",
+      "price": 15.95,
+      "description": null
+     },
+     {
+      "name": "Preserved Egg with Hot Pepper 凉拌皮蛋",
+      "price": 12.95,
+      "description": null
+     },
+     {
+      "name": "Cold Cucumber Salad 凉拌黄瓜",
+      "price": 10.95,
+      "description": null
+     },
+     {
+      "name": "Slice Spiced Beef 五香牛肉",
+      "price": 15.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Hunan Special 湖南风味",
+    "items": [
+     {
+      "name": "Sauteed Pork with Hot Pepper 农家小炒肉",
+      "price": 24.95,
+      "description": null
+     },
+     {
+      "name": "Sauteed Sliced Lamb with Fresh Chili 小炒黑山羊",
+      "price": 26.95,
+      "description": null
+     },
+     {
+      "name": "Smoked Bamboo Shoots with Pork Tripe 烟笋肚丝",
+      "price": 24.95,
+      "description": null
+     },
+     {
+      "name": "Sauteed Pork Kidney with Fresh Chili 火爆腰花",
+      "price": 21.95,
+      "description": null
+     },
+     {
+      "name": "Sour Long Bean with Minced Pork and Rice Sheet 酸豆角肉末粉皮",
+      "price": 22.95,
+      "description": null
+     },
+     {
+      "name": "White Pepper with Preserved Beef 白辣椒腊牛肉",
+      "price": 26.95,
+      "description": null
+     },
+     {
+      "name": "Dry Turnip with Preserved Pork 萝卜干腊肉",
+      "price": 24.95,
+      "description": null
+     },
+     {
+      "name": "Minced Pork with Sour Long Bean 酸豆角肉末",
+      "price": 22.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Vegetables 时蔬",
+    "items": [
+     {
+      "name": "Sauteed String Bean with Eggplant 豆角茄条",
+      "price": 18.95,
+      "description": null
+     },
+     {
+      "name": "Sauteed Cabbage 手撕包菜",
+      "price": 17.95,
+      "description": null
+     },
+     {
+      "name": "Sauteed Spicy Cauliflower 大盘花菜",
+      "price": 18.95,
+      "description": null
+     },
+     {
+      "name": "Sauteed Dried String Bean 干煸四季豆",
+      "price": 18.95,
+      "description": null
+     },
+     {
+      "name": "Shredded Potato with Egg Yolk 金沙土豆丝",
+      "price": 20.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "American Style",
+    "items": [
+     {
+      "name": "General Tso's Chicken 左宗棠鸡",
+      "price": 20.95,
+      "description": null
+     },
+     {
+      "name": "Kung Pao Chicken 宫保鸡丁",
+      "price": 22.95,
+      "description": null
+     },
+     {
+      "name": "Shreded Pork with Garlic Sauce 鱼香肉丝",
+      "price": 22.95,
+      "description": null
+     },
+     {
+      "name": "Sauteed Beef with Spring Onion 葱爆牛",
+      "price": 26.95,
+      "description": null
+     },
+     {
+      "name": "Chicken with Broccoli 芥兰鸡片",
+      "price": 20.95,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Noodle and Rice 粉面饭",
+    "items": [
+     {
+      "name": "Mei Fun with Smoked Bamboo Shoots and Shredded Steak 小椒牛烟笋盖粉",
+      "price": 19.95,
+      "description": null
+     },
+     {
+      "name": "Fried Rice Hunan Style 湘西炒饭",
+      "price": 16.95,
+      "description": null
+     },
+     {
+      "name": "Sour String Bean Mei Fun in Soup 酸豆角米粉",
+      "price": 17.95,
+      "description": null
+     },
+     {
+      "name": "Braised Mei Fun Hunan Style 湖南卤粉",
+      "price": 17.95,
+      "description": null
+     },
+     {
+      "name": "Scallion Pancake 葱油饼",
+      "price": 8.95,
+      "description": null
+     },
+     {
+      "name": "Crispy Spring Roll 湖南春卷(2PC)",
+      "price": 6.95,
+      "description": null
+     },
+     {
+      "name": "Deep Fried Buns 炸馒头",
+      "price": 11.95,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "chef-tan-highland-park",
+  "name": "Chef Tan",
+  "cuisine": "Chinese",
+  "area": "Highland Park",
+  "address": "441 Raritan Ave, Highland Park, NJ 08904",
+  "lat": 40.500538,
+  "lng": -74.42452,
+  "phone": "(732) 843-6900",
+  "website": null,
+  "orderUrl": "https://www.ubereats.com/store/chef-tan-highland-park/n5y3UYi2Q0OjfqrzwN4pIg",
+  "priceLevel": "$$",
+  "hours": "Daily 11:00 AM-9:00 PM (Uber Eats listing)",
+  "tags": [
+   "Sichuan",
+   "Hunan",
+   "spicy"
+  ],
+  "menuSource": "https://www.ubereats.com/store/chef-tan-highland-park/n5y3UYi2Q0OjfqrzwN4pIg",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Appetizers",
+    "items": [
+     {
+      "name": "X1. Dandan Noodles 川味担担面",
+      "price": 10.99,
+      "description": null
+     },
+     {
+      "name": "X2. Clear Noodles 旋子凉粉",
+      "price": 9.99,
+      "description": null
+     },
+     {
+      "name": "X3. Wontons In Chili Oil 红油抄手",
+      "price": 8.99,
+      "description": null
+     },
+     {
+      "name": "X4. Wontons In Chicken Broths 鸡汤抄手",
+      "price": 8.99,
+      "description": null
+     },
+     {
+      "name": "X6. Scallion Pancake 葱油饼",
+      "price": 7.99,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Specialties of Sichuan Style",
+    "items": [
+     {
+      "name": "C1. Chef Tan Broiled Whole Fish (Tilapia) 风味烤鱼（侧鱼）",
+      "price": 40.99,
+      "description": null
+     },
+     {
+      "name": "C1. Chef Tan Broiled Whole Fish (Sea Bass) 风味烤鱼（鲈鱼）",
+      "price": 46.99,
+      "description": null
+     },
+     {
+      "name": "C2. Boneless Sliced Fish In Chongqing Style 青椒沸腾鱼",
+      "price": 33.99,
+      "description": null
+     },
+     {
+      "name": "C3. Duck Blood & Tripes In Spicy Sauce 金牌毛血旺",
+      "price": 36.99,
+      "description": null
+     },
+     {
+      "name": "C4. Beer Rib Eye Pot In Sichuan Style 川味啤酒肥牛",
+      "price": 33.99,
+      "description": null
+     },
+     {
+      "name": "C5. Fried Chicken In Chongqing Style 簸箕辣子鸡",
+      "price": 25.99,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Specialties of Hunan Style",
+    "items": [
+     {
+      "name": "H1. Hunan Style Sauteed Chicken (Bone In) 湘味走地鸡",
+      "price": 35.99,
+      "description": null
+     },
+     {
+      "name": "H2. Spicy&Sour Rib Eye Pot In Pumpkin Sauce 酸汤肥牛",
+      "price": 30.99,
+      "description": null
+     },
+     {
+      "name": "H3. Fresh Sliced Fish W. Pickled Vegetable 酸菜活鱼",
+      "price": 34.99,
+      "description": null
+     },
+     {
+      "name": "H4. Spicy Crispy Short Ribs 飘香排骨",
+      "price": 23.99,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Americanized Chinese Dishes",
+    "items": [
+     {
+      "name": "K1. Kung Pao Chicken 宫保鸡丁",
+      "price": 17.99,
+      "description": null
+     },
+     {
+      "name": "K2. Garlic Pork 鱼香肉",
+      "price": 17.99,
+      "description": null
+     },
+     {
+      "name": "K3. Cumin Lamb 孜然羊",
+      "price": 22.99,
+      "description": null
+     },
+     {
+      "name": "K3. Cumin Chicken 孜然鸡",
+      "price": 17.99,
+      "description": null
+     },
+     {
+      "name": "K3. Cumin Beef 孜然牛",
+      "price": 22.99,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Vegetable",
+    "items": [
+     {
+      "name": "V1. Sauteed Cabbage 手撕包菜",
+      "price": 16.99,
+      "description": null
+     },
+     {
+      "name": "V2. Vegetarian String Beans 干煸四季豆",
+      "price": 15.99,
+      "description": null
+     },
+     {
+      "name": "V3. Eggplant W. Garlic Sauce 鱼香茄子",
+      "price": 15.99,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Fried Rice",
+    "items": [
+     {
+      "name": "F1. Chef Tan Style Fried Rice 稻香炒饭",
+      "price": 15.99,
+      "description": null
+     },
+     {
+      "name": "F2. Scallion Fried Rice 葱香炒饭",
+      "price": 13.99,
+      "description": null
+     },
+     {
+      "name": "F3. Shrimp Fried Rice 虾仁炒饭",
+      "price": 14.99,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Lo Mein",
+    "items": [
+     {
+      "name": "Pork Lo Mein 捞面(肉)",
+      "price": 13.99,
+      "description": null
+     },
+     {
+      "name": "Chicken Lo Mein 捞面(鸡)",
+      "price": 13.99,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Rice Noodle Soup / Soup Noodle",
+    "items": [
+     {
+      "name": "M1 Sour Minced Pork W. Sour Pickled Bean Noodle 酸豆角肉末(面）",
+      "price": 14.99,
+      "description": null
+     },
+     {
+      "name": "M2 Smoked Bamboo W. Pig Tripe Noodle 烟笋肚丝(面）",
+      "price": 15.99,
+      "description": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "smash-and-spice-highland-park",
+  "name": "Smash and Spice",
+  "cuisine": "Halal",
+  "area": "Highland Park",
+  "address": "323 Raritan Ave, Highland Park, NJ 08904",
+  "lat": 40.499657,
+  "lng": -74.426964,
+  "phone": "(848) 228-4033",
+  "website": "https://www.smashandspice.com/",
+  "orderUrl": "https://www.doordash.com/store/smash-and-spice-highland-park-38903149/",
+  "priceLevel": null,
+  "hours": "Mon-Thu 11 AM-10 PM; Fri-Sat 11 AM-11 PM; Sun 12-9 PM",
+  "tags": [
+   "halal",
+   "zabiha halal",
+   "burgers",
+   "chapli"
+  ],
+  "menuSource": "https://www.smashandspice.com/",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Appetizers",
+    "items": [
+     {
+      "name": "8oz homemade Hummus",
+      "price": 4.99,
+      "description": "Creamy, fresh hummus made daily"
+     },
+     {
+      "name": "Falafel",
+      "price": 2.49,
+      "description": "Crispy chickpea fritters; 2pc/4pc/6pc $2.49 / $3.99 / $5.99"
+     },
+     {
+      "name": "Nuggets",
+      "price": 5.99,
+      "description": "Crispy halal chicken nuggets; 6pc/12pc $5.99 / $11.99"
+     },
+     {
+      "name": "Tenders",
+      "price": 6.99,
+      "description": "Juicy halal chicken tenders, hand-breaded; 3pc/6pc $6.99 / $13.99"
+     },
+     {
+      "name": "Shrimp 8pc",
+      "price": 9.99,
+      "description": "Regular or coconut"
+     },
+     {
+      "name": "Onion Rings",
+      "price": 4.99,
+      "description": null
+     },
+     {
+      "name": "Mozzarella Sticks 6pc",
+      "price": 4.99,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Fries",
+    "items": [
+     {
+      "name": "Fries",
+      "price": 3.99,
+      "description": null
+     },
+     {
+      "name": "Cheese Fries",
+      "price": 5.99,
+      "description": null
+     },
+     {
+      "name": "Loaded Fries",
+      "price": 9.99,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Wings",
+    "items": [
+     {
+      "name": "Wings",
+      "price": 9.49,
+      "description": "Halal chicken wings; 6pc/12pc/24pc $9.49 / $16.99 / $29.99; garlic, mango, buffalo, honey mustard, BBQ, spicy BBQ"
+     }
+    ]
+   },
+   {
+    "section": "Salads",
+    "items": [
+     {
+      "name": "Garden Salad",
+      "price": 6.99,
+      "description": null
+     },
+     {
+      "name": "Chicken Salad",
+      "price": 8.99,
+      "description": null
+     },
+     {
+      "name": "Lamb Salad",
+      "price": 8.99,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Mains",
+    "items": [
+     {
+      "name": "Chapli Platter",
+      "price": 11.99,
+      "description": "Authentic chapli platter; Chicken $11.99 / Beef $13.99 / Mix $12.99"
+     },
+     {
+      "name": "Chicken Platter",
+      "price": 9.99,
+      "description": "Tender halal chicken served with rice and sides"
+     },
+     {
+      "name": "Lamb Platter",
+      "price": 10.99,
+      "description": "Halal lamb with traditional sides"
+     },
+     {
+      "name": "Mix Platter",
+      "price": 10.99,
+      "description": "Combination of chicken and lamb"
+     },
+     {
+      "name": "Falafel Platter",
+      "price": 9.99,
+      "description": "Crispy falafel with fresh vegetables and tahini"
+     },
+     {
+      "name": "Fish/Shrimp Platter",
+      "price": 11.99,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Burgers",
+    "items": [
+     {
+      "name": "Zinger Burger",
+      "price": 9.99,
+      "description": "Spicy, crispy chicken burger with signature zinger sauce (Regular/Spicy/Chipotle)"
+     },
+     {
+      "name": "Smash Burger",
+      "price": 6.99,
+      "description": "Hand-smashed halal beef patty; Single/Double/Triple $6.99 / $8.99 / $10.99"
+     },
+     {
+      "name": "Veggie Burger",
+      "price": 7.99,
+      "description": "Plant-based patty with fresh vegetables"
+     },
+     {
+      "name": "Fish Burger",
+      "price": 7.99,
+      "description": "Crispy fish fillet with tartar sauce"
+     },
+     {
+      "name": "Chapli Burger",
+      "price": 7.99,
+      "description": "Chapli kebab in a burger bun (Chicken/Beef)"
+     }
+    ]
+   },
+   {
+    "section": "Wraps",
+    "items": [
+     {
+      "name": "Pita Wrap",
+      "price": 9.99,
+      "description": "Chicken / Lamb / Falafel"
+     },
+     {
+      "name": "Pita Chapli Wrap",
+      "price": 9.99,
+      "description": "Chicken / Beef"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "midori-sushi-highland-park",
+  "name": "Midori Sushi",
+  "cuisine": "Japanese",
+  "area": "Highland Park",
+  "address": "237 Raritan Ave, Highland Park, NJ 08904",
+  "lat": 40.499093,
+  "lng": -74.428633,
+  "phone": "(732) 246-4511",
+  "website": null,
+  "orderUrl": "https://menupages.com/midori-sushi/237-raritan-ave-highland-park",
+  "priceLevel": null,
+  "hours": null,
+  "tags": [
+   "sushi",
+   "hibachi",
+   "lunch specials"
+  ],
+  "menuSource": "https://menupages.com/midori-sushi/237-raritan-ave-highland-park",
+  "verifiedOn": "2026-10-11",
+  "menu": [
+   {
+    "section": "Bento Box(L)",
+    "items": [
+     {
+      "name": "LB/Tofu Teriyaki",
+      "price": 15.54,
+      "description": null
+     },
+     {
+      "name": "LB/Veg Teriyaki",
+      "price": 15.54,
+      "description": null
+     },
+     {
+      "name": "LB/Chicken Katsu",
+      "price": 16.74,
+      "description": null
+     },
+     {
+      "name": "LB/Pork Katsu",
+      "price": 16.74,
+      "description": null
+     },
+     {
+      "name": "LB/Tempura",
+      "price": 16.74,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Appetizers",
+    "items": [
+     {
+      "name": "Edamame",
+      "price": 7.8,
+      "description": "Broiled soy bean"
+     },
+     {
+      "name": "Nasu Niniku",
+      "price": 7.8,
+      "description": "Stir-fry oriental eggplant w. garlic and teriyaki sauce"
+     },
+     {
+      "name": "Spring Roll",
+      "price": 9.0,
+      "description": "mixed vegetables"
+     },
+     {
+      "name": "Yasai Gyoza",
+      "price": 9.0,
+      "description": "vegetable dumplings"
+     },
+     {
+      "name": "Gyoza",
+      "price": 9.0,
+      "description": "Japanese style meat and vegetable dumplings"
+     },
+     {
+      "name": "Shumai",
+      "price": 9.0,
+      "description": "Japanese Style shrimp steamed dumplings"
+     }
+    ]
+   },
+   {
+    "section": "Roll/Hand Roll",
+    "items": [
+     {
+      "name": "Alaskan Roll",
+      "price": 8.34,
+      "description": "(Fresh salmon, avocado, cucumber)"
+     },
+     {
+      "name": "Asparagus Roll",
+      "price": 5.94,
+      "description": null
+     },
+     {
+      "name": "Avocado Roll",
+      "price": 5.94,
+      "description": null
+     },
+     {
+      "name": "Chicken Tempura Roll",
+      "price": 9.0,
+      "description": null
+     },
+     {
+      "name": "California Roll",
+      "price": 7.14,
+      "description": "(Crab, avocado, cucumber)"
+     },
+     {
+      "name": "Boston Roll",
+      "price": 7.8,
+      "description": "(Shrimp, cucumber, avocado)"
+     },
+     {
+      "name": "Christmas Roll",
+      "price": 9.0,
+      "description": "(Tuna, avocado inside, caviar outside)"
+     },
+     {
+      "name": "Crunch Shrimp Roll",
+      "price": 9.6,
+      "description": "(Cucumber, avocado, crab, shrimp, crunchy)"
+     }
+    ]
+   },
+   {
+    "section": "Midori Special Rolls",
+    "items": [
+     {
+      "name": "Naruto Roll",
+      "price": 16.74,
+      "description": "Fresh Tuna, Salmon, Yellowtail and avocado & caviar rolled with cucumber wrap"
+     },
+     {
+      "name": "Midori Spicy Tuna Roll",
+      "price": 16.74,
+      "description": "Spicy red tuna marinated w/ chef's spicy sauce outside, inside w/ cucumber and avocado."
+     },
+     {
+      "name": "Amazing Roll",
+      "price": 17.94,
+      "description": "Spicy crunchy tuna and avocado inside, top w/ fresh mango and tobiko."
+     },
+     {
+      "name": "Volcano Roll",
+      "price": 16.74,
+      "description": "Yellow fin tuna, Alaska salmon, avocado & cucumber inside, caviar & 2 kinds spicy sauce on top"
+     },
+     {
+      "name": "Fire Cracker Roll",
+      "price": 17.94,
+      "description": "Shrimp tempura, cucumber inside, topped with spicy kani and garnished with eel sauce and spicy mayo"
+     },
+     {
+      "name": "New Jersey Roll",
+      "price": 17.94,
+      "description": "Spicy crunchy tuna and cucumber inside, outside top with BBQ eel and creamy avocado on top."
+     }
+    ]
+   },
+   {
+    "section": "Hibachi Dinners",
+    "items": [
+     {
+      "name": "H/Veg Dinner (D)",
+      "price": 16.74,
+      "description": null
+     },
+     {
+      "name": "H/Chicken (D)",
+      "price": 21.54,
+      "description": null
+     },
+     {
+      "name": "H/Shrimp (D)",
+      "price": 26.34,
+      "description": null
+     },
+     {
+      "name": "H/Salmon (D)",
+      "price": 26.34,
+      "description": null
+     }
+    ]
+   },
+   {
+    "section": "Donburi Noodles",
+    "items": [
+     {
+      "name": "Oyako Don(D)",
+      "price": 17.94,
+      "description": "Tender pleces of chicken, onions, and eggs are slmmered inan urami-rich sauce and then poured over a bowl of steamed rice."
+     },
+     {
+      "name": "Katsu Don(D)",
+      "price": 17.94,
+      "description": "Deep Frled pork cutlet And egge onlons slmmered in a sweet and savory sauce over a bowl of steamed rice"
+     },
+     {
+      "name": "Shrimp Tempura Udon",
+      "price": 19.14,
+      "description": "noodles with fried shrimp and vegetable tempura in hot soup"
+     },
+     {
+      "name": "Nabeyaki Udon",
+      "price": 19.14,
+      "description": "noodles with tempura shrimp, chicken ,vegetable in hot pot"
+     }
+    ]
+   }
+  ]
+ }
+]

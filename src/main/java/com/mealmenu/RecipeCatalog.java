@@ -1,6 +1,6 @@
 package com.mealmenu;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
@@ -19,7 +19,7 @@ public final class RecipeCatalog {
             r("grilled-cheese", "Grilled Cheese Sandwich", 15, "A crisp sandwich with a melted cheese center.", "Lunch|Hearty|Hot|Mild|Comforting|Vegetarian", "Bread|Cheddar|Butter", "Butter one side of each bread slice.", "Place cheese between the unbuttered sides.", "Cook in a skillet over medium-low heat, turning once, until crisp and melted."),
             r("chicken-caesar", "Chicken Caesar Salad", 25, "Romaine, grilled chicken, croutons, and Caesar dressing.", "Lunch|Cold|Light|Mild|Fresh|High-Protein", "Chicken breast|Romaine|Croutons|Parmesan|Caesar dressing", "Season and cook the chicken until fully cooked, then let it rest.", "Toss chopped romaine with Caesar dressing and croutons.", "Slice the chicken over the salad and finish with Parmesan."),
             r("cobb-salad", "Cobb Salad", 25, "A colorful salad with chicken, egg, avocado, and bacon.", "Lunch|Cold|Light|Mild|Fresh|High-Protein|Gluten-Free", "Chicken breast|Egg|Avocado|Bacon|Romaine|Tomato", "Cook the chicken, egg, and bacon; cool them slightly.", "Arrange chopped romaine in a bowl and add rows of the toppings.", "Dress lightly with vinaigrette and serve."),
-            r("turkey-club", "Turkey Club Sandwich", 20, "A layered turkey sandwich with bacon and fresh vegetables.", "Lunch|Hearty|Mild|Quick|High-Protein", "Turkey|Bread|Bacon|Lettuce|Tomato|Mayonnaise", "Toast three slices of bread and cook the bacon until crisp.", "Spread mayonnaise on the toast and layer turkey, bacon, lettuce, and tomato.", "Stack, secure with picks, and cut into quarters."),
+            r("turkey-club", "Turkey Club Sandwich", 20, "A layered turkey sandwich with bacon and fresh vegetables.", "Lunch|Cold|Hearty|Mild|Quick|High-Protein", "Turkey|Bread|Bacon|Lettuce|Tomato|Mayonnaise", "Toast three slices of bread and cook the bacon until crisp.", "Spread mayonnaise on the toast and layer turkey, bacon, lettuce, and tomato.", "Stack, secure with picks, and cut into quarters."),
             r("tuna-melt", "Tuna Melt", 18, "Warm tuna salad and melted cheese on toasted bread.", "Lunch|Hearty|Hot|Mild|Comforting|High-Protein", "Canned tuna|Mayonnaise|Celery|Bread|Cheddar", "Mix drained tuna with mayonnaise and chopped celery.", "Spoon onto bread and top with cheddar.", "Broil or pan-toast until the bread is crisp and cheese is melted."),
             r("tomato-soup", "Tomato Soup and Grilled Cheese", 25, "A familiar comfort-food pairing for a chilly day.", "Lunch|Dinner|Hot|Sour|Mild|Comforting|Vegetarian", "Tomato|Vegetable broth|Cream|Bread|Cheddar", "Simmer tomatoes and vegetable broth until soft, then blend carefully.", "Stir in a splash of cream and season the soup.", "Make a grilled cheese sandwich and serve alongside the soup."),
             r("peanut-butter-banana", "Peanut Butter Banana Sandwich", 7, "A quick sweet-and-savory sandwich.", "Breakfast|Lunch|Late-night snack|Cold|Sweet|Hearty|Quick|Vegetarian", "Bread|Peanut butter|Banana|Honey", "Spread peanut butter over one or two slices of bread.", "Add banana slices and a small drizzle of honey.", "Close the sandwich or serve open-faced."),
@@ -61,35 +61,55 @@ public final class RecipeCatalog {
     }
 
     public static Optional<Recipe> byId(String id) {
+        if (EatPlan.isEat(id)) {
+            return EatPlan.toRecipe(id);
+        }
         return RECIPES.stream().filter(recipe -> recipe.id().equals(id)).findFirst();
     }
 
-    public static Recipe recommend(Set<String> selectedTags, String excludedId) {
-        List<Recipe> candidates = new ArrayList<>(RECIPES);
-        if (candidates.size() > 1 && excludedId != null) {
-            candidates.removeIf(recipe -> recipe.id().equals(excludedId));
-        }
-        if (selectedTags.isEmpty()) {
-            return candidates.get(ThreadLocalRandom.current().nextInt(candidates.size()));
-        }
+    /** Diet choices are requirements: every selected one must apply. */
+    public static final Set<String> DIET_TAGS = Set.of(
+            "Vegetarian", "Gluten-Free", "Dairy-Free", "Low-Carb", "High-Protein");
+    /** Meal times are requirements too; picking several means any of them. */
+    public static final Set<String> MEAL_TAGS = Set.of(
+            "Breakfast", "Lunch", "Dinner", "Late-night snack");
 
-        int highestScore = candidates.stream()
-                .mapToInt(recipe -> matchingTagCount(recipe, selectedTags))
-                .max()
-                .orElse(0);
-        if (highestScore == 0) {
-            return candidates.get(ThreadLocalRandom.current().nextInt(candidates.size()));
+    /**
+     * Picks a recipe that satisfies every selected diet tag and at least one selected
+     * meal time, preferring the best match on flavor, temperature and mood.
+     * Recipes in {@code seenIds} are skipped until every match has been shown.
+     * Empty when nothing satisfies the requirements.
+     */
+    public static Optional<Recipe> recommend(Set<String> selectedTags, Set<String> seenIds) {
+        List<Recipe> eligible = matching(selectedTags);
+        if (eligible.isEmpty()) {
+            return Optional.empty();
         }
-        List<Recipe> bestMatches = candidates.stream()
-                .filter(recipe -> matchingTagCount(recipe, selectedTags) == highestScore)
-                .toList();
-        return bestMatches.get(ThreadLocalRandom.current().nextInt(bestMatches.size()));
+        List<Recipe> fresh = eligible.stream().filter(recipe -> !seenIds.contains(recipe.id())).toList();
+        List<Recipe> candidates = fresh.isEmpty() ? eligible : fresh;
+        int best = candidates.stream().mapToInt(recipe -> preferenceScore(recipe, selectedTags))
+                .max().orElse(0);
+        List<Recipe> top = candidates.stream()
+                .filter(recipe -> preferenceScore(recipe, selectedTags) == best).toList();
+        return Optional.of(top.get(ThreadLocalRandom.current().nextInt(top.size())));
     }
 
-    private static int matchingTagCount(Recipe recipe, Set<String> selectedTags) {
+    /** All recipes meeting the diet and meal-time requirements. */
+    public static List<Recipe> matching(Set<String> selectedTags) {
+        Set<String> meals = new HashSet<>(selectedTags);
+        meals.retainAll(MEAL_TAGS);
+        return RECIPES.stream()
+                .filter(recipe -> selectedTags.stream().filter(DIET_TAGS::contains)
+                        .allMatch(recipe.tags()::contains))
+                .filter(recipe -> meals.isEmpty() || meals.stream().anyMatch(recipe.tags()::contains))
+                .toList();
+    }
+
+    private static int preferenceScore(Recipe recipe, Set<String> selectedTags) {
         int matches = 0;
         for (String selectedTag : selectedTags) {
-            if (recipe.tags().contains(selectedTag)) {
+            if (!DIET_TAGS.contains(selectedTag) && !MEAL_TAGS.contains(selectedTag)
+                    && recipe.tags().contains(selectedTag)) {
                 matches++;
             }
         }
@@ -105,12 +125,19 @@ public final class RecipeCatalog {
             String ingredients,
             String... steps
     ) {
+        // "Quick" follows the cooking time so the tag can't drift from the minutes shown.
+        Set<String> tagSet = new HashSet<>(Set.of(tags.split("\\|")));
+        if (minutes <= 20) {
+            tagSet.add("Quick");
+        } else {
+            tagSet.remove("Quick");
+        }
         return new Recipe(
                 id,
                 name,
                 minutes,
                 description,
-                Set.of(tags.split("\\|")),
+                tagSet,
                 List.of(ingredients.split("\\|")),
                 List.of(steps)
         );

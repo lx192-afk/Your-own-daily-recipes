@@ -1,0 +1,2745 @@
+[
+  {
+    "id": "ru-hungry",
+    "name": "RU Hungry",
+    "cuisine": "Sandwiches",
+    "area": "Downtown New Brunswick",
+    "address": "95 Hamilton St, New Brunswick, NJ 08901",
+    "lat": 40.4990167,
+    "lng": -74.4482554,
+    "phone": "(732) 246-2177",
+    "website": null,
+    "orderUrl": "https://www.ubereats.com/store/ru-hungry-new-brunswick/MR-9uyfURhit7TpdsnL2JQ",
+    "priceLevel": "$",
+    "hours": "Daily 8am–3:45am",
+    "tags": [
+      "Cheap eats",
+      "Late night",
+      "Vegetarian options"
+    ],
+    "menuSource": "https://www.ubereats.com/store/ru-hungry-new-brunswick/MR-9uyfURhit7TpdsnL2JQ",
+    "verifiedOn": "2026-10-11",
+    "menu": [
+      {
+        "section": "The Original Famous Fat Sandwiches",
+        "items": [
+          {
+            "name": "Fat Cat",
+            "price": 15.0,
+            "description": "Double cheeseburger, lettuce, tomato, fries, mayo & ketchup."
+          },
+          {
+            "name": "Fat Beach",
+            "price": 16.2,
+            "description": "Cheesesteak, chicken fingers, mozzarella sticks, fries, lettuce, ketchup."
+          },
+          {
+            "name": "Fat Moon",
+            "price": 16.2,
+            "description": "Chicken fingers, bacon, egg, lettuce, tomato, fries, mayo & ketchup."
+          },
+          {
+            "name": "Fat Fillippino",
+            "price": 17.99,
+            "description": "Cheesesteak, gyro, chicken fingers, mozzarella sticks, lettuce, tomato, fries, white sauce."
+          },
+          {
+            "name": "Fat Johnny",
+            "price": 17.99,
+            "description": "Cheesesteak, chicken fingers, mozzarella sticks, turkey bacon, onion rings, fries, marinara."
+          },
+          {
+            "name": "Chicken Fingers Fat Cat",
+            "price": 15.0,
+            "description": "Chicken fingers, lettuce, tomato, fries, mayo & ketchup."
+          },
+          {
+            "name": "Fat Darrell",
+            "price": 16.2,
+            "description": "Chicken fingers, mozzarella sticks, fries, marinara sauce."
+          },
+          {
+            "name": "Chicken Fat Cat",
+            "price": 15.0,
+            "description": "Grilled chicken with cheese, lettuce, tomato, fries, mayo & ketchup."
+          },
+          {
+            "name": "Fat Mojo",
+            "price": 16.2,
+            "description": "Chicken fingers, mozzarella sticks, fries, honey mustard."
+          },
+          {
+            "name": "Fat Knight",
+            "price": 16.2,
+            "description": "Cheesesteak, chicken fingers, mozzarella sticks, fries, marinara sauce."
+          },
+          {
+            "name": "Fat ZBT",
+            "price": 16.79,
+            "description": "Chicken fingers, mozzarella sticks, onion rings, fries, BBQ sauce."
+          },
+          {
+            "name": "Fat Nini 69",
+            "price": 16.2,
+            "description": "Cheesesteak, chicken fingers, mozzarella sticks, fries honey mustard."
+          },
+          {
+            "name": "Fat Cat Mclean",
+            "price": 16.79,
+            "description": "Burger, chicken fingers, mozzarella sticks, fries, cheese sauce, honey mustard."
+          },
+          {
+            "name": "Fat E. Legrand #52",
+            "price": 17.99,
+            "description": "Buffalo boneless wings, mozzarella sticks, onion rings, fries, turkey bacon, jalapeño, ranch dressing."
+          }
+        ]
+      },
+      {
+        "section": "Fat Burgers",
+        "items": [
+          {
+            "name": "Philly Burger",
+            "price": 11.4,
+            "description": "American cheese, onions, peppers, and mushrooms."
+          },
+          {
+            "name": "Double Stack Burger",
+            "price": 13.8,
+            "description": "2 all beef burgers, American cheese, lettuce, tomato, onion, pickles, mustard, and ketchup."
+          },
+          {
+            "name": "Big Texan Burger",
+            "price": 12.6,
+            "description": "Cheddar, Turkey bacon, onion rings, lettuce, tomato, and BBQ sauce."
+          },
+          {
+            "name": "La Cheeseburger",
+            "price": 10.2,
+            "description": "American cheese, lettuce, tomato, onion, mayo, and ketchup."
+          },
+          {
+            "name": "Morning Burger",
+            "price": 12.6,
+            "description": "American cheese, fried egg, and Turkey bacon."
+          }
+        ]
+      },
+      {
+        "section": "Double Stuffed Cheesesteaks",
+        "items": [
+          {
+            "name": "Philly Cheesesteak",
+            "price": 15.59,
+            "description": "Served with American cheese."
+          },
+          {
+            "name": "Chicken Cheesesteak",
+            "price": 18.0,
+            "description": "Served with American cheese."
+          },
+          {
+            "name": "Buffalo Chicken Cheesesteak",
+            "price": 15.59,
+            "description": "Served with pepper jack cheese, on a fresh sub roll or wrap."
+          },
+          {
+            "name": "Pizza Cheesesteak",
+            "price": 15.59,
+            "description": "Served with mozzarella cheese and tomato sauce, on a fresh sub roll or wrap."
+          }
+        ]
+      },
+      {
+        "section": "Wrap it Up",
+        "items": [
+          {
+            "name": "Buffalo Chicken Wrap",
+            "price": 13.8,
+            "description": "Grilled chicken, lettuce, tomatoes, onions, Turkey bacon, pepper jack cheese, buffalo sauce, and ranch dressing."
+          },
+          {
+            "name": "Greek Chicken Wrap",
+            "price": 14.39,
+            "description": "Grilled chicken, lettuce, tomatoes, red onion, feta cheese, olives, stuffed grape leaves, and tzatziki sauce."
+          },
+          {
+            "name": "Grilled Chicken Wrap",
+            "price": 13.19,
+            "description": "Grilled chicken, lettuce, tomato, red onion, pepper jack cheese, and chipotle mayo."
+          },
+          {
+            "name": "Philly Grilled Chicken Wrap",
+            "price": 15.0,
+            "description": "Grilled chicken, lettuce, mushrooms, peppers, onions, American cheese, ketchup, BBQ sauce, and buffalo sauce."
+          }
+        ]
+      },
+      {
+        "section": "Veggie Creations",
+        "items": [
+          {
+            "name": "Veggie Indian",
+            "price": 15.59,
+            "description": "Falafel, fries, mozzarella sticks, lettuce, tomato, onion, and marinara sauce."
+          },
+          {
+            "name": "Veggie Fat Cat",
+            "price": 15.0,
+            "description": "Veggie burger, fries, lettuce, tomato, onion, mayo, and ketchup."
+          },
+          {
+            "name": "Veggie Butt",
+            "price": 15.0,
+            "description": "Mozzarella sticks, fries, jalapeño peppers, lettuce, tomato, onion, ranch dressing, and hot sauce."
+          },
+          {
+            "name": "Veggie Quesadilla",
+            "price": 14.39,
+            "description": "Grilled onions, pepper, mushrooms, jalapeños, and tomatoes."
+          }
+        ]
+      },
+      {
+        "section": "Breakfast Fat Sandwiches",
+        "items": [
+          {
+            "name": "Big Daddy Chunky Sandwich",
+            "price": 10.79,
+            "description": "2 eggs, Turkey bacon, beef salami, cheese, hash browns, and ketchup."
+          },
+          {
+            "name": "Hangover Helper Sandwich",
+            "price": 13.8,
+            "description": "2 eggs, chicken tenders, sautéed onions, Turkey bacon, cheese, hash browns, and ketchup."
+          },
+          {
+            "name": "Morning Riser Sandwich",
+            "price": 13.8,
+            "description": "2 eggs, steak, sautéed onions, Turkey bacon, American cheese, hash browns, and ketchup."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "destination-dogs",
+    "name": "Destination Dogs",
+    "cuisine": "American",
+    "area": "Downtown New Brunswick",
+    "address": "101 Paterson St, New Brunswick, NJ 08901",
+    "lat": 40.4946999,
+    "lng": -74.4481901,
+    "phone": "(732) 993-1016",
+    "website": "https://destinationdogs.com/",
+    "orderUrl": "https://order.toasttab.com/online/destination-dogs",
+    "priceLevel": null,
+    "hours": "Mon–Wed 11:30am–12am; Thu–Fri 11:30am–2am; Sat 12pm–2am; Sun 12pm–12am",
+    "tags": [
+      "Late night",
+      "Vegetarian options"
+    ],
+    "menuSource": "https://order.toasttab.com/online/destination-dogs",
+    "verifiedOn": "2026-10-11",
+    "menu": [
+      {
+        "section": "Domestic Dogs",
+        "items": [
+          {
+            "name": "Cyclone",
+            "price": 9.5,
+            "description": "All beef hot dog, chili, raw onions, spicy brown mustard, scallions"
+          },
+          {
+            "name": "Oscar",
+            "price": 10.0,
+            "description": "Chicken sausage, guacamole, tomato slice, red onion, chipotle mayo, micro greens"
+          },
+          {
+            "name": "Gandolfini",
+            "price": 13.0,
+            "description": "Italian sausage, pepperoni, marinara, fresh mozzarella, Calabrian chili, basil"
+          },
+          {
+            "name": "Cleo McDowell",
+            "price": 9.0,
+            "description": "All beef hot dog, cheese sauce, secret sauce, lettuce, onions, pickle, sesame seeds"
+          },
+          {
+            "name": "Brat Starr",
+            "price": 13.0,
+            "description": "Bratwurst, beer braised onions & sauerkraut, cheese sauce, yellow mustard, pickle, pretzel bun"
+          },
+          {
+            "name": "Chicago Bull",
+            "price": 9.5,
+            "description": "All beef hot dog, yellow mustard, relish, tomato, onions, pickle, sport peppers, celery salt"
+          },
+          {
+            "name": "Surfer Rosa",
+            "price": 13.0,
+            "description": "Bacon wrapped hot dog, black beans, shredded jack cheese, guacamole, pico de gallo, pickled jalapeños, sour cream, cilantro"
+          },
+          {
+            "name": "Waco Kid",
+            "price": 11.0,
+            "description": "All beef hot dog, chili, cheese sauce, Fritos, pickled jalapeños, sour cream, scallion"
+          },
+          {
+            "name": "Nicky Newarker",
+            "price": 8.0,
+            "description": "All beef hot dog, fried potatoes, fried onions & peppers, yellow mustard"
+          },
+          {
+            "name": "Trenton Thunder",
+            "price": 12.0,
+            "description": "Sausage patties, cheese sauce, pork roll, scrambled egg, chipotle ketchup, round brioche"
+          }
+        ]
+      },
+      {
+        "section": "International Dogs",
+        "items": [
+          {
+            "name": "Conquistadog",
+            "price": 10.5,
+            "description": "Chorizo, fried potatoes, brava sauce, scallions"
+          },
+          {
+            "name": "Bun Mi",
+            "price": 11.0,
+            "description": "Cantonese sausage, pickled carrots & daikon, cucumber, fresh jalapeños, mayo, cilantro"
+          },
+          {
+            "name": "Hidden Dragon",
+            "price": 10.5,
+            "description": "Cantonese sausage, hoisin, cucumbers in chili crisp, sesame seed, shredded scallion, cilantro"
+          },
+          {
+            "name": "Achilles Meal",
+            "price": 16.5,
+            "description": "Lamb sausage, cucumber, lettuce, tomato, red onion, tzatziki, mint"
+          },
+          {
+            "name": "Wayfinder",
+            "price": 11.0,
+            "description": "Bacon wrapped hot dog, teriyaki, grilled pineapple, honey mustard, sesame, scallions"
+          }
+        ]
+      },
+      {
+        "section": "Burgers and Chicken Sandwiches",
+        "items": [
+          {
+            "name": "Classic Cheese Burger",
+            "price": 14.5,
+            "description": "Burger patty on a toasted brioche bun with house made cheese sauce, iceberg lettuce, tomato, red onion, pickles, mayo, and ketchup"
+          },
+          {
+            "name": "Patty Mahomes",
+            "price": 15.25,
+            "description": "Burger patty with jack cheese, bacon, iceberg lettuce, fried onion rings, pickles, pickled jalapeños, and barbecue sauce"
+          },
+          {
+            "name": "Southern Fried Chicken Sandwich",
+            "price": 13.75,
+            "description": "Breaded and fried chicken breast on a toasted brioche bun with pickles, coleslaw, and mayo"
+          },
+          {
+            "name": "Dutton Ranch",
+            "price": 14.5,
+            "description": "Fried chicken breast with bacon, iceberg lettuce, tomato, red onion, pickles, and ranch dressing"
+          }
+        ]
+      },
+      {
+        "section": "Pilot Your Own Dog",
+        "items": [
+          {
+            "name": "All Beef Dog",
+            "price": 6.0,
+            "description": null
+          },
+          {
+            "name": "Vegetarian Sausage",
+            "price": 8.0,
+            "description": null
+          },
+          {
+            "name": "Impossible Vegan Hot Dog",
+            "price": 8.0,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Appetizers & Sides",
+        "items": [
+          {
+            "name": "Wings",
+            "price": 12.5,
+            "description": "Buffalo, barbecue, or Korean barbecue, served with blue cheese dressing and celery"
+          },
+          {
+            "name": "Patatas Ridiculas",
+            "price": 13.0,
+            "description": "Fried potatoes, duck confit, bacon, cheese sauce, melted jack cheese, brown gravy, pickled jalapeños, sour cream, scallions"
+          },
+          {
+            "name": "Fried Cheese Curds",
+            "price": 12.0,
+            "description": "Breaded and fried mozzarella cheese curds with marinara"
+          },
+          {
+            "name": "Fries",
+            "price": 5.0,
+            "description": null
+          },
+          {
+            "name": "Truffle Fries",
+            "price": 6.0,
+            "description": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "krispy-pizza",
+    "name": "Krispy Pizza",
+    "cuisine": "Pizza",
+    "area": "Downtown New Brunswick",
+    "address": "50 College Ave, New Brunswick, NJ 08901",
+    "lat": 40.499552,
+    "lng": -74.4485127,
+    "phone": "(732) 658-3800",
+    "website": null,
+    "orderUrl": "https://slicelife.com/restaurants/nj/new-brunswick/08901/krispy-pizza-new-brunswick/menu",
+    "priceLevel": "$$",
+    "hours": "Mon–Sat 11am–8:45pm (online ordering hours)",
+    "tags": [],
+    "menuSource": "https://slicelife.com/restaurants/nj/new-brunswick/08901/krispy-pizza-new-brunswick/menu",
+    "verifiedOn": "2026-10-11",
+    "menu": [
+      {
+        "section": "Pizza Slices",
+        "items": [
+          {
+            "name": "Cheese Pizza Slice",
+            "price": 4.0,
+            "description": null
+          },
+          {
+            "name": "Sicilian Pizza Slice",
+            "price": 4.5,
+            "description": null
+          },
+          {
+            "name": "Grandma Pizza Slice",
+            "price": 4.0,
+            "description": null
+          },
+          {
+            "name": "Special Pizza Slice",
+            "price": 5.0,
+            "description": null
+          },
+          {
+            "name": "Premium Pizza Slice",
+            "price": 5.5,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Pizza",
+        "items": [
+          {
+            "name": "Round Cheese Pizza",
+            "price": 24.24,
+            "description": null
+          },
+          {
+            "name": "Sicilian Pizza",
+            "price": 29.5,
+            "description": "Cheese, Tomato Sauce, Grated Cheese Parmesan"
+          },
+          {
+            "name": "Margherita Pizza",
+            "price": 28.5,
+            "description": "Fresh mozzarella, tomato sauce, grated parmesan cheese, olive oil and basil."
+          },
+          {
+            "name": "Grandma Pizza",
+            "price": 30.0,
+            "description": "Fresh mozzarella, tomato sauce, olive oil and basil."
+          },
+          {
+            "name": "Vodka Pizza",
+            "price": 28.5,
+            "description": null
+          },
+          {
+            "name": "Palermo Square Pizza",
+            "price": 35.75,
+            "description": "Fresh mozzarella covered with crushed tomatoes, grated romano & extra virgin oil."
+          },
+          {
+            "name": "White Pizza",
+            "price": 28.75,
+            "description": null
+          },
+          {
+            "name": "Chicken Parmigiana Pizza",
+            "price": 32.5,
+            "description": null
+          },
+          {
+            "name": "Cheesesteak Pizza",
+            "price": 32.5,
+            "description": null
+          },
+          {
+            "name": "Buffalo Chicken Pizza",
+            "price": 32.5,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Appetizers",
+        "items": [
+          {
+            "name": "French Fries",
+            "price": 6.0,
+            "description": null
+          },
+          {
+            "name": "Buffalo Wings",
+            "price": 12.5,
+            "description": "Buffalo sauce, side bleu cheese."
+          },
+          {
+            "name": "Chicken Fingers",
+            "price": 10.25,
+            "description": null
+          },
+          {
+            "name": "Mozzarella Sticks",
+            "price": 9.5,
+            "description": null
+          },
+          {
+            "name": "Garlic Bread",
+            "price": 7.0,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Hot Heros",
+        "items": [
+          {
+            "name": "Chicken Parm Hero",
+            "price": 13.95,
+            "description": "Mozzarella, chicken fried, tomato sauce."
+          },
+          {
+            "name": "Chicken Parm Vodka Hero",
+            "price": 14.45,
+            "description": "Mozzarella, vodka sauce, chicken fried"
+          },
+          {
+            "name": "Chicken California Hero",
+            "price": 13.95,
+            "description": "Fried or grilled chicken, lettuce, tomatoes, onions & mayo."
+          },
+          {
+            "name": "Eggplant Parm Hero",
+            "price": 13.95,
+            "description": "Mozzarella, eggplant, tomato sauce."
+          },
+          {
+            "name": "Meatball Parm Hero",
+            "price": 13.95,
+            "description": "Mozzarella, meatball, tomato sauce."
+          }
+        ]
+      },
+      {
+        "section": "Cheesesteak Heroes",
+        "items": [
+          {
+            "name": "Cheesesteak Hero",
+            "price": 13.95,
+            "description": "With onions."
+          },
+          {
+            "name": "Cheeseteak The Works Hero",
+            "price": 14.25,
+            "description": "Peppers, onions, mushrooms & hot peppers."
+          },
+          {
+            "name": "Cheesesteak California Hero",
+            "price": 13.95,
+            "description": "Mozzarella, steak, lettuce, tomato, onion and mayo."
+          }
+        ]
+      },
+      {
+        "section": "Wraps",
+        "items": [
+          {
+            "name": "Grilled Chicken Wrap",
+            "price": 13.95,
+            "description": "Lettuce, tomatoes & balsamic vinaigrette."
+          },
+          {
+            "name": "Grilled Chicken Caesar Wrap",
+            "price": 13.95,
+            "description": "Lettuce, caesar dressing and grilled chicken."
+          },
+          {
+            "name": "Buffalo Chicken Wrap",
+            "price": 13.95,
+            "description": "Lettuce, tomatoes & bleu cheese,"
+          }
+        ]
+      },
+      {
+        "section": "Pasta",
+        "items": [
+          {
+            "name": "Pasta with Tomato Sauce",
+            "price": 13.5,
+            "description": null
+          },
+          {
+            "name": "Pasta with Meatballs",
+            "price": 18.5,
+            "description": null
+          },
+          {
+            "name": "Pasta with Meat Sauce",
+            "price": 16.95,
+            "description": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mamouns-falafel",
+    "name": "Mamoun's Falafel",
+    "cuisine": "Middle Eastern",
+    "area": "Downtown New Brunswick",
+    "address": "58 Easton Ave, New Brunswick, NJ 08901",
+    "lat": 40.497734,
+    "lng": -74.4491325,
+    "phone": "(732) 640-0794",
+    "website": "https://www.mamouns.com/location/mamouns-new-brunswick-nj/",
+    "orderUrl": "https://www.ubereats.com/store/mamouns-falafel-new-brunswick/CPiWvnvYQHu8p9sYTa-Jow",
+    "priceLevel": "$",
+    "hours": "Daily 11am–11pm",
+    "tags": [
+      "Cheap eats",
+      "Vegetarian options",
+      "Halal"
+    ],
+    "menuSource": "https://www.ubereats.com/store/mamouns-falafel-new-brunswick/CPiWvnvYQHu8p9sYTa-Jow",
+    "verifiedOn": "2026-10-11",
+    "menu": [
+      {
+        "section": "Traditional Sandwiches",
+        "items": [
+          {
+            "name": "Falafel Sandwich",
+            "price": 8.17,
+            "description": "Finely ground chickpeas, onions, parsley, garlic, and spices, deep fried; served in a pita pocket with lettuce, tomatoes, onions, and tahineh sauce"
+          },
+          {
+            "name": "Shawarma Sandwich (lamb)",
+            "price": 11.72,
+            "description": "100% lamb made with our signature spices and cooked slowly on a stand up rotisserie; served in a pita pocket with lettuce, tomatoes, onions, and tahineh sauce"
+          },
+          {
+            "name": "Chicken Kebob Sandwich",
+            "price": 11.48,
+            "description": "Marinated cubes of chicken breast (halal), skewered and grilled; served in a pita pocket with lettuce, tomatoes, onions, and tahineh sauce"
+          }
+        ]
+      },
+      {
+        "section": "Signature Sandwiches",
+        "items": [
+          {
+            "name": "Classic",
+            "price": 9.67,
+            "description": "Falafel and Hummus: served in a pita pocket with lettuce, tomatoes, onions, and tahineh sauce"
+          },
+          {
+            "name": "West Village",
+            "price": 9.67,
+            "description": "Falafel and Baba Ganouj: served in a pita pocket with lettuce, tomatoes, onions, pickles, and tahineh sauce"
+          },
+          {
+            "name": "East Village",
+            "price": 10.88,
+            "description": "Falafel, Hummus, and Tabbouleh: served in a pita pocket with lettuce, tomatoes, onions, olives, and tahineh sauce"
+          },
+          {
+            "name": "Manhattan",
+            "price": 12.45,
+            "description": "Falafel, Hummus, Baba Ganouj, and Tabbouleh: served in a pita pocket with lettuce, tomatoes, onions, pickles, pickled turnips, olives, and tahineh sauce"
+          },
+          {
+            "name": "Macdougal",
+            "price": 12.57,
+            "description": "Shawarma and Falafel: served in a pita pocket with lettuce, tomatoes, onions, and tahineh sauce"
+          },
+          {
+            "name": "Bleeker",
+            "price": 12.57,
+            "description": "Chicken Kebob and Falafel: served in a pita pocket with lettuce, tomatoes, onions, and tahineh sauce"
+          },
+          {
+            "name": "West 4th",
+            "price": 12.57,
+            "description": "Shawarma and Hummus: served in a pita pocket with lettuce, tomatoes, onions, and tahineh sauce"
+          },
+          {
+            "name": "Sullivan",
+            "price": 14.02,
+            "description": "Chicken Kebob, Hummus, and Tabbouleh: served in a pita pocket with lettuce, tomatoes, onions, and tahineh sauce"
+          }
+        ]
+      },
+      {
+        "section": "Plates",
+        "items": [
+          {
+            "name": "Hummus Bowl",
+            "price": 11.97,
+            "description": "A bowl of hummus garnished with onions, tomatoes, pickles, turnips, olives, and olive oil; topped with 2 falafel balls; and served with pita croutons and a pita bread on the side (add chicken/shawarma for an..."
+          },
+          {
+            "name": "Falafel Plate",
+            "price": 11.97,
+            "description": "Finely ground chickpeas, onions, parsley, garlic, and spices, deep fried; served over choice of salad or seasoned rice (or both for addt’l charge) and tahineh sauce, with a pita bread on the side"
+          },
+          {
+            "name": "Shawarma Plate (lamb)",
+            "price": 18.02,
+            "description": "100% lamb made with our signature spices and cooked slowly on a stand up rotisserie; served over choice of salad or seasoned rice (or both for addt’l charge) and tahineh sauce, with a pita bread on the side"
+          },
+          {
+            "name": "Chicken Kebob Plate",
+            "price": 17.65,
+            "description": "Marinated cubes of chicken breast, skewered and grilled; served over choice of salad or seasoned rice (or both for addt’l charge) and tahineh sauce, with a pita bread on the side"
+          },
+          {
+            "name": "Combo Plate",
+            "price": 13.18,
+            "description": "A plate with choice of any 3 vegetarian items (add meat for addt’l charge); served over choice of salad or seasoned rice (or both for addt’l charge) and tahineh sauce, with a pita bread on the side"
+          }
+        ]
+      },
+      {
+        "section": "Sides",
+        "items": [
+          {
+            "name": "Falafel Side",
+            "price": 3.98,
+            "description": "4 falafel balls with tahineh sauce on the side"
+          },
+          {
+            "name": "Seasoned Fries",
+            "price": 5.8,
+            "description": "Served with choice of garlic dipping sauce or ketchup"
+          },
+          {
+            "name": "Hummus Side",
+            "price": 4.68,
+            "description": "Chickpea spread made with lemon, garlic, and tahineh; served with pita bread"
+          },
+          {
+            "name": "Baba Ganouj Side",
+            "price": 4.68,
+            "description": "Roasted eggplant spread made with parsley, garlic, and tahineh; served with pita bread"
+          },
+          {
+            "name": "Lentil Soup",
+            "price": 4.83,
+            "description": "Served with pita chips"
+          },
+          {
+            "name": "Seasoned Rice",
+            "price": 2.42,
+            "description": "Made with our own blend of spices"
+          },
+          {
+            "name": "Tabbouleh Salad",
+            "price": 6.64,
+            "description": "Bulgur wheat salad mixed with finely chopped mint parsley, garlic, onions, and peppers; garnished with tomatoes, pickles, pickled turnips, olive oil, and lemon juice"
+          },
+          {
+            "name": "Mamoun's Salad",
+            "price": 4.22,
+            "description": "Lettuce, tomatoes, onions, pickles, pickled turnips, olives, feta cheese; olive oil, lemon juice, and tahineh sauce"
+          }
+        ]
+      },
+      {
+        "section": "Pastries",
+        "items": [
+          {
+            "name": "Baklava (walnuts)",
+            "price": 4.22,
+            "description": "Fillo dough stuffed with walnuts"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "noodle-gourmet",
+    "name": "Noodle Gourmet",
+    "cuisine": "Chinese",
+    "area": "Downtown New Brunswick",
+    "address": "43 Easton Ave, New Brunswick, NJ 08901",
+    "lat": 40.4978568,
+    "lng": -74.4487811,
+    "phone": "(732) 828-8188",
+    "website": null,
+    "orderUrl": "https://www.ubereats.com/store/noodle-gourmet/-rsTfEmhTPSdVSeX1Da6hQ",
+    "priceLevel": "$",
+    "hours": "Mon closed; Tue–Sat 11:30am–12am; Sun 11:30am–9:45pm",
+    "tags": [
+      "Cheap eats",
+      "Boba",
+      "Vegetarian options"
+    ],
+    "menuSource": "https://www.ubereats.com/store/noodle-gourmet/-rsTfEmhTPSdVSeX1Da6hQ",
+    "verifiedOn": "2026-10-11",
+    "menu": [
+      {
+        "section": "Top Seller-熱門菜單",
+        "items": [
+          {
+            "name": "N3.Hong Kong Style Beef Chow Mein-干炒牛肉麵",
+            "price": 16.5,
+            "description": "(Stir-Fried with Thin Egg Noodle)"
+          },
+          {
+            "name": "N8.Gourmet Chow Udon-炒烏冬",
+            "price": 18.6,
+            "description": "Roast Pork & Shrimp & Fish Cake"
+          },
+          {
+            "name": "N16.Beef w.Black Pepper Chow Udon-黑椒牛肉粗炒",
+            "price": 17.1,
+            "description": null
+          },
+          {
+            "name": "T1.Beef Chow Fun-干炒牛河",
+            "price": 17.4,
+            "description": null
+          },
+          {
+            "name": "AF.Fried Chicken Wing-炸雞翼",
+            "price": 9.42,
+            "description": null
+          },
+          {
+            "name": "D70.Beef with Broccoli with Rice-芥蘭牛肉飯",
+            "price": 15.54,
+            "description": null
+          },
+          {
+            "name": "Roast Duck-燒鴨",
+            "price": 19.2,
+            "description": null
+          },
+          {
+            "name": "Soy Sauce Chicken-豉油雞",
+            "price": 17.7,
+            "description": null
+          },
+          {
+            "name": "A4.Roast Pork Bun-叉燒包",
+            "price": 5.46,
+            "description": null
+          },
+          {
+            "name": "D25.Beef with Tomato in Egg Sauce Over Rice-番茄牛肉飯",
+            "price": 16.5,
+            "description": null
+          },
+          {
+            "name": "D27.Sesame Chicken with Rice-芝麻雞飯",
+            "price": 14.94,
+            "description": null
+          },
+          {
+            "name": "D28.General Tso's Chicken with Rice-左宗雞飯",
+            "price": 14.94,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Hong Kong Style BBQ-燒味類",
+        "items": [
+          {
+            "name": "Roast Pork-叉燒肉",
+            "price": 11.1,
+            "description": null
+          },
+          {
+            "name": "Soy Sauce Chicken-豉油雞",
+            "price": 17.7,
+            "description": null
+          },
+          {
+            "name": "Roast Duck-燒鴨",
+            "price": 19.2,
+            "description": null
+          },
+          {
+            "name": "A23.White Rice-白飯",
+            "price": 2.34,
+            "description": null
+          },
+          {
+            "name": "A25.Stir-Fried Broccoli-清炒芥蘭",
+            "price": 11.4,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "California Noodle-港式炒麵(脆麵)",
+        "items": [
+          {
+            "name": "C1.Roast Pork California Noodle-叉燒炒麵",
+            "price": 17.46,
+            "description": null
+          },
+          {
+            "name": "C2.White Meat Chicken California Noodle-雞片炒麵",
+            "price": 17.46,
+            "description": null
+          },
+          {
+            "name": "C3.Shrimp California Noodle-蝦仁炒麵",
+            "price": 17.94,
+            "description": null
+          },
+          {
+            "name": "C4.Seafood California Noodle-海鮮炒麵",
+            "price": 19.14,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Chow Fun-炒河粉",
+        "items": [
+          {
+            "name": "T1.Beef Chow Fun-干炒牛河",
+            "price": 17.4,
+            "description": null
+          },
+          {
+            "name": "T2.Chicken Chow Fun-雞片炒河",
+            "price": 17.1,
+            "description": null
+          },
+          {
+            "name": "T3.Shrimp Chow Fun-蝦仁炒河",
+            "price": 17.4,
+            "description": null
+          },
+          {
+            "name": "T4.Vegetable Chow Fun-素菜炒河",
+            "price": 16.5,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Congee-美味粥品",
+        "items": [
+          {
+            "name": "P11.Plain Congee-白粥",
+            "price": 7.2,
+            "description": "Without Scallions"
+          },
+          {
+            "name": "P1.Century Egg & Pork Congee-皮旦瘦肉粥",
+            "price": 11.1,
+            "description": null
+          },
+          {
+            "name": "P2.Beef Congee-牛肉粥",
+            "price": 11.94,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Milk Tea-奶茶",
+        "items": [
+          {
+            "name": "Black Milk Tea-原味奶茶",
+            "price": 6.9,
+            "description": null
+          },
+          {
+            "name": "Green Milk Tea-茉香奶茶",
+            "price": 6.9,
+            "description": null
+          },
+          {
+            "name": "Oolong Milk Tea-烏龍奶茶",
+            "price": 7.2,
+            "description": null
+          },
+          {
+            "name": "Thai Ice Milk Tea-泰式奶茶",
+            "price": 7.5,
+            "description": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yumsem-eats",
+    "name": "Yumsem Eats",
+    "cuisine": "Korean",
+    "area": "Downtown New Brunswick",
+    "address": "37 Easton Ave, New Brunswick, NJ 08901",
+    "lat": 40.4977753,
+    "lng": -74.4485844,
+    "phone": "(917) 945-0274",
+    "website": null,
+    "orderUrl": "https://www.ubereats.com/store/yumsem-eats/EEHu-xYkU0qsDbtN5Hkt9Q",
+    "priceLevel": null,
+    "hours": "Mon–Wed 11am–10:30pm; Thu–Sat 11am–12:30am; Sun 11am–10:30pm",
+    "tags": [
+      "Halal",
+      "Late night",
+      "Boba"
+    ],
+    "menuSource": "https://www.ubereats.com/store/yumsem-eats/EEHu-xYkU0qsDbtN5Hkt9Q",
+    "verifiedOn": "2026-10-11",
+    "menu": [
+      {
+        "section": "Bibimbap",
+        "items": [
+          {
+            "name": "Beef Bulgogi Bibimbap",
+            "price": 11.19,
+            "description": "Savory, thin-sliced halal beef bulgogi marinated in a rich, sweet-soy sauce, served over rice and topped with crisp lettuce, fresh julienned carrots, and soft scrambled egg. A perfectly balanced rice bowl of bold..."
+          },
+          {
+            "name": "Jangjorim (Braised Beef) Bibimbap",
+            "price": 11.19,
+            "description": "Slow-braised halal beef simmered in a savory soy-based sauce, served over warm rice and layered with crisp lettuce, fresh julienned carrots, and fluffy scrambled egg. A rich, comforting rice bowl with traditional..."
+          },
+          {
+            "name": "Chicken Bulgogi Bibimbap",
+            "price": 10.49,
+            "description": "Halal chicken bulgogi marinated in a savory-sweet Korean sauce, served over warm rice and layered with crisp lettuce, fresh julienned carrots, and fluffy scrambled egg. A well-balanced rice bowl packed with bold..."
+          },
+          {
+            "name": "Gochujang Chicken Bibimbap",
+            "price": 10.49,
+            "description": "Halal chicken tossed in a bold, spicy-sweet gochujang sauce, served over warm rice and layered with crisp lettuce, fresh julienned carrots, and fluffy scrambled egg. A flavor-packed rice bowl with just the right..."
+          },
+          {
+            "name": "Tofu Bibimbap",
+            "price": 10.49,
+            "description": "Lightly seasoned tofu served over warm rice and layered with crisp romaine lettuce, fresh julienned carrots, and fluffy scrambled egg. A wholesome, balanced rice bowl with clean flavors and satisfying texture. Sauces..."
+          }
+        ]
+      },
+      {
+        "section": "Yumsem K-Fried Chicken",
+        "items": [
+          {
+            "name": "8 Fried Chicken Wings Online Special",
+            "price": 9.23,
+            "description": "Premium Zabiha Halal chicken wings, twice-fried for maximum crispiness and tossed in our signature sweet and savory Korean glaze.."
+          },
+          {
+            "name": "12 Wings",
+            "price": 17.99,
+            "description": "Premium Zabiha Halal chicken wings, twice-fried for maximum crispiness and tossed in our signature sweet and savory Korean glaze.."
+          },
+          {
+            "name": "24 Wings",
+            "price": 31.99,
+            "description": "Premium Zabiha Halal chicken wings, twice-fried for maximum crispiness and tossed in our signature sweet and savory Korean glaze.."
+          },
+          {
+            "name": "4 Drums & Thighs Online Special",
+            "price": 7.55,
+            "description": "Crispy, twice-fried halal chicken drums and thighs tossed in a bold Korean-style glaze—sweet, savory, and perfectly seasoned. \"Red Hot Pepper\" flavor pictured. Zabiha."
+          },
+          {
+            "name": "8 PC Fried Chicken Drums & Thighs",
+            "price": 16.99,
+            "description": "Crispy, twice-fried halal chicken drums and thighs tossed in a bold Korean-style glaze—sweet, savory, and perfectly seasoned. \"Curry\" flavor pictured. Zabiha"
+          }
+        ]
+      },
+      {
+        "section": "Ramen",
+        "items": [
+          {
+            "name": "Yumsem Ramen",
+            "price": 6.99,
+            "description": "A comforting bowl of rich, savory broth with springy ramen noodles, topped with fresh vegetables, finished with classic Korean-inspired flavors for a warm and satisfying meal."
+          },
+          {
+            "name": "Spicy Yumsem Ramen",
+            "price": 6.99,
+            "description": "A comforting bowl of rich, savory broth with spicy springy ramen noodles, topped with fresh vegetables, finished with classic Korean-inspired flavors for a warm and satisfying meal."
+          },
+          {
+            "name": "Kimchi Ramen",
+            "price": 6.99,
+            "description": "A comforting bowl of rich, savory broth with springy ramen noodles, topped with kimchi, finished with classic Korean-inspired flavors for a warm and satisfying meal."
+          },
+          {
+            "name": "Vegetable Ramen",
+            "price": 6.99,
+            "description": "A comforting bowl of rich, savory broth with spicy springy ramen noodles, topped with fresh vegetables (carrots, scallions and onions, spinach), finished with classic Korean-inspired flavors for a warm and satisfying..."
+          }
+        ]
+      },
+      {
+        "section": "Kimbap",
+        "items": [
+          {
+            "name": "Yumsem Kimbap",
+            "price": 10.99,
+            "description": "Roasted seaweed wrapped around sesame-seasoned rice and a flavorful filling of pickled radish, braised burdock, carrot, spinach, braised fried tofu, egg, and savory beef sausage—classic, balanced, and satisfying...."
+          },
+          {
+            "name": "Beef Bulgogi Kimbap",
+            "price": 8.04,
+            "description": "Roasted seaweed wrapped around sesame-seasoned rice with pickled radish, braised burdock, carrot, spinach, and crisp romaine lettuce, finished with tender beef bulgogi marinated in a sweet-savory soy, garlic, and..."
+          },
+          {
+            "name": "Tofu Kimbap",
+            "price": 8.04,
+            "description": "Roasted seaweed wrapped around sesame-seasoned rice with pickled radish, braised burdock, carrot, spinach, fluffy egg, and savory braised fried tofu. Sauces sold separately."
+          },
+          {
+            "name": "Egg Kimbap",
+            "price": 10.99,
+            "description": "Roasted seaweed wrapped around sesame-seasoned rice with pickled radish, braised burdock, carrot, spinach, fluffy egg, and savory braised fried tofu. Sauces sold separately."
+          }
+        ]
+      },
+      {
+        "section": "Tteokbokki",
+        "items": [
+          {
+            "name": "Rosé Tteokbokki",
+            "price": 11.19,
+            "description": "This popular Korean comfort food features chewy rice cakes, savory fish cakes, scallions, and onions tossed in a rich, velvety rosé cream sauce. A perfect blend of traditional Korean flavors and modern creamy..."
+          },
+          {
+            "name": "Yumsem Tteokbokki",
+            "price": 10.49,
+            "description": "Our signature Korean street food favorite! Chewy rice cakes and savory fish cakes tossed with fresh scallions and onions in a flavorful, spicy house seasoning. Classic, authentic comfort food. Customize with premium..."
+          }
+        ]
+      },
+      {
+        "section": "Yumsem Loaded Fries",
+        "items": [
+          {
+            "name": "Beef Bulgogi Fries",
+            "price": 10.89,
+            "description": "Bulgogi beef, soy sauce, crispy fries, and your choice of sauce."
+          },
+          {
+            "name": "Chicken Bulgogi Fries",
+            "price": 10.89,
+            "description": "Bulgogi chicken, soy sauce, crispy fries, and your choice of sauce."
+          },
+          {
+            "name": "Honey Chicken Fries",
+            "price": 10.89,
+            "description": "Honey glazed Korean fried chicken, scallions, sesame seeds, and your choice of sauce"
+          }
+        ]
+      },
+      {
+        "section": "Noodle & Fried Rice",
+        "items": [
+          {
+            "name": "Japchae",
+            "price": 7.69,
+            "description": "A beloved Korean classic made with stir fried glass noodles tossed in a lightly sweet, soy-sesame sauce for a perfectly balanced, comforting dish. Pick your toppings and make it your way! Sauces sold separately."
+          },
+          {
+            "name": "Japchaebap",
+            "price": 8.39,
+            "description": "A popular Korean dish where japchae (stir-fried glass noodles) is served over a bed of white rice. Pick your toppings and make it your way! Sauces sold separately."
+          },
+          {
+            "name": "Kimchi Fried Rice",
+            "price": 8.39,
+            "description": "Wok-fried rice tossed with bold, tangy kimchi, savory seasonings, and aromatic garlic, creating a rich, smoky dish packed with umami and a satisfying kick of spice. Sauces sold separately."
+          }
+        ]
+      },
+      {
+        "section": "Boba Milk Tea",
+        "items": [
+          {
+            "name": "Coconut Thai",
+            "price": 6.99,
+            "description": null
+          },
+          {
+            "name": "Strawberry Milk Tea",
+            "price": 6.99,
+            "description": null
+          },
+          {
+            "name": "Thai",
+            "price": 6.99,
+            "description": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ramen-nagomi-easton",
+    "name": "Ramen Nagomi (Easton Ave)",
+    "cuisine": "Japanese",
+    "area": "Downtown New Brunswick",
+    "address": "176 Easton Ave, New Brunswick, NJ 08901",
+    "lat": 40.500049,
+    "lng": -74.454842,
+    "phone": "(732) 275-8004",
+    "website": "https://ramennagomi.com/",
+    "orderUrl": "https://ramennagomi.com/easton-avenue/",
+    "priceLevel": null,
+    "hours": "Mon–Thu 12pm–3:30pm, 5pm–9pm; Fri–Sat 12pm–3:30pm, 5pm–10pm; Sun 12pm–3:30pm, 5pm–9pm",
+    "tags": [
+      "Vegetarian options"
+    ],
+    "menuSource": "https://ramennagomi.com/easton-avenue/",
+    "verifiedOn": "2026-10-11",
+    "menu": [
+      {
+        "section": "Ramen",
+        "items": [
+          {
+            "name": "Spicy Miso Ramen",
+            "price": 21.0,
+            "description": "house togarashi miso blend + niman ranch pork bone stock;"
+          },
+          {
+            "name": "Miso Shrimp Ramen",
+            "price": 21.0,
+            "description": "house miso shrimp blend; shrimp, kikrurage, nori, scallions, hanjuku tamago"
+          },
+          {
+            "name": "Tonkotsu Ramen",
+            "price": 20.0,
+            "description": "rich, shoyu seasoned niman ranch pork bone stock; slow braised"
+          },
+          {
+            "name": "Vegetarian Curry & King Trumpet Mushroom Ramen",
+            "price": 21.0,
+            "description": "house curry blend + vegan dashi; fried king trumpet mushroom,"
+          },
+          {
+            "name": "Vegetarian Spicy Miso Ramen",
+            "price": 19.0,
+            "description": "house togarashi miso blend + vegan dashi; tempura-fried tofu, sweet"
+          },
+          {
+            "name": "Burnt Garlic Tonkotsu Ramen",
+            "price": 20.0,
+            "description": "rich, shoyu seasoned niman ranch pork bone stock; slow braised"
+          }
+        ]
+      },
+      {
+        "section": "Rice Bowls – Donburi",
+        "items": [
+          {
+            "name": "Chicken Karaage Don",
+            "price": 10.0,
+            "description": "Japanese style fried chicken, spicy mayo, scallions, furikake, short grain"
+          },
+          {
+            "name": "Kakuni Don",
+            "price": 10.0,
+            "description": "slow braised pork belly, scallions, sesame seeds, short grain rice"
+          },
+          {
+            "name": "Rock Shrimp Tempura Don",
+            "price": 12.0,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Appetizers - Small Dishes",
+        "items": [
+          {
+            "name": "Edamame",
+            "price": 6.0,
+            "description": "boiled soybeans, maldon sea salt"
+          },
+          {
+            "name": "Cucumber Sunomono Salad",
+            "price": 7.0,
+            "description": "cucumber, ponzu dressing, pickled vegetable Add Crab Meat +$3"
+          },
+          {
+            "name": "Hijiki Tofu",
+            "price": 8.0,
+            "description": "organic tofu cutlet, hijiki quinoa salad, sesame, scallions"
+          },
+          {
+            "name": "Fried Gyoza",
+            "price": 8.0,
+            "description": "six crispy fried pork potstickers, ponzu-layu dipping sauce"
+          },
+          {
+            "name": "House Salad",
+            "price": 7.0,
+            "description": "mixed greens, cherry tomatoes, cucumber, house ginger dressing"
+          },
+          {
+            "name": "Hiyashi Wakame Seaweed Salad",
+            "price": 7.0,
+            "description": "sweet soy-marinated wakame seaweed strands, pickled radish Add crab meat"
+          },
+          {
+            "name": "Chicken Karaage",
+            "price": 8.0,
+            "description": "Japanese style fried chicken, sriracha mayo dipping sauce, aonori"
+          },
+          {
+            "name": "Takoyaki",
+            "price": 7.0,
+            "description": "six octopus filled wheat batter fried fritters, okonomi sauce, kewpie"
+          },
+          {
+            "name": "Edamame Fried Tofu Nuggets",
+            "price": 8.0,
+            "description": "six crispy fried edamame tofu nuggets, ponzu- layu dipping sauce"
+          },
+          {
+            "name": "Kakuni Bao",
+            "price": 8.0,
+            "description": "two steamed buns, chopped slow braised pork belly, cucumbers, house"
+          }
+        ]
+      },
+      {
+        "section": "Crispy Rice Dishes",
+        "items": [
+          {
+            "name": "Inari Tofu Crispy Rice",
+            "price": 10.0,
+            "description": "sweet soy marinated bean curd pocket, crispy rice, spicy crunchy"
+          },
+          {
+            "name": "Spicy Tuna Crispy Rice",
+            "price": 10.0,
+            "description": "tuna tartare, crispy rice, spicy mayo, nitsume, aonori, sesame seeds"
+          },
+          {
+            "name": "Yuzu Tuna Crispy Rice",
+            "price": 10.0,
+            "description": "tuna tartare, crispy rice, yuzu mayo, spicy mayo, aonori, sesame"
+          }
+        ]
+      },
+      {
+        "section": "Sushi Roll",
+        "items": [
+          {
+            "name": "Cucumber Roll",
+            "price": 8.0,
+            "description": "Sushi rice, cucumber, and seaweed sheet"
+          },
+          {
+            "name": "Avocado Roll",
+            "price": 8.0,
+            "description": "Sushi rice, avocado, and seaweed sheet"
+          },
+          {
+            "name": "Salmon Cucumber Roll",
+            "price": 9.0,
+            "description": "Sushi rice, seaweed sheet, fresh salmon, and cucumber"
+          },
+          {
+            "name": "California Roll",
+            "price": 9.0,
+            "description": "Sushi rice, crab mix, cucumber, avocado, and seaweed sheet"
+          },
+          {
+            "name": "Shrimp Tempura Roll",
+            "price": 9.0,
+            "description": "Shrimp tempura, cucumber, avocado, and seaweed sheet"
+          },
+          {
+            "name": "Spicy Salmon Cucumber Roll",
+            "price": 10.0,
+            "description": "Sushi rice, seaweed sheets, spicy salmon, and cucumber"
+          },
+          {
+            "name": "Spicy Tuna Cucumber Roll",
+            "price": 10.0,
+            "description": "Sushi rice, seaweed sheet, spicy tuna, and cucumber"
+          },
+          {
+            "name": "Rutgers Roll",
+            "price": 18.0,
+            "description": "Sushi rice, shrimp tempura, spicy tuna, crab mix, spicy mayo,"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tacoria",
+    "name": "Tacoria",
+    "cuisine": "Mexican",
+    "area": "Downtown New Brunswick",
+    "address": "56 Easton Ave, New Brunswick, NJ 08901",
+    "lat": 40.4976766,
+    "lng": -74.4490201,
+    "phone": "(732) 317-2070",
+    "website": "https://locations.tacoria.com/locations/nj/new-brunswick/56-easton-avenue",
+    "orderUrl": "https://www.ubereats.com/store/tacoria-new-brunswick/YyE-5eH_QHSvasU4nq-I-g",
+    "priceLevel": "$",
+    "hours": "Mon–Thu 11am–9pm; Fri 11am–10pm; Sat 11:30am–10pm; Sun 11:30am–9pm",
+    "tags": [
+      "Vegetarian options",
+      "Vegan options"
+    ],
+    "menuSource": "https://www.ubereats.com/store/tacoria-new-brunswick/YyE-5eH_QHSvasU4nq-I-g",
+    "verifiedOn": "2026-10-11",
+    "menu": [
+      {
+        "section": "Hand Crafted Tacos",
+        "items": [
+          {
+            "name": "Taco - Tinga",
+            "price": 5.6,
+            "description": "Spicy pulled chicken with habanero salsa.Bold heat, big comfort.Allergy notice: Please call with allergies. Despite our best efforts, cross-contact may occur."
+          },
+          {
+            "name": "Taco - Pollo Asado",
+            "price": 5.6,
+            "description": "Citrus-kissed grilled chicken with habanero salsa.Bright, smoky, and craveable.Allergy notice: Please call with allergies. Despite our best efforts, cross-contact may occur."
+          },
+          {
+            "name": "Taco - Pollo Al Pastor",
+            "price": 6.8,
+            "description": "Pineapple-spiced chicken with avocado verde salsa.Sweet heat with a fresh finish.Allergy notice: Please call with allergies. Despite our best efforts, cross-contact may occur."
+          },
+          {
+            "name": "Taco - Chorizo",
+            "price": 5.6,
+            "description": "Spiced chorizo with salsa verde.Savory, juicy, and bold.Allergy notice: Please call with allergies. Despite our best efforts, cross-contact may occur."
+          },
+          {
+            "name": "TACO - AL PASTOR",
+            "price": 6.8,
+            "description": "PORK MARINATED IN SPICES & PINEAPPLES*ALL TACOS SERVED WITH ONIONS, CILANTRO, SALSA, COTIJA CHEESE, CREMA AND CHOICE OF PROTEIN ON A CORN TORTILLA. GARNISHED WITH SLICES OF RADISH & LIME WEDGES.**ALLERGY ALERT: IF..."
+          },
+          {
+            "name": "TACO - CARNE ASADA",
+            "price": 6.8,
+            "description": "SPICE MARINATED GRILLED STEAK PAIRED WITH SMOKY ROJA SALSA*ALL TACOS SERVED WITH ONIONS, CILANTRO, SALSA, COTIJA CHEESE, CREMA AND CHOICE OF PROTEIN ON A CORN TORTILLA. GARNISHED WITH SLICES OF RADISH & LIME..."
+          },
+          {
+            "name": "TACO - GOLDEN AVOCADO (VEGGIE)",
+            "price": 5.6,
+            "description": "LIGHTLY BREADED, SLICED AVOCADO PAIRED WITH CHIPOTLE AIOLI (VEGETARIAN) *ALL TACOS SERVED WITH ONIONS, CILANTRO, SALSA, COTIJA CHEESE, CREMA AND CHOICE OF PROTEIN ON A CORN TORTILLA. GARNISHED WITH SLICES OF RADISH &..."
+          },
+          {
+            "name": "TACO - RAJAS (VEGGIE)",
+            "price": 5.6,
+            "description": "ROASTED CORN & POBLANO PEPPERS PAIRED WITH SMOKY ROJA SALSA (VEGETARIAN) *ALL TACOS SERVED WITH ONIONS, CILANTRO, SALSA, COTIJA CHEESE, CREMA AND CHOICE OF PROTEIN ON A CORN TORTILLA. GARNISHED WITH SLICES OF RADISH..."
+          },
+          {
+            "name": "TACO - BRUSSELS SPROUTS (VEGGIE)",
+            "price": 5.6,
+            "description": "CHARRED & TOSSED IN A CHIPOTLE AGAVE SAUCE & PAIRED WITH CHIPOTLE AIOLI (VEGETARIAN)*ALL TACOS SERVED WITH ONIONS, CILANTRO, SALSA, COTIJA CHEESE, CREMA AND CHOICE OF PROTEIN ON A CORN TORTILLA. GARNISHED WITH SLICES..."
+          },
+          {
+            "name": "TACO - BEYOND TACORIZO (VEGGIE)",
+            "price": 6.8,
+            "description": "MADE FROM VEGAN BEYOND ‘MEAT’, SEASONED, SPICED & PAIRED WITH VERDE SALSA (VEGETARIAN)*ALL TACOS SERVED WITH ONIONS, CILANTRO, SALSA, COTIJA CHEESE, CREMA AND CHOICE OF PROTEIN ON A CORN TORTILLA. GARNISHED WITH..."
+          }
+        ]
+      },
+      {
+        "section": "Mission Style Burritos",
+        "items": [
+          {
+            "name": "BURRITO - TINGA",
+            "price": 13.15,
+            "description": "SPICY PULLED CHICKEN PAIRED WITH HABANERO SALSA *ALL BURRITOS SERVED WITH BLACK BEANS, SEASONED RICE, SALSA, CHEESE, CREMA & CHOICE OF PROTEIN IN A GRILLED FLOUR TORTILLA.**ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR..."
+          },
+          {
+            "name": "BURRITO - POLLO ASADO",
+            "price": 13.15,
+            "description": "CITRUS KISSED GRILLED CHICKEN PAIRED WITH HABANERO SALSA*ALL BURRITOS SERVED WITH BLACK BEANS, SEASONED RICE, SALSA, CHEESE, CREMA & CHOICE OF PROTEIN IN A GRILLED FLOUR TORTILLA.**ALLERGY ALERT: IF YOU OR SOMEONE IN..."
+          },
+          {
+            "name": "BURRITO - POLLO AL PASTOR",
+            "price": 14.95,
+            "description": "CHICKEN MARINATED IN HOUSE BLEND OF SPICES & PINEAPPLES, PAIRED WITH AVOCADO VERDE SALSA*ALL BURRITOS SERVED WITH BLACK BEANS, SEASONED RICE, SALSA, CHEESE, CREMA & CHOICE OF PROTEIN IN A GRILLED FLOUR..."
+          },
+          {
+            "name": "BURRITO - CHORIZO",
+            "price": 13.15,
+            "description": "SPICY GROUND PORK PAIRED WITH SALSA VERDE *ALL BURRITOS SERVED WITH BLACK BEANS, SEASONED RICE, SALSA, CHEESE, CREMA & CHOICE OF PROTEIN IN A GRILLED FLOUR TORTILLA.**ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR PARTY..."
+          },
+          {
+            "name": "BURRITO - AL PASTOR",
+            "price": 14.95,
+            "description": "PORK MARINATED IN SPICES & PINEAPPLES *ALL BURRITOS SERVED WITH BLACK BEANS, SEASONED RICE, SALSA, CHEESE, CREMA & CHOICE OF PROTEIN IN A GRILLED FLOUR TORTILLA.**ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR PARTY HAS A..."
+          },
+          {
+            "name": "BURRITO - CARNE ASADA",
+            "price": 15.55,
+            "description": "SPICE MARINATED GRILLED STEAK PAIRED WITH SMOKY ROJA SALSA *ALL BURRITOS SERVED WITH BLACK BEANS, SEASONED RICE, SALSA, CHEESE, CREMA & CHOICE OF PROTEIN IN A GRILLED FLOUR TORTILLA.**ALLERGY ALERT: IF YOU OR SOMEONE..."
+          },
+          {
+            "name": "BURRITO - GOLDEN AVOCADO (VEGGIE)",
+            "price": 13.15,
+            "description": "LIGHTLY BREADED, SLICED AVOCADO PAIRED WITH CHIPOTLE AIOLI (VEGETARIAN) *ALL BURRITOS SERVED WITH BLACK BEANS, SEASONED RICE, SALSA, CHEESE, CREMA & CHOICE OF PROTEIN IN A GRILLED FLOUR TORTILLA.**ALLERGY ALERT: IF..."
+          },
+          {
+            "name": "BURRITO - RAJAS (VEGGIE)",
+            "price": 13.15,
+            "description": "ROASTED CORN & POBLANO PEPPERS PAIRED WITH SMOKY ROJA SALSA (VEGETARIAN) *ALL BURRITOS SERVED WITH BLACK BEANS, SEASONED RICE, SALSA, CHEESE, CREMA & CHOICE OF PROTEIN IN A GRILLED FLOUR TORTILLA.**ALLERGY ALERT: IF..."
+          }
+        ]
+      },
+      {
+        "section": "Box",
+        "items": [
+          {
+            "name": "BOX - TINGA",
+            "price": 13.15,
+            "description": "SPICY PULLED CHICKEN PAIRED WITH HABANERO SALSA **ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR PARTY HAS A FOOD ALLERGY, PLEASE PLACE ORDER OVER THE PHONE. **CROSS-CONTAMINATION ALERT: ALTHOUGH WE TRY OUR BEST,..."
+          },
+          {
+            "name": "BOX - POLLO ASADO",
+            "price": 13.15,
+            "description": "CITRUS KISSED GRILLED CHICKEN PAIRED WITH HABANERO SALSA *ALL BURRITO BOXES COME WITH CHOICE OF PROTEIN SERVED OVER RICE, BLACK BEANS, CHEESE, SALSA, PICO DE GALLO & CREMA **ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR..."
+          },
+          {
+            "name": "BOX - POLLO AL PASTOR",
+            "price": 14.95,
+            "description": "CHICKEN MARINATED IN HOUSE BLEND OF SPICES & PINEAPPLES, PAIRED WITH AVOCADO VERDE SALSA*ALL BURRITO BOXES COME WITH CHOICE OF PROTEIN SERVED OVER RICE, BLACK BEANS, CHEESE, SALSA, PICO DE GALLO & CREMA**ALLERGY..."
+          },
+          {
+            "name": "BOX - CHORIZO",
+            "price": 13.15,
+            "description": "SPICY PORK PAIRED WITH SALSA VERDE *ALL BURRITO BOXES COME WITH CHOICE OF PROTEIN SERVED OVER RICE, BLACK BEANS, CHEESE, SALSA, PICO DE GALLO & CREMA **ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR PARTY HAS A FOOD..."
+          },
+          {
+            "name": "BOX - AL PASTOR",
+            "price": 14.95,
+            "description": "PORK MARINATED IN SPICES & PINEAPPLE *ALL BURRITO BOXES COME WITH CHOICE OF PROTEIN SERVED OVER RICE, BLACK BEANS, CHEESE, SALSA, PICO DE GALLO & CREMA **ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR PARTY HAS A FOOD..."
+          },
+          {
+            "name": "BOX - CARNE ASADA",
+            "price": 15.55,
+            "description": "SPICE MARINATED GRILLED STEAK PAIRED WITH SMOKY ROJA SALSA *ALL BURRITO BOXES COME WITH CHOICE OF PROTEIN SERVED OVER RICE, BLACK BEANS, CHEESE, SALSA, PICO DE GALLO & CREMA **ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR..."
+          }
+        ]
+      },
+      {
+        "section": "Quesadillas Suiza",
+        "items": [
+          {
+            "name": "QUESADILLA - TINGA",
+            "price": 12.6,
+            "description": "SPICY PULLED CHICKEN PAIRED WITH HABANERO SALSA*ALL QUESADILLA SUIZA COME WITH CHEESE, SALSA, & CREMA ALL MELTED IN A FLOUR TORTILLA.**ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR PARTY HAS A FOOD ALLERGY, PLEASE PLACE..."
+          },
+          {
+            "name": "QUESADILLA - POLLO ASADO",
+            "price": 12.6,
+            "description": "CITRUS KISSED GRILLED CHICKEN PAIRED WITH HABANERO SALSA*ALL QUESADILLA SUIZA COME WITH CHEESE, SALSA, & CREMA ALL MELTED IN A FLOUR TORTILLA.**ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR PARTY HAS A FOOD ALLERGY,..."
+          },
+          {
+            "name": "QUESADILLA - POLLO AL PASTOR",
+            "price": 14.4,
+            "description": "CHICKEN MARINATED IN HOUSE BLEND OF SPICES & PINEAPPLE , PAIRED WITH AVOCADO VERDE SALSA*ALL QUESADILLA SUIZA COME WITH CHEESE, SALSA, & CREMA ALL MELTED IN A FLOUR TORTILLA.**ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR..."
+          },
+          {
+            "name": "QUESADILLA - CHORIZO",
+            "price": 12.6,
+            "description": "SPICY GROUND PORK PAIRED WITH SALSA VERDE*ALL QUESADILLA SUIZA COME WITH CHEESE, SALSA, & CREMA ALL MELTED IN A FLOUR TORTILLA.**ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR PARTY HAS A FOOD ALLERGY, PLEASE PLACE ORDER..."
+          }
+        ]
+      },
+      {
+        "section": "Viva La Nachos - Pie",
+        "items": [
+          {
+            "name": "PIE - TINGA",
+            "price": 12.0,
+            "description": "SPICY PULLED CHICKEN PAIRED WITH HABANERO SALSA*FRESH HAND CUT CORN TORTILLA CHIPS TOPPED WITH YOUR CHOICE OF PROTEIN, SALSA, BLACK BEANS, CHEESE, CREMA & ESCABECHE PEPPERS (SMALL SIZE)**ALLERGY ALERT: IF YOU OR..."
+          },
+          {
+            "name": "PIE - POLLO ASADO",
+            "price": 12.0,
+            "description": "CITRUS KISSED GRILLED CHICKEN PAIRED WITH HABANERO SALSA*FRESH HAND CUT CORN TORTILLA CHIPS TOPPED WITH YOUR CHOICE OF PROTEIN, SALSA, BLACK BEANS, CHEESE, CREMA & ESCABECHE PEPPERS (SMALL SIZE)**ALLERGY ALERT: IF..."
+          },
+          {
+            "name": "PIE - POLLO AL PASTOR",
+            "price": 13.8,
+            "description": "CHICKENMARINATED IN HOUSE BLEND OF SPICES & PINEAPPLE, PAIRED WITH AVOCADO VERDE SALSA.*FRESH HAND CUT CORN TORTILLA CHIPS TOPPED WITH YOUR CHOICE OF PROTEIN, SALSA, BLACK BEANS, CHEESE, CREMA & ESCABECHE PEPPERS..."
+          }
+        ]
+      },
+      {
+        "section": "Small Bites",
+        "items": [
+          {
+            "name": "MEXICAN STREET CORN",
+            "price": 6.0,
+            "description": "ROASTED SWEET CORN SMOTHERED WITH CHIPOTLE AIOLI AND TOPPED WITH CILANTRO & COTIJA CHEESE**ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR PARTY HAS A FOOD ALLERGY, PLEASE PLACE ORDER OVER THE PHONE. **CROSS-CONTAMINATION..."
+          },
+          {
+            "name": "GOLDEN AVOCADO (2PCS)",
+            "price": 4.2,
+            "description": "LIGHTLY BREADED, SLICED AVOCADO PAIRED WITH CHIPOTLE AIOLI**ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR PARTY HAS A FOOD ALLERGY, PLEASE PLACE ORDER OVER THE PHONE. **CROSS-CONTAMINATION ALERT: ALTHOUGH WE TRY OUR BEST,..."
+          },
+          {
+            "name": "CHIPS & GUAC",
+            "price": 6.6,
+            "description": "FRESH HOUSE-MADE CHIPS PAIRED WITH OUR AWESOME GUAC.**ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR PARTY HAS A FOOD ALLERGY, PLEASE PLACE ORDER OVER THE PHONE. **CROSS-CONTAMINATION ALERT: ALTHOUGH WE TRY OUR BEST,..."
+          },
+          {
+            "name": "CHIPS & PICO DE GALLO",
+            "price": 5.5,
+            "description": "FRESH HOUSE-MADE CHIPS PAIRED WITH OUR REFRESHING HOUSE-MADE PICO DE GALLO.**ALLERGY ALERT: IF YOU OR SOMEONE IN YOUR PARTY HAS A FOOD ALLERGY, PLEASE PLACE ORDER OVER THE PHONE. **CROSS-CONTAMINATION ALERT: ALTHOUGH..."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "halal-munchies",
+    "name": "Halal Munchies",
+    "cuisine": "Halal",
+    "area": "Downtown New Brunswick",
+    "address": "213 French St, New Brunswick, NJ 08901",
+    "lat": 40.491003,
+    "lng": -74.4577494,
+    "phone": "(732) 365-6030",
+    "website": null,
+    "orderUrl": "https://www.ubereats.com/store/halal-munchies-new-brunswick/0EGK83meWBKdffisvWM9NQ",
+    "priceLevel": "$$",
+    "hours": "Daily 11am–2:45am",
+    "tags": [
+      "Halal",
+      "Late night"
+    ],
+    "menuSource": "https://www.ubereats.com/store/halal-munchies-new-brunswick/0EGK83meWBKdffisvWM9NQ",
+    "verifiedOn": "2026-10-11",
+    "menu": [
+      {
+        "section": "Platters",
+        "items": [
+          {
+            "name": "Chicken Over Rice",
+            "price": 16.99,
+            "description": "Tender, seasoned Chicken served over warm rice, with sauce and a side of your choice."
+          },
+          {
+            "name": "Lamb Over Rice",
+            "price": 16.99,
+            "description": "Tender, seasoned lamb served over warm rice, with sauce and a side of your choice."
+          },
+          {
+            "name": "Mix Combo Over Rice",
+            "price": 16.99,
+            "description": "A flavorful mix of chicken and lamb over warm rice, with sauce and a side of your choice."
+          },
+          {
+            "name": "Fish Over Rice",
+            "price": 14.99,
+            "description": "Seasoned fish that gets fried and served over warm rice, with sauce and a side of your choice."
+          },
+          {
+            "name": "Falafel Over Rice",
+            "price": 14.99,
+            "description": "Crispy falafel over warm rice, served with sauce and a side of your choice."
+          },
+          {
+            "name": "Kofta Over Rice",
+            "price": 14.99,
+            "description": "Grilled Kofta served over warm rice, with sauce and a side of your choice."
+          }
+        ]
+      },
+      {
+        "section": "Gyros",
+        "items": [
+          {
+            "name": "Chicken Gyro",
+            "price": 8.39,
+            "description": "Seasoned chicken on a pita with fresh vegetables and sauce of your choice."
+          },
+          {
+            "name": "Lamb Gyro",
+            "price": 8.39,
+            "description": "Tender lamb served on a pita with fresh vegetables and sauce of your choice."
+          },
+          {
+            "name": "Mix Gyro",
+            "price": 8.39,
+            "description": "A flavorful mix of chicken and lamb served on a pita with fresh vegetables and sauce of your choice."
+          },
+          {
+            "name": "Fish Gyro",
+            "price": 8.39,
+            "description": "Seasoned fried fish served on a pita with fresh vegetables and your choice of sauce."
+          },
+          {
+            "name": "Falafel Gyro",
+            "price": 8.39,
+            "description": "Crispy falafel gyro served on a pita with fresh vegetables and sauce of your choice."
+          },
+          {
+            "name": "Chicken Kofta Gyro",
+            "price": 8.39,
+            "description": "Grilled kofta served on a pita with fresh vegetables and sauce of your choice."
+          }
+        ]
+      },
+      {
+        "section": "Sandwiches",
+        "items": [
+          {
+            "name": "Cheeseburger",
+            "price": 9.99,
+            "description": "Juicy fresh ground beef grilled to perfection, topped with melted cheese, ketchup, mayonnaise, and crisp fresh vegetables, all served on a soft potato bun."
+          },
+          {
+            "name": "Double Cheeseburger",
+            "price": 10.99,
+            "description": "Two juicy fresh ground beef patties grilled to perfection, topped with melted cheese, ketchup, mayonnaise, and crisp fresh vegetables, all served on a soft potato bun."
+          },
+          {
+            "name": "Baconator Burger",
+            "price": 10.99,
+            "description": "Juicy fresh ground beef grilled to perfection, topped with halal beef bacon, melted cheese, ketchup, mayonnaise, and crisp fresh vegetables, all served on a soft potato bun."
+          },
+          {
+            "name": "Heart Attack Burger",
+            "price": 12.99,
+            "description": "Juicy fresh ground beef grilled to perfection, stacked with halal beef bacon, onion rings, and mozzarella sticks, topped with melted cheese, ketchup, mayonnaise, and crisp fresh vegetables, all served on a soft..."
+          },
+          {
+            "name": "Crispy Chicken Sandwich",
+            "price": 9.99,
+            "description": "Hand-breaded crispy chicken breast served on a soft brioche bun with fresh vegetables and mayo"
+          },
+          {
+            "name": "Spicy Crispy Chicken Sandwich",
+            "price": 9.99,
+            "description": "Hand-breaded crispy chicken breast with a bold spicy kick, served on a soft potato bun with fresh lettuce, tomato, pickles, and mayo"
+          },
+          {
+            "name": "Fish Sandwich",
+            "price": 9.99,
+            "description": "Hand-breaded crispy fish served on a brioche bun topped with fresh vegetables and sauce."
+          }
+        ]
+      },
+      {
+        "section": "Wings",
+        "items": [
+          {
+            "name": "6 Pcs Wings",
+            "price": 11.99,
+            "description": "Crispy, hand-breaded wings fried and tossed in your favorite flavor, served with a dipping sauce of your choice."
+          },
+          {
+            "name": "9 Pcs Wings",
+            "price": 14.99,
+            "description": "Crispy, hand-breaded wings fried and tossed in your favorite flavor, served with a dipping sauce of your choice."
+          },
+          {
+            "name": "12 Pcs Wings",
+            "price": 18.99,
+            "description": "Crispy, hand-breaded wings fried and tossed in your favorite flavor, served with a dipping sauce of your choice."
+          },
+          {
+            "name": "20 Pcs Wings",
+            "price": 25.99,
+            "description": "Crispy, hand-breaded wings fried and tossed in your favorite flavor, served with a dipping sauce of your choice."
+          }
+        ]
+      },
+      {
+        "section": "Chicken Tenders",
+        "items": [
+          {
+            "name": "3 Pcs Chicken Tenders",
+            "price": 8.99,
+            "description": "Crispy hand-breaded chicken tenders served with a dipping sauce of your choice."
+          },
+          {
+            "name": "5 Pcs Chicken Tenders",
+            "price": 11.99,
+            "description": "Crispy hand-breaded chicken tenders served with a dipping sauce of your choice."
+          },
+          {
+            "name": "10 Pcs Chicken Tenders",
+            "price": 19.99,
+            "description": "Crispy hand-breaded chicken tenders served with a dipping sauce of your choice."
+          },
+          {
+            "name": "3 Pcs Spicy Chicken Tenders",
+            "price": 9.99,
+            "description": "Juicy chicken tenders, hand-breaded and fried until crispy, with a bold spicy kick in every bite."
+          }
+        ]
+      },
+      {
+        "section": "Salads",
+        "items": [
+          {
+            "name": "Garden Salad",
+            "price": 8.99,
+            "description": "Fresh mixed greens served with the vegetable and dressing of your choice."
+          },
+          {
+            "name": "Chicken Salad",
+            "price": 11.99,
+            "description": "Juicy chicken served over fresh mixed greens with the vegetable and dressing of your choice."
+          },
+          {
+            "name": "Lamb Salad",
+            "price": 11.99,
+            "description": "Tender, seasoned lamb grilled to perfection and served with the vegetables and dressing of your choice."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "efes-mediterranean-grill",
+    "name": "Efes Mediterranean Grill",
+    "cuisine": "Mediterranean",
+    "area": "Downtown New Brunswick",
+    "address": "32 Easton Ave, New Brunswick, NJ 08901",
+    "lat": 40.4973888,
+    "lng": -74.4480527,
+    "phone": "(732) 249-4100",
+    "website": null,
+    "orderUrl": "https://www.ubereats.com/store/efes-mediterranean-grill-new-brunswick/0aJMWXdPWOuSGCRSvrA5Jw",
+    "priceLevel": null,
+    "hours": "Daily 11am–11pm",
+    "tags": [
+      "Halal",
+      "Vegetarian options"
+    ],
+    "menuSource": "https://www.ubereats.com/store/efes-mediterranean-grill-new-brunswick/0aJMWXdPWOuSGCRSvrA5Jw",
+    "verifiedOn": "2026-10-11",
+    "menu": [
+      {
+        "section": "EFES Specialties",
+        "items": [
+          {
+            "name": "Chicken Garlic",
+            "price": 23.0,
+            "description": null
+          },
+          {
+            "name": "Sac Kavurma (Steel Roasting)",
+            "price": 32.0,
+            "description": null
+          },
+          {
+            "name": "Tas Kebab",
+            "price": 21.0,
+            "description": null
+          },
+          {
+            "name": "Lamb Okra Casserole",
+            "price": 21.0,
+            "description": null
+          },
+          {
+            "name": "Musakka",
+            "price": 20.0,
+            "description": null
+          },
+          {
+            "name": "Chicken w/ Vegetables",
+            "price": 20.0,
+            "description": null
+          },
+          {
+            "name": "Chicken Okra Casserole",
+            "price": 20.0,
+            "description": null
+          },
+          {
+            "name": "Chicken Saute",
+            "price": 24.0,
+            "description": null
+          },
+          {
+            "name": "Lamb Saute",
+            "price": 25.0,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Entrees",
+        "items": [
+          {
+            "name": "Mixed Grill",
+            "price": 35.0,
+            "description": null
+          },
+          {
+            "name": "Lamb Adana Kebab",
+            "price": 0.0,
+            "description": null
+          },
+          {
+            "name": "Lamb Shish Kebab",
+            "price": 0.0,
+            "description": null
+          },
+          {
+            "name": "1/2 Chicken 1/2 Lamb",
+            "price": 26.0,
+            "description": null
+          },
+          {
+            "name": "Chicken Kebab",
+            "price": 0.0,
+            "description": null
+          },
+          {
+            "name": "Grilled Chicken",
+            "price": 0.0,
+            "description": null
+          },
+          {
+            "name": "Chicken Adana",
+            "price": 0.0,
+            "description": null
+          },
+          {
+            "name": "Gyro Doner",
+            "price": 0.0,
+            "description": null
+          },
+          {
+            "name": "Chicken Pirzola",
+            "price": 26.0,
+            "description": null
+          },
+          {
+            "name": "Chicken Gyro Doner",
+            "price": 0.0,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Wraps",
+        "items": [
+          {
+            "name": "Lamb Shish Kebab Wrap",
+            "price": 15.0,
+            "description": null
+          },
+          {
+            "name": "Gyro Doner Wrap",
+            "price": 14.0,
+            "description": null
+          },
+          {
+            "name": "Chicken Gyro Wrap",
+            "price": 13.0,
+            "description": null
+          },
+          {
+            "name": "Lamb Adana Kebab Wrap",
+            "price": 14.0,
+            "description": null
+          },
+          {
+            "name": "Chicken Adana Wrap",
+            "price": 13.0,
+            "description": null
+          },
+          {
+            "name": "Grilled Chicken Wrap",
+            "price": 13.0,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Cold Appetizers",
+        "items": [
+          {
+            "name": "Stuffed Grape Leaves",
+            "price": 14.0,
+            "description": null
+          },
+          {
+            "name": "Humus",
+            "price": 10.5,
+            "description": null
+          },
+          {
+            "name": "Combination Platter",
+            "price": 0.0,
+            "description": null
+          },
+          {
+            "name": "Baba Ganush",
+            "price": 12.5,
+            "description": null
+          },
+          {
+            "name": "Ezme",
+            "price": 12.5,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Burgers",
+        "items": [
+          {
+            "name": "Cheeseburger",
+            "price": 13.0,
+            "description": null
+          },
+          {
+            "name": "Cheeseburger w/French Fries",
+            "price": 18.0,
+            "description": null
+          },
+          {
+            "name": "4 Pcs Chicken Finger w/French Fries",
+            "price": 17.0,
+            "description": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nirvanis-indian-kitchen",
+    "name": "Nirvanis Indian Kitchen",
+    "cuisine": "Indian",
+    "area": "Downtown New Brunswick",
+    "address": "68 Easton Ave, New Brunswick, NJ 08901",
+    "lat": 40.4979532,
+    "lng": -74.4497275,
+    "phone": "(732) 253-0507",
+    "website": null,
+    "orderUrl": "https://www.ubereats.com/store/nirvanis-indian-kitchen/VNuwyQWNSiyqsHb8stASPw",
+    "priceLevel": "$$",
+    "hours": "Daily 11am–3:45am",
+    "tags": [
+      "Late night",
+      "Vegetarian options"
+    ],
+    "menuSource": "https://www.ubereats.com/store/nirvanis-indian-kitchen/VNuwyQWNSiyqsHb8stASPw",
+    "verifiedOn": "2026-10-11",
+    "menu": [
+      {
+        "section": "Creations",
+        "items": [
+          {
+            "name": "Crispy Chicken Tikka Sandwich",
+            "price": 10.8,
+            "description": null
+          },
+          {
+            "name": "Crispy Chicken Tikka Sandwich w Masala Fries",
+            "price": 14.4,
+            "description": null
+          },
+          {
+            "name": "Curry Bowl - Chicken Tikka Masala",
+            "price": 18.0,
+            "description": null
+          },
+          {
+            "name": "Curry Bowl - Paneer Tikka Masala",
+            "price": 18.0,
+            "description": null
+          },
+          {
+            "name": "Chicken Tikka Burrito*",
+            "price": 15.6,
+            "description": null
+          },
+          {
+            "name": "Paneer Tikka Burrito",
+            "price": 15.6,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Kati Rolls",
+        "items": [
+          {
+            "name": "Aloo Paneer Roll (Veg)",
+            "price": 13.2,
+            "description": "Spiced potatoes & paneer tikka cubes marinated and cooked in tikka masala sauce."
+          },
+          {
+            "name": "Achari Paneer Roll (Veg)",
+            "price": 13.2,
+            "description": "Indian cottage cheese cooked with spicy pickle sauce."
+          },
+          {
+            "name": "Chili Paneer Roll (Veg)",
+            "price": 13.2,
+            "description": "Indian cottage cheese, onions, and chili garlic chutney."
+          },
+          {
+            "name": "Paneer Keema Roll (Veg)",
+            "price": 13.2,
+            "description": "Minced cottage cheese marinated and cooked in tikka masala sauce."
+          },
+          {
+            "name": "Paneer Tikka Roll (Veg)",
+            "price": 13.2,
+            "description": "Cottage cheese cubes marinated and cooked in tikka masala sauce."
+          },
+          {
+            "name": "Aloo Tikki Roll (Veg)",
+            "price": 13.2,
+            "description": "Potato patties with onions, green mint & tamarind chutney."
+          },
+          {
+            "name": "Aloo Masala Roll (Veg)",
+            "price": 13.2,
+            "description": "Seasoned spiced mashed potatoes."
+          },
+          {
+            "name": "Samosa Roll (Veg)",
+            "price": 13.2,
+            "description": "Potato stuffed pastries with onions, mint & tamarind chutney."
+          }
+        ]
+      },
+      {
+        "section": "$11 Cravings",
+        "items": [
+          {
+            "name": "Masala Fries",
+            "price": 7.2,
+            "description": null
+          },
+          {
+            "name": "Veg Spring Rolls",
+            "price": 8.4,
+            "description": null
+          },
+          {
+            "name": "Masala Jalapeno Cheese Poppers",
+            "price": 9.6,
+            "description": null
+          },
+          {
+            "name": "Masala Cheese Sticks",
+            "price": 9.6,
+            "description": null
+          },
+          {
+            "name": "Mini Samosa Chaat",
+            "price": 10.8,
+            "description": null
+          },
+          {
+            "name": "Mini Aloo Tiki Chaat",
+            "price": 10.8,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Platters",
+        "items": [
+          {
+            "name": "Chef's Special Chicken & Rice Platter",
+            "price": 20.4,
+            "description": "SEASONED GYRO CHICKEN STYLE SERVED WITH OUR LEGENDARY WHITE SAUCE AND HOT SAUCE, PITA BREAD, RICE & SALAD."
+          },
+          {
+            "name": "Chefs Special Lamb & Rice Platter",
+            "price": 21.6,
+            "description": "GYRO STYLE SERVED WITH OUR LEGENDARY WHITE SAUCE AND HOT SAUCE, PITA BREAD, RICE & SALAD."
+          },
+          {
+            "name": "Chicken & Rice Platter",
+            "price": 19.8,
+            "description": "GYRO STYLE SERVED WITH OUR LEGENDARY WHITE SAUCE AND HOT SAUCE, PITA BREAD, RICE & SALAD."
+          },
+          {
+            "name": "Lamb & Rice Platter",
+            "price": 21.0,
+            "description": "GYRO STYLE SERVED WITH OUR LEGENDARY WHITE SAUCE AND HOT SAUCE, PITA BREAD, RICE & SALAD."
+          },
+          {
+            "name": "Paneer & Rice Platter (Veg)",
+            "price": 19.8,
+            "description": "GYRO STYLE PANEER TIKKA SERVED WITH OUR LEGENDARY WHITE SAUCE AND HOT SAUCE, PITA BREAD, RICE & SALAD."
+          },
+          {
+            "name": "Veggie Biryani Platter",
+            "price": 21.6,
+            "description": "VEGGIE BIRYANI SERVED WITH OUR LEGENDARY WHITE SAUCE AND HOT SAUCE, PITA BREAD, RICE & SALAD."
+          }
+        ]
+      },
+      {
+        "section": "Indo Chinese",
+        "items": [
+          {
+            "name": "Chicken Hakka Noodles",
+            "price": 22.8,
+            "description": null
+          },
+          {
+            "name": "Chicken Fried Rice",
+            "price": 22.8,
+            "description": null
+          },
+          {
+            "name": "Szechuan Chicken Noodles",
+            "price": 22.8,
+            "description": null
+          },
+          {
+            "name": "Veggie Hakka Noodles",
+            "price": 21.6,
+            "description": "Mild, Medium or Spicy"
+          },
+          {
+            "name": "Veggie Fried Rice",
+            "price": 21.6,
+            "description": null
+          }
+        ]
+      },
+      {
+        "section": "Chicken Curries",
+        "items": [
+          {
+            "name": "Chicken Tikka Masala",
+            "price": 26.4,
+            "description": null
+          },
+          {
+            "name": "Mango Chicken Curry",
+            "price": 26.4,
+            "description": null
+          },
+          {
+            "name": "Butter Chicken (Makhni)",
+            "price": 26.4,
+            "description": null
+          },
+          {
+            "name": "Chicken Saag",
+            "price": 26.4,
+            "description": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "edo-japanese",
+    "name": "Edo Japanese Restaurant",
+    "cuisine": "Japanese",
+    "area": "Downtown New Brunswick",
+    "address": "16 Condict St, New Brunswick, NJ 08901",
+    "lat": 40.4973783,
+    "lng": -74.4502492,
+    "phone": "(732) 514-0700",
+    "website": null,
+    "orderUrl": "https://www.ubereats.com/store/edo-japanese-restaurant/Z-aR9goDQwG6HPNoSbqHFQ",
+    "priceLevel": "$",
+    "hours": "Daily 11am–9pm",
+    "tags": [
+      "Cheap eats"
+    ],
+    "menuSource": "https://www.ubereats.com/store/edo-japanese-restaurant/Z-aR9goDQwG6HPNoSbqHFQ",
+    "verifiedOn": "2026-10-11",
+    "menu": [
+      {
+        "section": "Edo Bowls",
+        "items": [
+          {
+            "name": "Sake Bowl",
+            "price": 14.95,
+            "description": "Sushi rice, fresh salmon, avocado, and cucumber."
+          },
+          {
+            "name": "California Bowl",
+            "price": 10.95,
+            "description": "Sushi rice, crab meat, avocado, cucumber, and spicy mayonnaise."
+          },
+          {
+            "name": "Protein Bowl",
+            "price": 15.95,
+            "description": "Sushi rice, fresh salmon and tuna, avocado, and cucumber."
+          },
+          {
+            "name": "Musubi Bowl",
+            "price": 11.95,
+            "description": "Sushi rice, grilled spam with nori, shogun flakes, and egg on top."
+          },
+          {
+            "name": "Amazing Bowl",
+            "price": 20.95,
+            "description": "Sushi rice, tuna, salmon, fire stix, white tuna, shrimp tempura, avocado, and cucumber."
+          },
+          {
+            "name": "Hwe Dup Bap Bowl",
+            "price": 13.95,
+            "description": "Assorted sashimi over white rice, lettuce, and served with Korean hot sauce."
+          },
+          {
+            "name": "Crunchy Bowl",
+            "price": 14.95,
+            "description": "Two pieces shrimp tempura, two pieces fire stix, avocado, cucumber, and shogun flakes. On top of white rice."
+          },
+          {
+            "name": "Dragon Bowl",
+            "price": 16.95,
+            "description": "Sushi rice, grilled eel, avocado, and sweet sauce."
+          },
+          {
+            "name": "Tuna Bowl",
+            "price": 17.95,
+            "description": "Sushi rice, sliced tuna, avocado, and cucumber"
+          }
+        ]
+      },
+      {
+        "section": "Ramen and Udon",
+        "items": [
+          {
+            "name": "Spicy Ramen",
+            "price": 9.95,
+            "description": "Broth is made with chicken! Ramen toppings include a boiled egg, scallions, fried onion, pickled ginger, and crab. Please indicate if you want to exclude any toppings."
+          },
+          {
+            "name": "Shrimp Tempura Udon",
+            "price": 10.95,
+            "description": "Broth is made with fish! Comes with shrimp tempura."
+          },
+          {
+            "name": "Tonkotsu Ramen",
+            "price": 10.95,
+            "description": "Broth is made with pork! Ramen toppings include a boiled egg, scallions, fried onion, pickled ginger, and crab. Please indicate if you want to exclude any toppings."
+          },
+          {
+            "name": "Shoyu Ramen",
+            "price": 9.95,
+            "description": "Broth is made with chicken! Ramen toppings include a boiled egg, scallions, fried onion, pickled ginger, and crab. Please indicate if you want to exclude any toppings."
+          },
+          {
+            "name": "Chicken Udon",
+            "price": 10.95,
+            "description": "Broth is made with fish! Come with fried pieces of chicken."
+          },
+          {
+            "name": "Miso Ramen",
+            "price": 9.95,
+            "description": "Broth is made with soy! Ramen toppings include a boiled egg, scallions, fried onion, pickled ginger, and crab. Please indicate if you want to exclude any toppings."
+          },
+          {
+            "name": "Crab Tempura Udon",
+            "price": 10.95,
+            "description": "Broth is made with fish! Comes with fried crab tempura."
+          },
+          {
+            "name": "Plain Udon",
+            "price": 9.95,
+            "description": "Broth is made with fish!"
+          }
+        ]
+      },
+      {
+        "section": "Munchies",
+        "items": [
+          {
+            "name": "Musubi",
+            "price": 2.5,
+            "description": "Grilled spam on top of white rice and wrapped with nori."
+          },
+          {
+            "name": "Edo Fries",
+            "price": 4.95,
+            "description": "With a choice of spicy mayonnaise or wasabi mayonnaise."
+          },
+          {
+            "name": "Gyoza",
+            "price": 6.95,
+            "description": "Fried shrimp dumplings."
+          },
+          {
+            "name": "Edo Fries With Meat",
+            "price": 9.95,
+            "description": "With choice of Bulgogi or Spicy Pork."
+          },
+          {
+            "name": "Spring Rolls",
+            "price": 6.95,
+            "description": "Vegetable spring rolls."
+          },
+          {
+            "name": "Shumai",
+            "price": 6.95,
+            "description": "Steamed shrimp dumplings."
+          },
+          {
+            "name": "Fire Stix",
+            "price": 8.95,
+            "description": "Battered and deep-fried crab stick."
+          }
+        ]
+      },
+      {
+        "section": "Special Rolls",
+        "items": [
+          {
+            "name": "Crunchy Munchy Roll",
+            "price": 12.95,
+            "description": "Shrimp tempura, shredded crab meat, sweet sauce, and crunchy flakes."
+          },
+          {
+            "name": "Shrimp Tempura Roll",
+            "price": 8.95,
+            "description": "Shrimp tempura and cucumber."
+          },
+          {
+            "name": "Spicy Crunchy Tuna Roll",
+            "price": 7.95,
+            "description": "Spicy tuna roll with tempura flakes."
+          },
+          {
+            "name": "Ninja Roll",
+            "price": 14.95,
+            "description": "Fried crab tempura and avocado. Topped with torched fresh salmon and chef's special sauce."
+          },
+          {
+            "name": "Philadelphia Roll",
+            "price": 8.95,
+            "description": "Salmon, avocado, and cream cheese."
+          },
+          {
+            "name": "Edo Roll",
+            "price": 13.95,
+            "description": "Tempura-style deep-fried roll with tuna, salmon, crab meat, and avocado."
+          },
+          {
+            "name": "Half and Half Roll",
+            "price": 8.95,
+            "description": "Three pieces spicy tuna and three pieces spicy salmon."
+          },
+          {
+            "name": "Crazy Dragon Roll",
+            "price": 12.95,
+            "description": "On the outside, eel and avocado. Inside is shrimp tempura and cucumber!"
+          },
+          {
+            "name": "Firestick Roll",
+            "price": 12.95,
+            "description": "Inside crab meat and cucumber. Outside crab tempura and sweet sauce."
+          },
+          {
+            "name": "Fat Sumo Roll",
+            "price": 14.95,
+            "description": "Inside shrimp tempura and cucumber. Outside torched salmon, tuna, white tuna, and avocado, with sweet sauce."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "teri-teri",
+    "name": "Teri Teri",
+    "cuisine": "Japanese",
+    "area": "Downtown New Brunswick",
+    "address": "363 George St, New Brunswick, NJ 08901",
+    "lat": 40.4950488,
+    "lng": -74.443747,
+    "phone": "(732) 545-8116",
+    "website": null,
+    "orderUrl": "https://www.ubereats.com/store/teri-teri-new-brunswick/U5TZ4l-mT7aYXoZWwo8YDQ",
+    "priceLevel": "$",
+    "hours": "Mon–Fri 8am–7:59pm; Sat–Sun 8am–3pm",
+    "tags": [
+      "Cheap eats"
+    ],
+    "menuSource": "https://www.ubereats.com/store/teri-teri-new-brunswick/U5TZ4l-mT7aYXoZWwo8YDQ",
+    "verifiedOn": "2026-10-11",
+    "menu": [
+      {
+        "section": "Bowl",
+        "items": [
+          {
+            "name": "Chicken Teriyaki/Rice/salad",
+            "price": 10.99,
+            "description": "Served with salad, rice,"
+          },
+          {
+            "name": "Spicy Chicken Rice/salad",
+            "price": 11.99,
+            "description": "Served with salad, rice."
+          },
+          {
+            "name": "Spicy Shrimp / Rice/salad",
+            "price": 11.49,
+            "description": "Served with salad, rice."
+          },
+          {
+            "name": "Beef Teriyaki/with Rice/salad",
+            "price": 11.49,
+            "description": "Served with salad, rice,"
+          },
+          {
+            "name": "Spicy Pork -Rice/salad",
+            "price": 11.49,
+            "description": "Served with salad, rice,"
+          },
+          {
+            "name": "Shrimp Teriyaki-Rice/salad",
+            "price": 11.49,
+            "description": "Served with salad, rice"
+          },
+          {
+            "name": "Teriyaki Pork With Rice/Salad",
+            "price": 11.99,
+            "description": "Sliced teriyaki pork with onions, served with steamed rice and a side salad."
+          }
+        ]
+      },
+      {
+        "section": "Bowl Combo",
+        "items": [
+          {
+            "name": "Chicken & Beef Teriyaki Rice/salad",
+            "price": 13.49,
+            "description": "Grilled chicken and beef served over a bed of rice or mixed greens."
+          },
+          {
+            "name": "Spicy Chicken & Shrimp Rice\\salad",
+            "price": 13.49,
+            "description": "Spicy chicken and shrimp served over a bed of rice and mixed greens."
+          },
+          {
+            "name": "Chicken & Shrimp Teriyaki/Rice/ salad",
+            "price": 13.49,
+            "description": "Grilled chicken and shrimp served with teriyaki sauce, steamed rice, and a fresh salad."
+          },
+          {
+            "name": "Chicken & Beef stirfry vegetables with Rice",
+            "price": 13.49,
+            "description": "Savory mix of chicken, beef, and vegetables served over rice."
+          },
+          {
+            "name": "Chicken & shrimp stirfry vegetables with Rice",
+            "price": 13.49,
+            "description": "Savory stir-fry with chicken, shrimp, and mixed vegetables served over rice."
+          },
+          {
+            "name": "Chicken Stirfry Vegetables with Rice",
+            "price": 11.49,
+            "description": "Stir-fried chicken and mixed vegetables served over a bed of rice."
+          }
+        ]
+      },
+      {
+        "section": "Ramen",
+        "items": [
+          {
+            "name": "Ramen",
+            "price": 6.99,
+            "description": "Springy ramen noodles in a savory broth, topped with scallions, sliced chili pepper, and herbs."
+          },
+          {
+            "name": "Chicken Ramen",
+            "price": 11.49,
+            "description": "Rich, savory broth filled with chicken and noodles."
+          },
+          {
+            "name": "Shrimp Ramen",
+            "price": 11.49,
+            "description": "Savoury noodles served with shrimp in a rich broth."
+          },
+          {
+            "name": "Chicken/shrimp Ramen",
+            "price": 12.99,
+            "description": "Savoury noodles with chicken and shrimp in a rich broth."
+          },
+          {
+            "name": "Beef Ramen",
+            "price": 11.99,
+            "description": "Rich beef broth served with springy noodles."
+          }
+        ]
+      },
+      {
+        "section": "Yakisoba",
+        "items": [
+          {
+            "name": "Beef Yakisoba/noodles/vagetables",
+            "price": 14.99,
+            "description": "Stir-fried beef and vegetables served with noodles."
+          },
+          {
+            "name": "Chicken Yakisoba/vnoodles/vagetables",
+            "price": 11.99,
+            "description": "Stir-fried noodles with chicken and mixed vegetables."
+          },
+          {
+            "name": "Vegetarían Yakisoba/noodles/vegetables(No Meats)",
+            "price": 7.49,
+            "description": "Stir-fried noodles with mixed vegetables."
+          },
+          {
+            "name": "Beef/Shrimp Yakisoba/noodles/vagetables",
+            "price": 13.99,
+            "description": "Stir-fried beef and shrimp with vegetables and noodles."
+          },
+          {
+            "name": "Chicken/shrimp Yakisoba/noodles/vagetables",
+            "price": 13.99,
+            "description": "Stir-fried noodles with chicken, shrimp, and mixed vegetables."
+          },
+          {
+            "name": "Shrimp Yakisaba/noodles/vagetables",
+            "price": 11.99,
+            "description": "Stir-fried shrimp, noodles, and vegetables."
+          }
+        ]
+      },
+      {
+        "section": "Chicken Wing",
+        "items": [
+          {
+            "name": "Chicken Wings 6pcs",
+            "price": 7.99,
+            "description": "Tender and juicy chicken wings, served in a set of 6 pieces."
+          },
+          {
+            "name": "Chicken Wings 12pcs",
+            "price": 14.99,
+            "description": "Tender and juicy chicken wings, perfect for snacking."
+          }
+        ]
+      },
+      {
+        "section": "Appetizers and Soup",
+        "items": [
+          {
+            "name": "Shrimp tempura 4pcs",
+            "price": 5.99,
+            "description": "Crispy battered shrimp served in a set of four."
+          },
+          {
+            "name": "Steam Rice",
+            "price": 2.49,
+            "description": "Freshly cooked Japanese-style rice."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stuff-yer-face",
+    "name": "Stuff Yer Face",
+    "cuisine": "American",
+    "area": "Downtown New Brunswick",
+    "address": "49 Easton Ave, New Brunswick, NJ 08901",
+    "lat": 40.4981335,
+    "lng": -74.4489539,
+    "phone": "(732) 247-1727",
+    "website": "https://stuffyerface.com/",
+    "orderUrl": "https://www.doordash.com/store/stuff-yer-face-new-brunswick-142505/",
+    "priceLevel": "$$",
+    "hours": "Daily 11am–9:40pm (DoorDash ordering hours)",
+    "tags": [],
+    "menuSource": "https://www.doordash.com/store/stuff-yer-face-new-brunswick-142505/",
+    "verifiedOn": "2026-10-11",
+    "menu": [
+      {
+        "section": "Featured (DoorDash prices)",
+        "items": [
+          {
+            "name": "Big Mic Boli (Large)",
+            "price": 15.83,
+            "description": null
+          },
+          {
+            "name": "Steak Boli (Large)",
+            "price": 14.81,
+            "description": null
+          },
+          {
+            "name": "Lasagna Boli (Large)",
+            "price": 14.81,
+            "description": null
+          },
+          {
+            "name": "Italiano Boli (Huge)",
+            "price": 23.59,
+            "description": null
+          },
+          {
+            "name": "My Favorite Boli (Huge)",
+            "price": 25.64,
+            "description": null
+          },
+          {
+            "name": "Buffalo Wings",
+            "price": 15.83,
+            "description": null
+          }
+        ]
+      }
+    ]
+  }
+]

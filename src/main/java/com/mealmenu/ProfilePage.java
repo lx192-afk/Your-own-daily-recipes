@@ -45,12 +45,18 @@ public final class ProfilePage extends ScrollPane {
     private final CheckBox lowCarb = new CheckBox("Low-Carb");
     private final CheckBox highProtein = new CheckBox("High-Protein");
     private final TextField usernameInput = new TextField();
+    private final PasswordField currentPassword = new PasswordField();
     private final PasswordField newPassword = new PasswordField();
     private final PasswordField confirmPassword = new PasswordField();
     private final Label settingsStatus = new Label();
     private final Label informationStatus = new Label();
 
     public ProfilePage(Stage owner, LocalAccountService accountService, Runnable onLogout) {
+        this(owner, accountService, onLogout, WindowMode.PHONE, mode -> { });
+    }
+
+    public ProfilePage(Stage owner, LocalAccountService accountService, Runnable onLogout,
+                       WindowMode windowMode, java.util.function.Consumer<WindowMode> onWindowMode) {
         this.owner = owner;
         this.accountService = accountService;
         this.onLogout = onLogout;
@@ -109,8 +115,32 @@ public final class ProfilePage extends ScrollPane {
         loadPreferences();
         loadAvatar();
         content.getChildren().addAll(title, profileCard, actions,
-                settingsPanel, informationPanel);
+                settingsPanel, informationPanel, windowCard(windowMode, onWindowMode));
         setContent(content);
+    }
+
+    private VBox windowCard(WindowMode current, java.util.function.Consumer<WindowMode> onChange) {
+        javafx.scene.control.ToggleGroup group = new javafx.scene.control.ToggleGroup();
+        javafx.scene.control.ToggleButton desktop = new javafx.scene.control.ToggleButton("Desktop");
+        javafx.scene.control.ToggleButton phone = new javafx.scene.control.ToggleButton("Phone");
+        for (javafx.scene.control.ToggleButton button : new javafx.scene.control.ToggleButton[]{desktop, phone}) {
+            button.setToggleGroup(group);
+            button.getStyleClass().add("mode-button");
+            button.setMaxWidth(Double.MAX_VALUE);
+            HBox.setHgrow(button, Priority.ALWAYS);
+        }
+        (current == WindowMode.DESKTOP ? desktop : phone).setSelected(true);
+        group.selectedToggleProperty().addListener((observable, old, selected) -> {
+            if (selected == null) {
+                group.selectToggle(old);
+                return;
+            }
+            onChange.accept(selected == desktop ? WindowMode.DESKTOP : WindowMode.PHONE);
+        });
+        Label hint = new Label("Desktop is a resizable window with a sidebar; Phone is the compact phone-sized view.");
+        hint.getStyleClass().add("muted-text");
+        hint.setWrapText(true);
+        return card("Window Style", new HBox(6, desktop, phone), hint);
     }
 
     private void buildSettingsPanel() {
@@ -137,6 +167,7 @@ public final class ProfilePage extends ScrollPane {
         heading.getStyleClass().add("card-heading");
         usernameInput.setPromptText("Username");
         usernameInput.setText(accountService.username());
+        currentPassword.setPromptText("Current password (required to save changes)");
         newPassword.setPromptText("New password (leave blank to keep current)");
         confirmPassword.setPromptText("Confirm new password");
         Label hint = new Label("Usernames use letters, numbers, periods, underscores, or hyphens.");
@@ -149,7 +180,7 @@ public final class ProfilePage extends ScrollPane {
         informationStatus.getStyleClass().add("status-text");
         informationStatus.setWrapText(true);
         informationPanel.getStyleClass().add("content-card");
-        informationPanel.getChildren().setAll(heading, usernameInput, newPassword,
+        informationPanel.getChildren().setAll(heading, usernameInput, currentPassword, newPassword,
                 confirmPassword, hint, save, informationStatus);
         informationPanel.setVisible(false);
         informationPanel.setManaged(false);
@@ -190,11 +221,13 @@ public final class ProfilePage extends ScrollPane {
             return;
         }
         char[] password = newPassword.getText().toCharArray();
+        char[] current = currentPassword.getText().toCharArray();
         String error;
         try {
-            error = accountService.updateInformation(usernameInput.getText(), password);
+            error = accountService.updateInformation(usernameInput.getText(), current, password);
         } finally {
             Arrays.fill(password, '\0');
+            Arrays.fill(current, '\0');
         }
         if (error != null) {
             informationStatus.setText(error);
@@ -202,6 +235,7 @@ public final class ProfilePage extends ScrollPane {
         }
         usernameLabel.setText(accountService.username());
         usernameInput.setText(accountService.username());
+        currentPassword.clear();
         newPassword.clear();
         confirmPassword.clear();
         informationStatus.setText("Account information updated.");
@@ -222,21 +256,24 @@ public final class ProfilePage extends ScrollPane {
             photoStatus.setText("Choose a PNG, JPG, JPEG, or GIF image.");
             return;
         }
+        // Load synchronously so a renamed non-image is rejected before anything is replaced.
+        if (new Image(selected.toURI().toString(), 96, 96, true, true, false).isError()) {
+            photoStatus.setText("That file isn't a readable image.");
+            return;
+        }
         Path directory = UserDataPaths.accountDirectory(accountService.accountId());
         try {
             Files.createDirectories(directory);
-            try (var files = Files.list(directory)) {
-                files.filter(path -> path.getFileName().toString().startsWith("avatar."))
-                        .forEach(path -> {
-                            try {
-                                Files.deleteIfExists(path);
-                            } catch (IOException exception) {
-                                System.err.println("Could not replace profile photo.");
-                            }
-                        });
-            }
+            Path staged = directory.resolve("avatar-new.tmp");
+            Files.copy(selected.toPath(), staged, StandardCopyOption.REPLACE_EXISTING);
             Path destination = directory.resolve("avatar." + extension);
-            Files.copy(selected.toPath(), destination, StandardCopyOption.REPLACE_EXISTING);
+            try (var files = Files.list(directory)) {
+                for (Path old : files.filter(path -> path.getFileName().toString().startsWith("avatar.")
+                        && !path.equals(destination)).toList()) {
+                    Files.deleteIfExists(old);
+                }
+            }
+            Files.move(staged, destination, StandardCopyOption.REPLACE_EXISTING);
             displayAvatar(destination);
             photoStatus.setText("Profile photo saved for this account.");
         } catch (IOException exception) {
@@ -258,7 +295,7 @@ public final class ProfilePage extends ScrollPane {
     }
 
     private void displayAvatar(Path path) {
-        Image image = new Image(path.toUri().toString(), 96, 96, true, true, true);
+        Image image = new Image(path.toUri().toString(), 96, 96, true, true, false);
         if (image.isError()) {
             photoStatus.setText("The selected image could not be opened.");
             return;

@@ -2,6 +2,55 @@
 
 Daily Menu is a JavaFX desktop application for planning meals, exploring recipe suggestions, and keeping meal plans organized by account.
 
+## Rutgers Eats (new)
+
+The **Eat** tab helps Rutgers–New Brunswick students decide where to eat:
+
+- **Dining Halls** — real menus for Busch, Livingston, Neilson and The Atrium, fetched live from
+  Rutgers Dining's Nutrislice API (`rutgers.api.nutrislice.com`). Pick a hall, day (today + 6 days)
+  and meal; search dishes; filter Vegan / Vegetarian / no milk, wheat, nuts or shellfish; tap a dish
+  for calories, protein, carbs, fat and allergens. Menus are cached under `~/.daily-menu/cache` and a
+  bundled snapshot is used offline.
+- **Restaurants** — places near campus (downtown New Brunswick, Busch/Livingston, Highland Park,
+  Edison) with menus collected from each restaurant's own website or ordering page. Search by
+  restaurant **or dish** (e.g. "ramen"), filter by area and cuisine, sort by distance from your campus.
+  Each restaurant page shows hours, phone, the menu with prices, and **Navigate** (Google Maps
+  directions), **Website** and **Order** buttons. Every menu lists its source URL and the date it
+  was checked.
+- **Eat Now** on Home: which dining halls are open right now, until when, and headline dishes of
+  the current meal; tap one to jump to its menu.
+- **Open now** filter and live open/closed status for restaurants (parsed from their posted hours;
+  days a source doesn't list show as "hours unknown", never as closed).
+- Diet filters include **No Seafood** (fish + shellfish) and are remembered per account. Dishes
+  without allergen data are excluded from allergen filters and labeled "No allergen info".
+- Tap any dish to add it to your meal plan; it shows up on Home next to your home-cooked recipes.
+
+| Dining halls | Search restaurants by dish | Restaurant menu + navigation |
+|---|---|---|
+| ![](docs/screenshots/dining-halls.png) | ![](docs/screenshots/restaurant-search.png) | ![](docs/screenshots/restaurant-detail.png) |
+
+### Desktop and phone layouts
+
+The app opens as a normal resizable **desktop** window with a sidebar; the Eat tab uses columns
+(filters on the left, menus or restaurant details on the right). Switch to the compact **phone**
+layout under *Profile → Window Style* (no restart or re-login), or launch with `--phone` / `--desktop`:
+
+```powershell
+mvn javafx:run "-Djavafx.args=--phone"
+```
+
+![](docs/screenshots/desktop-restaurants.png)
+
+### Refreshing the data
+
+```powershell
+python scripts/scrape_dining.py          # re-scrape the bundled dining-hall snapshot (this week)
+python scripts/build_restaurants.py      # validate data/restaurants/*.json and rebuild the app resource
+```
+
+Restaurant source files live in `data/restaurants/`. Add or fix a restaurant there (keep
+`menuSource` and `verifiedOn`), then run the build script.
+
 ## Features
 
 - Create a local account or sign in to an existing account.
@@ -18,7 +67,9 @@ Daily Menu is a JavaFX desktop application for planning meals, exploring recipe 
 
 - Java 17
 - JavaFX 21.0.2
+- Gson 2.11 (JSON)
 - Maven
+- Python 3 (optional, for the data scripts)
 
 ## Run from the Source Project on Windows
 
@@ -39,6 +90,16 @@ If PowerShell reports that `mvn` is not recognized, Maven is not on the system `
 ```powershell
 & "D:\homework\Tools\apache-maven-3.10.0\bin\mvn.cmd" -f "D:\homework\DailyMenu\pom.xml" javafx:run
 ```
+
+## Windows Installer (.msi)
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\package-windows.ps1 -WixDir C:\path	o\wix314
+```
+
+Needs JDK 17+, Maven and [WiX Toolset 3.x](https://github.com/wixtoolset/wix3/releases) (the
+`wix314-binaries.zip` works without installing). Produces `target\installer\Daily Menu-<version>.msi`:
+a per-user install (no admin rights) with Start-menu and desktop shortcuts and its own Java runtime.
 
 ## Build a Windows App Package
 
@@ -71,7 +132,7 @@ The packaged image includes its Java runtime, so Maven and a separately installe
 
 ## Local Data
 
-Daily Menu stores account and meal-plan information locally on the computer. It does not provide cloud synchronization in this version. Keep the application data on the same computer if you want to continue using the same local accounts and plans.
+Daily Menu stores account and meal-plan information locally on the computer. It does not provide cloud synchronization in this version. The Eat tab needs internet access for live dining hall menus; without it, the last saved or bundled menu is shown. Keep the application data on the same computer if you want to continue using the same local accounts and plans.
 
 ## Troubleshooting
 

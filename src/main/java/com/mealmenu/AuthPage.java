@@ -93,10 +93,7 @@ public final class AuthPage extends ScrollPane {
         registerTab.setOnAction(event -> setRegistering(true));
 
         usernameField.setPromptText("Username");
-        usernameField.setId("auth-username");
-        passwordField.setId("auth-password");
-        rememberPassword.setId("remember-password");
-        keepSignedIn.setId("keep-signed-in");
+        passwordField.setPromptText("Password");
         passwordField.setOnAction(event -> submit());
         keepSignedIn.getStyleClass().add("check-option");
         rememberPassword.getStyleClass().add("check-option");
@@ -255,7 +252,7 @@ public final class AuthPage extends ScrollPane {
         registerTab.getStyleClass().remove("auth-mode-active");
         (registering ? registerTab : loginTab).getStyleClass().add("auth-mode-active");
         passwordField.setPromptText(registering
-                ? "Password (6+ characters)"
+                ? "Create a password (at least " + LocalAccountService.MIN_PASSWORD_LENGTH + " characters)"
                 : "Password");
         status.setText(registering
                 ? "Create a local account using a username and password."

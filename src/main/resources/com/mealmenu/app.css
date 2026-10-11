@@ -490,3 +490,134 @@
 .menu-item:focused {
     -fx-background-color: #E8F2E9;
 }
+
+/* Rutgers Eats */
+.mode-button {
+    -fx-background-color: #EEF5EE;
+    -fx-text-fill: #5E7B63;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+    -fx-padding: 8 10;
+    -fx-cursor: hand;
+}
+
+.mode-button:selected {
+    -fx-background-color: #8FB99A;
+    -fx-text-fill: #FFFFFF;
+}
+
+.small-chip {
+    -fx-font-size: 11px;
+    -fx-padding: 4 9;
+}
+
+.station-card {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 14;
+    -fx-border-color: #E0ECE1;
+    -fx-border-radius: 14;
+    -fx-padding: 6 8 8 8;
+}
+
+.station-header {
+    -fx-background-color: transparent;
+    -fx-text-fill: #42684D;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-alignment: center-left;
+    -fx-padding: 5 4;
+}
+
+.dish-row {
+    -fx-padding: 6 6;
+    -fx-background-radius: 9;
+    -fx-cursor: hand;
+}
+
+.dish-row:hover {
+    -fx-background-color: #F0F7F0;
+}
+
+.dish-name {
+    -fx-font-size: 12px;
+    -fx-text-fill: #334A37;
+}
+
+.dish-meta {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #68856D;
+}
+
+.dish-tags {
+    -fx-font-size: 10px;
+    -fx-text-fill: #8A9C8C;
+}
+
+.restaurant-card {
+    -fx-padding: 12;
+    -fx-cursor: hand;
+}
+
+.restaurant-card:hover {
+    -fx-border-color: #A9CDB0;
+}
+
+.cjk-text {
+    -fx-font-family: "Microsoft YaHei UI";
+}
+
+/* Desktop window */
+.desktop {
+    -fx-background-color: #F8FBF8;
+}
+
+.sidebar {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: transparent #E0ECE1 transparent transparent;
+    -fx-border-width: 0 1 0 0;
+}
+
+.sidebar-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #355B40;
+}
+
+.sidebar-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #5E7B63;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-alignment: center-left;
+    -fx-padding: 10 14;
+    -fx-background-radius: 12;
+}
+
+.sidebar-button:hover {
+    -fx-background-color: #F0F7F0;
+}
+
+.sidebar-button.nav-button-active {
+    -fx-background-color: #E3F0E5;
+    -fx-text-fill: #355B40;
+}
+
+.selected-card {
+    -fx-border-color: #8FB99A;
+    -fx-border-width: 2;
+}
+
+.detail-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #355B40;
+}
+
+.open-open {
+    -fx-text-fill: #3E8A55;
+}
+
+.open-closed {
+    -fx-text-fill: #A0705E;
+}
